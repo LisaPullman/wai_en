@@ -39,7 +39,7 @@ SUBJECT: dict[str, str] = {
     "red": "one big shiny red balloon, solid bright red color",
     "blue": "one big shiny blue balloon, solid bright blue color",
     "green": "one big shiny green balloon, solid bright green color",
-    "yellow": "one big shiny yellow balloon, solid bright yellow color",
+    "yellow": "a big cheerful sunflower-yellow balloon floating in a clear sky, warm golden color",
     "orange": "one big shiny orange balloon, solid bright orange color",
     "purple": "one big shiny purple balloon, solid bright purple color",
     "pink": "one big shiny pink balloon, solid bright pink color",

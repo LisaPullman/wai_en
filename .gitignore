@@ -47,3 +47,6 @@ next-env.d.ts
 /scripts/.gen_audio_report.json
 /scripts/__pycache__/
 /scripts/*.pyc
+# schnell skill staging 目录（生成时的临时中转）
+/public/images/.staging/
+/public/images/*/.staging/
