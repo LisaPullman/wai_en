@@ -166,7 +166,7 @@ export function FoxySvg({
   size?: number;
   className?: string;
 }) {
-  const eyeY = mood === "sleep" ? 36 : 36;
+  const eyeY = 36;
   const mouth =
     mood === "happy" ? "M 38 56 Q 50 64 62 56" :
     mood === "cheer" ? "M 36 54 Q 50 68 64 54" :
