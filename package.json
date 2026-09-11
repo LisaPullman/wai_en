@@ -12,6 +12,8 @@
     "assets:audio": "python3 scripts/gen_audio.py",
     "assets:audio:force": "python3 scripts/gen_audio.py --force",
     "assets:audio:dry": "python3 scripts/gen_audio.py --dry-run",
+    "assets:images": "python3 scripts/gen_images.py",
+    "assets:images:dry": "python3 scripts/gen_images.py --dry-run",
     "assets:manifest": "python3 scripts/gen_manifest.py",
     "assets:manifest:strict": "python3 scripts/gen_manifest.py --strict"
   },
