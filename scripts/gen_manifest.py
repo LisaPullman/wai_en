@@ -16,7 +16,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PUB = ROOT / "public"
-MANIFEST = ROOT / "public/manifest.json"
+# 注意：不能叫 manifest.json —— 那是浏览器 PWA 清单的保留名
+MANIFEST = ROOT / "public/asset-manifest.json"
 
 
 def md5(p: Path) -> str:
@@ -52,6 +53,27 @@ def build_expected() -> set[str]:
         expected.add(f"audio/ui/foxy-line-{n}-zh.mp3")
     expected.add("audio/ui/foxy-hello.mp3")
     expected.add("audio/ui/foxy-hello-zh.mp3")
+    # 日常 300 句
+    daily = json.loads((ROOT / "src/content/daily300/daily300.json").read_text(encoding="utf-8"))
+    for theme in daily["themes"]:
+        for s in theme["sentences"]:
+            expected.add(f"audio/daily/{s['id']}.mp3")
+    # 听故事 100 篇
+    for part in ["part1.json", "part2.json"]:
+        data = json.loads((ROOT / "src/content/listen100" / part).read_text(encoding="utf-8"))
+        for col in data["collections"]:
+            for s in col["stories"]:
+                expected.add(f"audio/listen/{s['id']}.mp3")
+    # 图片资产（单词图 / 单元封面 / 故事页）
+    for wid, w in words.items():
+        if w.get("kind") == "word":
+            expected.add(f"images/words/{wid}.jpg")
+    for f in (ROOT / "src/content/curriculum").glob("u*.json"):
+        expected.add(f"images/units/{json.loads(f.read_text(encoding='utf-8'))['id']}.jpg")
+    for f in (ROOT / "src/content/stories").glob("*.json"):
+        s = json.loads(f.read_text(encoding="utf-8"))
+        for n in range(1, len(s.get("pages", [])) + 1):
+            expected.add(f"images/stories/{s['id']}/p{n}.jpg")
     # 静态扫描兜底
     for f in (ROOT / "src").rglob("*.tsx"):
         if ".test." in f.name: continue

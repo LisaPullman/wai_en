@@ -16,9 +16,9 @@ export default function Page() {
     <div className="mx-auto w-full max-w-2xl px-4 pb-28 pt-4 sm:pt-8">
       <header className="mb-5">
         <h1 className="text-2xl font-black text-slate-700">
-          🎮 游戏厅 <span className="text-sm font-bold text-slate-400">Game House</span>
+          🎮 游戏厅 <span className="text-sm font-bold text-slate-500">Game House</span>
         </h1>
-        <p className="text-sm font-medium text-slate-400">用你学过的单词来玩游戏！Play with your words!</p>
+        <p className="text-sm font-medium text-slate-500">用你学过的单词来玩游戏！Play with your words!</p>
       </header>
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
         {GAMES.map((g) =>
@@ -30,7 +30,7 @@ export default function Page() {
             >
               <span className="text-5xl">{g.icon}</span>
               <span className="text-lg font-black text-slate-700">{g.zh}</span>
-              <span className="text-xs font-bold text-slate-400">{g.en}</span>
+              <span className="text-xs font-bold text-slate-500">{g.en}</span>
               <span className="rounded-full bg-white/70 px-2 py-0.5 text-[10px] font-black text-slate-500">{g.skill}</span>
             </Link>
           ) : (
@@ -40,7 +40,7 @@ export default function Page() {
             >
               <span className="text-5xl grayscale">{g.icon}</span>
               <span className="text-lg font-black text-slate-500">{g.zh}</span>
-              <span className="rounded-full bg-white/70 px-2 py-0.5 text-[10px] font-black text-slate-400">
+              <span className="rounded-full bg-white/70 px-2 py-0.5 text-[10px] font-black text-slate-500">
                 即将推出 Soon
               </span>
             </div>

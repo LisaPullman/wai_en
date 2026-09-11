@@ -14,9 +14,9 @@ export default function Page() {
     <div className="mx-auto w-full max-w-2xl px-4 pb-28 pt-4 sm:pt-8">
       <header className="mb-5">
         <h1 className="text-2xl font-black text-slate-700">
-          🃏 单词卡片盒 <span className="text-sm font-bold text-slate-400">Card Box</span>
+          🃏 单词卡片盒 <span className="text-sm font-bold text-slate-500">Card Box</span>
         </h1>
-        <p className="text-sm font-medium text-slate-400">点卡片听发音，翻卡片看意思 Tap & flip!</p>
+        <p className="text-sm font-medium text-slate-500">点卡片听发音，翻卡片看意思 Tap & flip!</p>
       </header>
 
       {/* 三大入口 */}
@@ -44,9 +44,9 @@ export default function Page() {
           <span className="text-5xl">📝</span>
           <span className="flex-1">
             <span className="block text-xl font-black text-slate-700">
-              错词本 <span className="text-sm font-bold text-slate-400">Wrong Words</span>
+              错词本 <span className="text-sm font-bold text-slate-500">Wrong Words</span>
             </span>
-            <span className="block text-sm font-bold text-slate-400">{p.wrongWords.length} 个词等你再来</span>
+            <span className="block text-sm font-bold text-slate-500">{p.wrongWords.length} 个词等你再来</span>
           </span>
           <span className="text-3xl text-slate-300">›</span>
         </Link>
@@ -54,7 +54,7 @@ export default function Page() {
 
       {/* 按单元 */}
       <h2 className="mb-2 px-1 text-lg font-black text-slate-700">
-        按单元浏览 <span className="text-sm font-bold text-slate-400">By Unit</span>
+        按单元浏览 <span className="text-sm font-bold text-slate-500">By Unit</span>
       </h2>
       <div className="flex flex-col gap-2">
         {curriculum.units.map((u) => {

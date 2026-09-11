@@ -14,11 +14,15 @@ export function SiteLock({ children }: { children: React.ReactNode }) {
   const [wrong, setWrong] = useState(false);
 
   useEffect(() => {
+    // 挂载后读 sessionStorage（避免 SSR/CSR 不一致），effect 内同步 set 是该场景的标准做法
+    let open = false;
     try {
-      setState(sessionStorage.getItem(KEY) === "1" ? "open" : "locked");
+      open = sessionStorage.getItem(KEY) === "1";
     } catch {
-      setState("locked");
+      open = false;
     }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setState(open ? "open" : "locked");
   }, []);
 
   const tryUnlock = () => {
@@ -57,7 +61,7 @@ export function SiteLock({ children }: { children: React.ReactNode }) {
       >
         <span className="text-7xl">🔒</span>
         <h1 className="text-2xl font-black text-slate-700">歪歪的英语乐园</h1>
-        <p className="text-sm font-bold text-slate-400">
+        <p className="text-sm font-bold text-slate-500">
           请输入密码进入 Enter password
         </p>
       </motion.div>
@@ -90,7 +94,7 @@ export function SiteLock({ children }: { children: React.ReactNode }) {
             sfx.tap();
             setCode("");
           }}
-          className="flex h-16 items-center justify-center rounded-2xl bg-white/70 text-xl font-black text-slate-400 shadow"
+          className="flex h-16 items-center justify-center rounded-2xl bg-white/70 text-xl font-black text-slate-500 shadow"
           aria-label="清除"
         >
           ⌫
@@ -105,7 +109,7 @@ export function SiteLock({ children }: { children: React.ReactNode }) {
         <motion.button
           whileTap={{ scale: 0.9 }}
           onClick={tryUnlock}
-          className="flex h-16 items-center justify-center rounded-2xl bg-butter text-2xl font-black text-white shadow-md"
+          className="flex h-16 items-center justify-center rounded-2xl bg-butter text-2xl font-black text-amber-900 shadow-md"
           aria-label="进入"
         >
           ➜

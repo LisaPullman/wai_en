@@ -91,7 +91,7 @@ export function LessonRunner({ unit, lesson }: { unit: Unit; lesson: Lesson }) {
             ✕
           </button>
           <div className="flex-1">
-            <div className="mb-1 flex items-center justify-between text-sm font-bold text-slate-400">
+            <div className="mb-1 flex items-center justify-between text-sm font-bold text-slate-500">
               <span>
                 {meta.emoji} {meta.zh} {meta.en}
               </span>
@@ -128,7 +128,7 @@ export function LessonRunner({ unit, lesson }: { unit: Unit; lesson: Lesson }) {
                 ))}
                 {newWords.length > 8 && <span className="text-3xl">…</span>}
               </div>
-              <BigButton zh="开始" en="Start" className="bg-butter px-12 text-2xl text-white" onClick={next} />
+              <BigButton zh="开始" en="Start" className="bg-butter px-12 text-2xl text-amber-900" onClick={next} />
             </div>
           )}
 
@@ -201,7 +201,6 @@ export function LessonRunner({ unit, lesson }: { unit: Unit; lesson: Lesson }) {
             <DoneScreen
               stars={finalStars}
               wrongCount={new Set(wrongIds).size}
-              unitId={unit.id}
               onReplay={() => {
                 setWrongIds([]);
                 setReplayKey((k) => k + 1);
@@ -219,13 +218,11 @@ export function LessonRunner({ unit, lesson }: { unit: Unit; lesson: Lesson }) {
 function DoneScreen({
   stars,
   wrongCount,
-  unitId,
   onReplay,
   onBack,
 }: {
   stars: 1 | 2 | 3;
   wrongCount: number;
-  unitId: string;
   onReplay: () => void;
   onBack: () => void;
 }) {

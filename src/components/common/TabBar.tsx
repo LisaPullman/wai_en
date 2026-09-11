@@ -37,7 +37,7 @@ export function TabBar() {
                 href={t.href}
                 className={cn(
                   "flex flex-1 flex-col items-center gap-0.5 py-2.5",
-                  active ? "text-grape" : "text-slate-400",
+                  active ? "text-grape" : "text-slate-500",
                 )}
               >
                 <motion.span whileTap={{ scale: 0.85 }} className="text-3xl leading-none">

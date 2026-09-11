@@ -76,7 +76,7 @@ export function SpeakButton({
         onClick();
       }}
       className={cn(
-        "inline-flex items-center justify-center rounded-full bg-butter text-white shadow-md",
+        "inline-flex items-center justify-center rounded-full bg-butter text-amber-900 shadow-md",
         size === "sm" && "h-10 w-10 text-lg",
         size === "md" && "h-14 w-14 text-2xl",
         size === "lg" && "h-20 w-20 text-4xl",
@@ -128,7 +128,7 @@ export function Mascot({
       {bubble && (
         <div className="relative mb-3 rounded-2xl bg-white px-4 py-2 shadow-md">
           <div className="text-base font-bold text-slate-700">{bubble}</div>
-          {bubbleEn && <div className="text-sm font-medium text-slate-400">{bubbleEn}</div>}
+          {bubbleEn && <div className="text-sm font-medium text-slate-500">{bubbleEn}</div>}
           <div className="absolute -right-2 bottom-3 h-4 w-4 rotate-45 bg-white" />
         </div>
       )}

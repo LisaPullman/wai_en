@@ -84,7 +84,7 @@ export function BubblePop({
       <div className="flex flex-col items-center gap-6 py-10">
         <Mascot mood="cheer" bubble="玩得真棒！" bubbleEn="Great playing!" />
         <div className="text-6xl font-black text-grape">{score}分</div>
-        <BigButton zh="继续" en="Continue" className="bg-butter text-white" onClick={() => onExit({ score, max: questions.length * 10, stars, wrongIds })} />
+        <BigButton zh="继续" en="Continue" className="bg-butter text-amber-900" onClick={() => onExit({ score, max: questions.length * 10, stars, wrongIds })} />
       </div>
     );
   }
@@ -116,12 +116,12 @@ export function BubblePop({
         <motion.button
           whileTap={{ scale: 0.9 }}
           onClick={() => answerWord && playWordAudio(q.answerId, answerWord.tts ?? answerWord.text)}
-          className="flex h-24 w-24 items-center justify-center rounded-full bg-butter text-5xl text-white shadow-lg"
+          className="flex h-24 w-24 items-center justify-center rounded-full bg-butter text-5xl text-amber-900 shadow-lg"
           aria-label="听单词"
         >
           🔊
         </motion.button>
-        <span className="text-sm font-bold text-slate-400">听一听，点泡泡！ Listen & pop!</span>
+        <span className="text-sm font-bold text-slate-500">听一听，点泡泡！ Listen & pop!</span>
       </div>
 
       {/* 泡泡 */}

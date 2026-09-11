@@ -80,7 +80,7 @@ export function ReadStep({
                   : { scale: 1, backgroundColor: inPool ? "#f1f5f9" : "#ffffff", color: "#334155" }
               }
               onClick={() => playWord(tok)}
-              className={`rounded-2xl px-4 py-3 text-3xl font-black sm:text-4xl ${inPool ? "" : "text-slate-400"}`}
+              className={`rounded-2xl px-4 py-3 text-3xl font-black sm:text-4xl ${inPool ? "" : "text-slate-500"}`}
             >
               {tok}
             </motion.button>
@@ -89,10 +89,10 @@ export function ReadStep({
       </div>
 
       {/* 中文释义 */}
-      <div className="text-lg font-bold text-slate-400">{s.zh}</div>
+      <div className="text-lg font-bold text-slate-500">{s.zh}</div>
 
       <div className="flex flex-wrap justify-center gap-3">
-        <BigButton zh="听整句" en="Listen" className="bg-butter text-white" onClick={playSentence} />
+        <BigButton zh="听整句" en="Listen" className="bg-butter text-amber-900" onClick={playSentence} />
         <BigButton
           zh="跟我读"
           en="Repeat"
@@ -103,7 +103,7 @@ export function ReadStep({
         />
         <BigButton zh="下一句" en="Next" className="bg-mint text-white" onClick={next} />
       </div>
-      <p className="text-xs font-medium text-slate-400">
+      <p className="text-xs font-medium text-slate-500">
         点每个单词都能发声 Tap any word to hear it{playing ? " · 播放中…" : ""}
       </p>
     </div>

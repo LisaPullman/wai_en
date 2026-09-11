@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useMemo, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { BigButton } from "@/components/common/common";
 import {
   compressImage,
@@ -20,6 +20,15 @@ interface DraftPage {
 const EMOJI_CHOICES = ["🐱", "🐶", "🐰", "🐻", "🦊", "🐼", "🦆", "🐸", "🍎", "🍌", "🌈", "☀️", "🌙", "⭐", "🚗", "🎈", "🧸", "⚽"];
 
 /** 自定义绘本创作页（家长验证后进入）：句子自动切词，朗读走 TTS */
+/** 随机题模块加载时生成（渲染期不可调用不纯函数）；答错换题在事件里做 */
+function makeGate() {
+  return {
+    a: 13 + Math.floor(Math.random() * 46),
+    b: 12 + Math.floor(Math.random() * 46),
+  };
+}
+const INITIAL_GATE = makeGate();
+
 export default function Page() {
   const router = useRouter();
   const [passed, setPassed] = useState(false);
@@ -32,11 +41,7 @@ export default function Page() {
   const fileRef = useRef<HTMLInputElement>(null);
   const editPage = useRef(0);
 
-  const gate = useMemo(() => {
-    const a = 13 + Math.floor(Math.random() * 46);
-    const b = 12 + Math.floor(Math.random() * 46);
-    return { a, b };
-  }, []);
+  const [gate, setGate] = useState(INITIAL_GATE);
   const [ans, setAns] = useState("");
 
   if (!passed) {
@@ -44,7 +49,8 @@ export default function Page() {
       <div className="mx-auto flex max-w-sm flex-col items-center gap-5 px-4 py-28 text-center">
         <span className="text-6xl">🔐</span>
         <h1 className="text-xl font-black text-slate-600">家长验证 Parent Check</h1>
-        <p className="font-medium text-slate-400">做绘本是爸爸妈妈的操作哦～ 请回答：{gate.a} + {gate.b} = ?</p>
+        <p className="font-medium text-slate-500">做绘本是爸爸妈妈的操作哦～ 请回答：{gate.a} + {gate.b} = ?</p>
+        {/* 答错换题防小朋友试出来 */}
         <input
           inputMode="numeric"
           value={ans}
@@ -56,9 +62,13 @@ export default function Page() {
           zh="进入"
           en="Enter"
           className="bg-grape text-white"
-          onClick={() => Number(ans) === gate.a + gate.b && setPassed(true)}
+          onClick={() =>
+            Number(ans) === gate.a + gate.b
+              ? setPassed(true)
+              : (setAns(""), setGate(makeGate()))
+          }
         />
-        <button onClick={() => router.back()} className="text-sm font-bold text-slate-400">
+        <button onClick={() => router.back()} className="text-sm font-bold text-slate-500">
           返回 Back
         </button>
       </div>
@@ -115,7 +125,7 @@ export default function Page() {
     <div className="mx-auto w-full max-w-xl px-4 pb-28 pt-6">
       <header className="mb-5 flex items-center justify-between">
         <h1 className="text-2xl font-black text-slate-700">
-          ✏️ 做一本绘本 <span className="text-sm font-bold text-slate-400">Make a Story</span>
+          ✏️ 做一本绘本 <span className="text-sm font-bold text-slate-500">Make a Story</span>
         </h1>
         <button onClick={() => router.back()} className="flex h-11 w-11 items-center justify-center rounded-full bg-white text-lg shadow">
           ✕
@@ -225,7 +235,7 @@ export default function Page() {
         <BigButton zh="保存并阅读" en="Save & read" className="flex-1 bg-mint text-white" onClick={save} disabled={saving} />
       </div>
       {error && <p className="text-center text-sm font-bold text-coral">{error}</p>}
-      <p className="mt-3 text-center text-xs font-medium text-slate-400">
+      <p className="mt-3 text-center text-xs font-medium text-slate-500">
         建议：每页一句简单英文（用孩子学过的词），保存后点句子里的单词都能发音，朗读由语音合成完成
       </p>
 

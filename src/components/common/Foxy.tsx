@@ -4,7 +4,8 @@ import { AnimatePresence, motion } from "motion/react";
 import { useCallback, useEffect, useState } from "react";
 import { playAsset } from "@/lib/audio/play";
 import { unlockAudio } from "@/lib/audio/sfx";
-import { FoxyFace, type Mood } from "./common";
+import { FoxySvg } from "./Svg";
+import type { Mood } from "./common";
 
 /** Foxy 的台词：中英双语 + 语音资产键（public/audio/ui/，缺失走 TTS 兜底） */
 export interface FoxyLine {
@@ -69,7 +70,7 @@ export function FoxyBuddy() {
               className="relative mb-2 max-w-44 rounded-2xl bg-white px-3 py-2 shadow-lg"
             >
               <div className="text-sm font-bold text-slate-700">{line.zh}</div>
-              <div className="text-xs font-medium text-slate-400">{line.en}</div>
+              <div className="text-xs font-medium text-slate-500">{line.en}</div>
               <div className="absolute -left-1.5 bottom-3 h-3 w-3 rotate-45 bg-white" />
             </motion.div>
           )}
@@ -80,7 +81,7 @@ export function FoxyBuddy() {
           onClick={talk}
           className="flex h-16 w-16 items-center justify-center rounded-full bg-white/80 shadow-lg backdrop-blur"
         >
-          <FoxyFace mood={line.mood} size="text-4xl" />
+          <FoxySvg mood={line.mood} size={56} />
         </motion.button>
       </div>
     </div>

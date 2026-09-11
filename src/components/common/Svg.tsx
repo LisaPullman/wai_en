@@ -129,7 +129,7 @@ export function SmileyFace({ mood = "happy", className, ...rest }: IconProps & {
 }
 
 /* ----- 课程地图连线（用 path + motion 画线）----- */
-export function MapDots({ count, activeIndex, className }: { count: number; activeIndex: number; className?: string }) {
+export function MapDots({ className }: { count?: number; activeIndex?: number; className?: string }) {
   return (
     <svg viewBox="0 0 40 200" className={className} preserveAspectRatio="none" aria-hidden>
       <line

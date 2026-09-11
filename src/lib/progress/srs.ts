@@ -78,7 +78,6 @@ export function buildDailyReview(
       return od(b) - od(a) || b.lapses - a.lapses;
     })
     .map((c) => c.wordId);
-  const dueSet = new Set(dueIds);
   const fresh = candidateWordIds.filter((id) => !cards[id] || cards[id].stage === "new");
   return [...dueIds, ...fresh].slice(0, size);
 }

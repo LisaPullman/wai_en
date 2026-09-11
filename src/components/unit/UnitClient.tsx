@@ -19,7 +19,7 @@ export function UnitClient({ unit }: { unit: Unit }) {
       <div className="mx-auto flex max-w-md flex-col items-center gap-6 px-4 py-24 text-center">
         <span className="text-8xl">🔒</span>
         <h1 className="text-2xl font-black text-slate-600">{unit.title} 还没解锁</h1>
-        <p className="font-medium text-slate-400">完成前面的单元，就能来这里玩啦！Finish the earlier units first!</p>
+        <p className="font-medium text-slate-500">完成前面的单元，就能来这里玩啦！Finish the earlier units first!</p>
         <Link href="/" className="rounded-full bg-white px-8 py-4 font-black text-slate-600 shadow">
           回地图 Map
         </Link>
@@ -69,7 +69,7 @@ export function UnitClient({ unit }: { unit: Unit }) {
         >
           <span className="flex h-12 w-12 items-center justify-center rounded-full bg-grape/15 text-2xl">🃏</span>
           <span className="flex-1 text-lg font-black text-slate-600">
-            本单元卡片 <span className="text-sm font-bold text-slate-400">Unit Cards</span>
+            本单元卡片 <span className="text-sm font-bold text-slate-500">Unit Cards</span>
           </span>
           <span className="text-2xl text-slate-300">›</span>
         </Link>
@@ -77,7 +77,7 @@ export function UnitClient({ unit }: { unit: Unit }) {
 
       {/* 单词速览：点哪个读哪个 */}
       <h2 className="mb-2 px-1 text-lg font-black text-slate-700">
-        🐾 单词摸摸看 <span className="text-sm font-bold text-slate-400">Tap to hear</span>
+        🐾 单词摸摸看 <span className="text-sm font-bold text-slate-500">Tap to hear</span>
       </h2>
       <div className="mb-6 grid grid-cols-3 gap-2 sm:grid-cols-5">
         {words.map((w) => (
@@ -106,7 +106,7 @@ export function UnitClient({ unit }: { unit: Unit }) {
                 <span className="text-4xl">{s.emoji}</span>
                 <span className="flex-1">
                   <span className="block text-lg font-black text-slate-700">{s.titleZh}</span>
-                  <span className="block text-sm font-bold text-slate-400">{s.title}</span>
+                  <span className="block text-sm font-bold text-slate-500">{s.title}</span>
                 </span>
                 <span className="text-2xl text-slate-300">›</span>
               </Link>

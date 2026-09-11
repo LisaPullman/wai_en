@@ -26,7 +26,7 @@ function ListenPageInner({ params }: { params: Promise<{ collectionId: string }>
     return (
       <div className="flex min-h-dvh flex-col items-center justify-center gap-4 text-center">
         <span className="text-6xl">🤔</span>
-        <p className="font-bold text-slate-400">找不到这个专辑 Collection not found</p>
+        <p className="font-bold text-slate-500">找不到这个专辑 Collection not found</p>
       </div>
     );
   }
@@ -39,7 +39,7 @@ function ListenPageInner({ params }: { params: Promise<{ collectionId: string }>
         <span className="text-5xl">{c.emoji}</span>
         <div>
           <h1 className="text-2xl font-black text-slate-700">{c.titleZh}</h1>
-          <p className="text-sm font-bold text-slate-400">
+          <p className="text-sm font-bold text-slate-500">
             {c.title} · {c.stories.length} 个故事 · 约 {Math.round(totalSec / 60)} 分钟
           </p>
         </div>
@@ -64,10 +64,10 @@ function ListenPageInner({ params }: { params: Promise<{ collectionId: string }>
               <span className="text-4xl">{s.emoji}</span>
               <span className="flex-1">
                 <span className="block text-base font-black text-slate-700">{s.titleZh}</span>
-                <span className="block text-xs font-bold text-slate-400">{s.title}</span>
+                <span className="block text-xs font-bold text-slate-500">{s.title}</span>
               </span>
               <span className="text-right">
-                <span className="block text-xs font-black text-slate-400">
+                <span className="block text-xs font-black text-slate-500">
                   ≈{d >= 60 ? `${Math.floor(d / 60)}分${d % 60}秒` : `${d}秒`}
                 </span>
                 <span className="block text-[10px] font-bold text-grape">{levelBadge(s.level)}</span>

@@ -1,0 +1,2563 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-11T06:05:57.590198Z",
+  "total": 639,
+  "present": 638,
+  "missing": [
+    "images/words/yellow.jpg"
+  ],
+  "files": {
+    "audio/daily/g01-01.mp3": {
+      "bytes": 11088,
+      "md5": "71924da3baba8f10b93c83faddd156af"
+    },
+    "audio/daily/g01-02.mp3": {
+      "bytes": 12096,
+      "md5": "762d0502279306b85fdd9a55cdb3b7aa"
+    },
+    "audio/daily/g01-03.mp3": {
+      "bytes": 11088,
+      "md5": "bde955f59362364e91bef4c53424ce73"
+    },
+    "audio/daily/g01-04.mp3": {
+      "bytes": 10080,
+      "md5": "ba961f3f31ec6ba96fa0bb2d88684cde"
+    },
+    "audio/daily/g01-05.mp3": {
+      "bytes": 9648,
+      "md5": "11f103bcd15969742d950690b5070c0b"
+    },
+    "audio/daily/g01-06.mp3": {
+      "bytes": 8784,
+      "md5": "f3f3365960716374d49ed7d101f14aef"
+    },
+    "audio/daily/g01-07.mp3": {
+      "bytes": 10800,
+      "md5": "8f3e0bfd5adc30ecae03a9641f16343b"
+    },
+    "audio/daily/g01-08.mp3": {
+      "bytes": 15984,
+      "md5": "47b2cb178bcf45b4e57530ead33c1ad5"
+    },
+    "audio/daily/g01-09.mp3": {
+      "bytes": 13104,
+      "md5": "1507d714cf08086e5f0d360847043293"
+    },
+    "audio/daily/g01-10.mp3": {
+      "bytes": 13248,
+      "md5": "be8b854319267b0e654381eec1429e26"
+    },
+    "audio/daily/g01-11.mp3": {
+      "bytes": 9648,
+      "md5": "1feceaaedf0f46f4581583b5c40c167e"
+    },
+    "audio/daily/g01-12.mp3": {
+      "bytes": 9792,
+      "md5": "57a201823cd83583ab275a3badceec72"
+    },
+    "audio/daily/g01-13.mp3": {
+      "bytes": 12240,
+      "md5": "eae0853cc1dc4c4ff95b13181f76d89b"
+    },
+    "audio/daily/g01-14.mp3": {
+      "bytes": 11520,
+      "md5": "877e96b989f37baf7b11421f5b8cab63"
+    },
+    "audio/daily/g01-15.mp3": {
+      "bytes": 13968,
+      "md5": "60d0259df63b6d2519978b239d869f02"
+    },
+    "audio/daily/g01-16.mp3": {
+      "bytes": 12384,
+      "md5": "f2707527b548f3a7e582070418a2f770"
+    },
+    "audio/daily/g01-17.mp3": {
+      "bytes": 16560,
+      "md5": "f9d7a55712d79d9fc97370f924e8bea4"
+    },
+    "audio/daily/g01-18.mp3": {
+      "bytes": 12240,
+      "md5": "971fd2a55f1d2ce4a2657f8d3141fcd6"
+    },
+    "audio/daily/g01-19.mp3": {
+      "bytes": 13536,
+      "md5": "4b325740e9eceb8a1e6e0508b34f155f"
+    },
+    "audio/daily/g01-20.mp3": {
+      "bytes": 12816,
+      "md5": "b928616e7b5e9e5be4581806bc9b1a9f"
+    },
+    "audio/daily/g02-01.mp3": {
+      "bytes": 14400,
+      "md5": "64a6a6208801cdb00a01b71c1227f88f"
+    },
+    "audio/daily/g02-02.mp3": {
+      "bytes": 13104,
+      "md5": "913dccfbcb702a81fe095f22cce34f6d"
+    },
+    "audio/daily/g02-03.mp3": {
+      "bytes": 13248,
+      "md5": "ce4db4aca3729856bd05b3c6b589118d"
+    },
+    "audio/daily/g02-04.mp3": {
+      "bytes": 13824,
+      "md5": "9d9c7898242fa122487b485799f3cc78"
+    },
+    "audio/daily/g02-05.mp3": {
+      "bytes": 14400,
+      "md5": "bb01260f60afba60a717af7e82b4c89b"
+    },
+    "audio/daily/g02-06.mp3": {
+      "bytes": 14688,
+      "md5": "e2468b73b174b88f066ed634ce479b5c"
+    },
+    "audio/daily/g02-07.mp3": {
+      "bytes": 16128,
+      "md5": "6630aff8902d8add04b56eb524a7c1a9"
+    },
+    "audio/daily/g02-08.mp3": {
+      "bytes": 15984,
+      "md5": "22caa85ecb05de052cee2681bc69c0b7"
+    },
+    "audio/daily/g02-09.mp3": {
+      "bytes": 15120,
+      "md5": "62542a0b16e32f7455281534e5fbd727"
+    },
+    "audio/daily/g02-10.mp3": {
+      "bytes": 15984,
+      "md5": "ab05b35b0de9b63e7e01ddbd90900abf"
+    },
+    "audio/daily/g02-11.mp3": {
+      "bytes": 15120,
+      "md5": "8d7374ce865aecc54a541123929c515d"
+    },
+    "audio/daily/g02-12.mp3": {
+      "bytes": 10800,
+      "md5": "981d1bbd7864c79312fba3f1948130ec"
+    },
+    "audio/daily/g02-13.mp3": {
+      "bytes": 14976,
+      "md5": "644c6728902794991128863af71f96ab"
+    },
+    "audio/daily/g02-14.mp3": {
+      "bytes": 12240,
+      "md5": "cdd87927b1cdbc8d07ee1911a6709ddd"
+    },
+    "audio/daily/g02-15.mp3": {
+      "bytes": 13968,
+      "md5": "7a305a38eff18585d8dfe2a9e8fc6286"
+    },
+    "audio/daily/g02-16.mp3": {
+      "bytes": 13248,
+      "md5": "6d574dd5a9bb0a2fd302ae584c1c7a2f"
+    },
+    "audio/daily/g02-17.mp3": {
+      "bytes": 13392,
+      "md5": "ce0a2a2a497d0b50f0d02d8bf62ae7b1"
+    },
+    "audio/daily/g02-18.mp3": {
+      "bytes": 14256,
+      "md5": "74da197ba0a320f4471e0cd7f8ea421c"
+    },
+    "audio/daily/g02-19.mp3": {
+      "bytes": 11520,
+      "md5": "94493b62d99a9a3dfd742542a17194b9"
+    },
+    "audio/daily/g02-20.mp3": {
+      "bytes": 15696,
+      "md5": "3179220bf18062e226cd213cf673b9ea"
+    },
+    "audio/daily/g03-01.mp3": {
+      "bytes": 13680,
+      "md5": "b998a9895f7fbf66e3dd9b3598440fb7"
+    },
+    "audio/daily/g03-02.mp3": {
+      "bytes": 13536,
+      "md5": "7043e6f093072bd3e16b7ddfc01da17a"
+    },
+    "audio/daily/g03-03.mp3": {
+      "bytes": 13968,
+      "md5": "5a20a21ecd51aecd20a1f68f5adeff27"
+    },
+    "audio/daily/g03-04.mp3": {
+      "bytes": 16128,
+      "md5": "a0be15ba0171b46968429640669da46e"
+    },
+    "audio/daily/g03-05.mp3": {
+      "bytes": 16128,
+      "md5": "f1303bd4bdc0ec47e47dd558347ccc7b"
+    },
+    "audio/daily/g03-06.mp3": {
+      "bytes": 15552,
+      "md5": "302b445d5e64e2dbba6dc5676d8cb4d7"
+    },
+    "audio/daily/g03-07.mp3": {
+      "bytes": 12096,
+      "md5": "5334aa16399ec15679df9359679befc0"
+    },
+    "audio/daily/g03-08.mp3": {
+      "bytes": 12384,
+      "md5": "b6dfd01bca794f7a54786aaf83733b9f"
+    },
+    "audio/daily/g03-09.mp3": {
+      "bytes": 13824,
+      "md5": "588f937faa40cafcb77925d2ed3e2cad"
+    },
+    "audio/daily/g03-10.mp3": {
+      "bytes": 14544,
+      "md5": "fcc1e855ff7fd8c35a2a01f0dc9be545"
+    },
+    "audio/daily/g03-11.mp3": {
+      "bytes": 12960,
+      "md5": "4169a4a64b399a6f6209dfeeef6d9ec5"
+    },
+    "audio/daily/g03-12.mp3": {
+      "bytes": 11952,
+      "md5": "02808532eda289597aa59db67104293b"
+    },
+    "audio/daily/g03-13.mp3": {
+      "bytes": 12096,
+      "md5": "f7e0e089fe033c59d9c1dfdd9a566283"
+    },
+    "audio/daily/g03-14.mp3": {
+      "bytes": 11232,
+      "md5": "ee7d06a57f5e6751b7fe57f406521187"
+    },
+    "audio/daily/g03-15.mp3": {
+      "bytes": 13680,
+      "md5": "dd2d8d5a23d36dccff306cda71cde5aa"
+    },
+    "audio/daily/g03-16.mp3": {
+      "bytes": 11088,
+      "md5": "89fb94982624bd31618c05ae07a28e14"
+    },
+    "audio/daily/g03-17.mp3": {
+      "bytes": 11376,
+      "md5": "61ea2ef1c52da1e3d12e4b821fbc7567"
+    },
+    "audio/daily/g03-18.mp3": {
+      "bytes": 13536,
+      "md5": "91b9634a18d760b2d4c444156dd54de9"
+    },
+    "audio/daily/g03-19.mp3": {
+      "bytes": 13248,
+      "md5": "a5d96663d8d8f562c2379cb8ea551b36"
+    },
+    "audio/daily/g03-20.mp3": {
+      "bytes": 14688,
+      "md5": "92b9859c85673150997cfed3c68cd779"
+    },
+    "audio/daily/g04-01.mp3": {
+      "bytes": 13392,
+      "md5": "14bd4647f74e91c666f74c71a75bcd55"
+    },
+    "audio/daily/g04-02.mp3": {
+      "bytes": 14256,
+      "md5": "b231b57123d6930d52ba00efb69606b7"
+    },
+    "audio/daily/g04-03.mp3": {
+      "bytes": 13968,
+      "md5": "a4691d39c458baa1f40299496b8618db"
+    },
+    "audio/daily/g04-04.mp3": {
+      "bytes": 14544,
+      "md5": "439f5a21d6b25d1857483d70b7803acc"
+    },
+    "audio/daily/g04-05.mp3": {
+      "bytes": 11520,
+      "md5": "d2736b785949181e3610941ee46348dc"
+    },
+    "audio/daily/g04-06.mp3": {
+      "bytes": 14112,
+      "md5": "d406e61dafb4b07ccd91d995f92f5b15"
+    },
+    "audio/daily/g04-07.mp3": {
+      "bytes": 14256,
+      "md5": "dd165ef3a87e9094a3b3df0c725b10a2"
+    },
+    "audio/daily/g04-08.mp3": {
+      "bytes": 14112,
+      "md5": "7f3bea61cb103e1cacd366098dc5a188"
+    },
+    "audio/daily/g04-09.mp3": {
+      "bytes": 13104,
+      "md5": "1d9e536a50b38c3d3884038eb988a02a"
+    },
+    "audio/daily/g04-10.mp3": {
+      "bytes": 10656,
+      "md5": "08c4b33a6923023f5e7104af4439bacc"
+    },
+    "audio/daily/g04-11.mp3": {
+      "bytes": 11088,
+      "md5": "05ed2e68c77c934bd4ba6bcc318b69a4"
+    },
+    "audio/daily/g04-12.mp3": {
+      "bytes": 11232,
+      "md5": "9226c1b2be64be7d15880e178e01e0cb"
+    },
+    "audio/daily/g04-13.mp3": {
+      "bytes": 13824,
+      "md5": "82048258c483ed6122efb1a9b2dabd26"
+    },
+    "audio/daily/g04-14.mp3": {
+      "bytes": 14976,
+      "md5": "3e8efeacac64a46ad47be49ad138f50d"
+    },
+    "audio/daily/g04-15.mp3": {
+      "bytes": 14976,
+      "md5": "6903c39c932eaace0b51ef5e0e7112eb"
+    },
+    "audio/daily/g04-16.mp3": {
+      "bytes": 10656,
+      "md5": "be49cafb59b845dbbb581ffe123acec7"
+    },
+    "audio/daily/g04-17.mp3": {
+      "bytes": 11520,
+      "md5": "ea382a512c45908c382ca54e94770685"
+    },
+    "audio/daily/g04-18.mp3": {
+      "bytes": 14400,
+      "md5": "1922f339c178a74a252b3c97c03941ed"
+    },
+    "audio/daily/g04-19.mp3": {
+      "bytes": 11952,
+      "md5": "bf3ea76d78e3c3ae42efa9a2c4d755b7"
+    },
+    "audio/daily/g04-20.mp3": {
+      "bytes": 10800,
+      "md5": "c6fc870506829f241e9335953db5705a"
+    },
+    "audio/daily/g05-01.mp3": {
+      "bytes": 11664,
+      "md5": "725ca56982ad62caf8acf30c24e8d8a1"
+    },
+    "audio/daily/g05-02.mp3": {
+      "bytes": 11808,
+      "md5": "e3fae89a9a35a0bef9da5a8259d42d19"
+    },
+    "audio/daily/g05-03.mp3": {
+      "bytes": 14544,
+      "md5": "f4f558fae313e1a26c156e04dadf6b94"
+    },
+    "audio/daily/g05-04.mp3": {
+      "bytes": 16416,
+      "md5": "0bb7e521d50079620dd59a5cde15cb87"
+    },
+    "audio/daily/g05-05.mp3": {
+      "bytes": 12096,
+      "md5": "07e6c1a9129694f4b0adb178cafa81e7"
+    },
+    "audio/daily/g05-06.mp3": {
+      "bytes": 13968,
+      "md5": "98f101359a3ddce9ab00068958dfe3bf"
+    },
+    "audio/daily/g05-07.mp3": {
+      "bytes": 13824,
+      "md5": "546d0b7ef6604b3893d62291057bad0c"
+    },
+    "audio/daily/g05-08.mp3": {
+      "bytes": 13536,
+      "md5": "4dfed58c1d2db87dd2b4f54c459a3b23"
+    },
+    "audio/daily/g05-09.mp3": {
+      "bytes": 13536,
+      "md5": "0741663f41e0a3a58fff8ad1801e154a"
+    },
+    "audio/daily/g05-10.mp3": {
+      "bytes": 15408,
+      "md5": "5c23a16a00376a670360ea2d7c63326a"
+    },
+    "audio/daily/g05-11.mp3": {
+      "bytes": 9504,
+      "md5": "d6d00f541068cc5547be6deab0c469be"
+    },
+    "audio/daily/g05-12.mp3": {
+      "bytes": 12960,
+      "md5": "4bca690b844bd671fd4b63e577320a98"
+    },
+    "audio/daily/g05-13.mp3": {
+      "bytes": 16272,
+      "md5": "0822193cee8f473c98ffaf514ac4c59b"
+    },
+    "audio/daily/g05-14.mp3": {
+      "bytes": 15696,
+      "md5": "fd74f1434a8ee69fbd3f2d716933bfa4"
+    },
+    "audio/daily/g05-15.mp3": {
+      "bytes": 10656,
+      "md5": "625a8f7bb6bd2ad653de6dfb33c71493"
+    },
+    "audio/daily/g05-16.mp3": {
+      "bytes": 13248,
+      "md5": "a07064fce357c3b1ff2c636edccfaa41"
+    },
+    "audio/daily/g05-17.mp3": {
+      "bytes": 14976,
+      "md5": "a5585bb43077fbb76e504d7248f1f275"
+    },
+    "audio/daily/g05-18.mp3": {
+      "bytes": 14400,
+      "md5": "78875e750d4c02bc2deee59923e1b4ae"
+    },
+    "audio/daily/g05-19.mp3": {
+      "bytes": 17136,
+      "md5": "bb45a99a81e7361ff38282dfdd242b62"
+    },
+    "audio/daily/g05-20.mp3": {
+      "bytes": 14112,
+      "md5": "7a5296f649a226012c7dd6cc15009fcb"
+    },
+    "audio/daily/g06-01.mp3": {
+      "bytes": 13248,
+      "md5": "438c4231563bda8ef3e5baa4864560c0"
+    },
+    "audio/daily/g06-02.mp3": {
+      "bytes": 14112,
+      "md5": "c15cd8b71142568cc337e3460d15b034"
+    },
+    "audio/daily/g06-03.mp3": {
+      "bytes": 13104,
+      "md5": "85959ac147258c4ac99eccd5c89c7b23"
+    },
+    "audio/daily/g06-04.mp3": {
+      "bytes": 15984,
+      "md5": "f28e5710e388d7e156e44e8d43df9935"
+    },
+    "audio/daily/g06-05.mp3": {
+      "bytes": 16560,
+      "md5": "9bc562725908cca39cab49b23e08ee71"
+    },
+    "audio/daily/g06-06.mp3": {
+      "bytes": 13824,
+      "md5": "bd5a1531297672e10b7e0d2c32f4df1b"
+    },
+    "audio/daily/g06-07.mp3": {
+      "bytes": 12528,
+      "md5": "5997850489e371570e1a15cabd7a8d85"
+    },
+    "audio/daily/g06-08.mp3": {
+      "bytes": 17712,
+      "md5": "03238b8204a78053dd6f4107adf89966"
+    },
+    "audio/daily/g06-09.mp3": {
+      "bytes": 12384,
+      "md5": "95d2ea1e4e06fa833fdadc3f5f978ba2"
+    },
+    "audio/daily/g06-10.mp3": {
+      "bytes": 12528,
+      "md5": "8886c8352d1f0b5fb1049cf9a3fca1a3"
+    },
+    "audio/daily/g06-11.mp3": {
+      "bytes": 12960,
+      "md5": "8637ae5431224727708ed85828a73696"
+    },
+    "audio/daily/g06-12.mp3": {
+      "bytes": 12672,
+      "md5": "94079e1631820141e7217c4879593968"
+    },
+    "audio/daily/g06-13.mp3": {
+      "bytes": 14976,
+      "md5": "994a501ee2bfafad6c59c0015a144e7f"
+    },
+    "audio/daily/g06-14.mp3": {
+      "bytes": 14688,
+      "md5": "5e4a40774f7657dd02bcbf0563349d2f"
+    },
+    "audio/daily/g06-15.mp3": {
+      "bytes": 18288,
+      "md5": "685e99c0c08de01249fe0da2f4a911bd"
+    },
+    "audio/daily/g06-16.mp3": {
+      "bytes": 12960,
+      "md5": "88d899242ba342070850f0afe6a63a6b"
+    },
+    "audio/daily/g06-17.mp3": {
+      "bytes": 13104,
+      "md5": "53bc4d55596d1848d3b0732f264e182c"
+    },
+    "audio/daily/g06-18.mp3": {
+      "bytes": 13248,
+      "md5": "e364645097e869e80194df263f954366"
+    },
+    "audio/daily/g06-19.mp3": {
+      "bytes": 16416,
+      "md5": "36dbfbd766ff7a0ffb8697c63e833027"
+    },
+    "audio/daily/g06-20.mp3": {
+      "bytes": 14976,
+      "md5": "78a2bf6ce81c9815f0147cec2fbc8675"
+    },
+    "audio/daily/g07-01.mp3": {
+      "bytes": 11232,
+      "md5": "fa0d1d7479ea02e8207fb7b5a7adde39"
+    },
+    "audio/daily/g07-02.mp3": {
+      "bytes": 12960,
+      "md5": "144fe2bac90b24633e6b5aca704a59de"
+    },
+    "audio/daily/g07-03.mp3": {
+      "bytes": 12240,
+      "md5": "7bdbac51b74e138693f2caeea27841c3"
+    },
+    "audio/daily/g07-04.mp3": {
+      "bytes": 12384,
+      "md5": "ccc41ff273758df48d0b642aaf133c1b"
+    },
+    "audio/daily/g07-05.mp3": {
+      "bytes": 12384,
+      "md5": "3d4d71170b4bebbc540331ba1fa9a70c"
+    },
+    "audio/daily/g07-06.mp3": {
+      "bytes": 11088,
+      "md5": "801c8b2bb2b631aaf867716299f8e304"
+    },
+    "audio/daily/g07-07.mp3": {
+      "bytes": 14688,
+      "md5": "c14a126828371c03940c86467860edd8"
+    },
+    "audio/daily/g07-08.mp3": {
+      "bytes": 11088,
+      "md5": "2116d22794cbfe6a5c3dcb655cc88d96"
+    },
+    "audio/daily/g07-09.mp3": {
+      "bytes": 13968,
+      "md5": "96c3304820a4b79485c643136242e586"
+    },
+    "audio/daily/g07-10.mp3": {
+      "bytes": 11952,
+      "md5": "09af29da722a879d6a5d98c35277dd0f"
+    },
+    "audio/daily/g07-11.mp3": {
+      "bytes": 12096,
+      "md5": "f3aebb1ad9bf507e1962dcf11f30b6e4"
+    },
+    "audio/daily/g07-12.mp3": {
+      "bytes": 12240,
+      "md5": "b186b08ff6c5539383491bab82be8a0f"
+    },
+    "audio/daily/g07-13.mp3": {
+      "bytes": 11808,
+      "md5": "3ff9c37af5b0074f97a58713d2489a78"
+    },
+    "audio/daily/g07-14.mp3": {
+      "bytes": 11376,
+      "md5": "42d5cb9ee6a42becf02359296d789bae"
+    },
+    "audio/daily/g07-15.mp3": {
+      "bytes": 14544,
+      "md5": "4c60114046e31ba6b699fe0bb2839975"
+    },
+    "audio/daily/g07-16.mp3": {
+      "bytes": 16416,
+      "md5": "9d169ce88b0dd32d7626229f1ecf3cdf"
+    },
+    "audio/daily/g07-17.mp3": {
+      "bytes": 12816,
+      "md5": "10b8536ca90540c06b5992e63d754395"
+    },
+    "audio/daily/g07-18.mp3": {
+      "bytes": 11952,
+      "md5": "119d0376b8a3133bb5d28b44c9fbbf34"
+    },
+    "audio/daily/g07-19.mp3": {
+      "bytes": 12384,
+      "md5": "396f966700269945417a75321b2febf4"
+    },
+    "audio/daily/g07-20.mp3": {
+      "bytes": 13248,
+      "md5": "0f6b01f9a551940b80cd1fa2f4f5b077"
+    },
+    "audio/daily/g08-01.mp3": {
+      "bytes": 12096,
+      "md5": "1e2eb01aea006f9c79e095662b5c71c9"
+    },
+    "audio/daily/g08-02.mp3": {
+      "bytes": 14400,
+      "md5": "f5f54bcf5cf3e632a578f106c9f83acb"
+    },
+    "audio/daily/g08-03.mp3": {
+      "bytes": 13824,
+      "md5": "ace35579846e133fc5cd36f9bef16070"
+    },
+    "audio/daily/g08-04.mp3": {
+      "bytes": 13968,
+      "md5": "72cf7b7e15d31f6a68969f9eab76a127"
+    },
+    "audio/daily/g08-05.mp3": {
+      "bytes": 15120,
+      "md5": "1ec95b33df7850830120aa4f61a0c912"
+    },
+    "audio/daily/g08-06.mp3": {
+      "bytes": 14832,
+      "md5": "564de7fdc1dd79430916caa689f9b6e5"
+    },
+    "audio/daily/g08-07.mp3": {
+      "bytes": 13104,
+      "md5": "5cdaf16dbb83ec76a5a6fb10f908318e"
+    },
+    "audio/daily/g08-08.mp3": {
+      "bytes": 13824,
+      "md5": "218ad9515087cb2634f89c162368452e"
+    },
+    "audio/daily/g08-09.mp3": {
+      "bytes": 13104,
+      "md5": "9714635d0e869fee38e56768689b7a8f"
+    },
+    "audio/daily/g08-10.mp3": {
+      "bytes": 17712,
+      "md5": "dea457e35438884b3dddc0278c9565ee"
+    },
+    "audio/daily/g08-11.mp3": {
+      "bytes": 11376,
+      "md5": "631b2bfc9b37ada04ab76d3fd57a28c9"
+    },
+    "audio/daily/g08-12.mp3": {
+      "bytes": 10368,
+      "md5": "1ad70cd64d72f64e7fbee1a312505635"
+    },
+    "audio/daily/g08-13.mp3": {
+      "bytes": 11808,
+      "md5": "eb0dbafb9e33dcb6ae38c93b6d582783"
+    },
+    "audio/daily/g08-14.mp3": {
+      "bytes": 14832,
+      "md5": "e5b12038f20b2478c091f97f5a92e2c2"
+    },
+    "audio/daily/g08-15.mp3": {
+      "bytes": 13968,
+      "md5": "792354809f9670aa1c5c6273c52e003c"
+    },
+    "audio/daily/g08-16.mp3": {
+      "bytes": 14400,
+      "md5": "53b3955bcdff770fc3dae1e0653e1b10"
+    },
+    "audio/daily/g08-17.mp3": {
+      "bytes": 11520,
+      "md5": "b4df2de224c4cbb580a2f3b0cbe087d8"
+    },
+    "audio/daily/g08-18.mp3": {
+      "bytes": 11952,
+      "md5": "2043a0a16e0eb4472113c6b609887436"
+    },
+    "audio/daily/g08-19.mp3": {
+      "bytes": 11232,
+      "md5": "198e3f5c64a122326fd3a1b1a2404254"
+    },
+    "audio/daily/g08-20.mp3": {
+      "bytes": 13968,
+      "md5": "7dea8ca39a128b0cf68a0ac1b196e4f0"
+    },
+    "audio/daily/g09-01.mp3": {
+      "bytes": 11232,
+      "md5": "2c4dda0b085691f1f713ab7cc382a0ae"
+    },
+    "audio/daily/g09-02.mp3": {
+      "bytes": 11376,
+      "md5": "41d64bd132d97106bc9a854fdeafadea"
+    },
+    "audio/daily/g09-03.mp3": {
+      "bytes": 10944,
+      "md5": "e0e1986a669bac90a61d3b3b3adc9efa"
+    },
+    "audio/daily/g09-04.mp3": {
+      "bytes": 12096,
+      "md5": "092513e5911376575517b6a105524eb3"
+    },
+    "audio/daily/g09-05.mp3": {
+      "bytes": 11808,
+      "md5": "e77a7716cc1d676aaf552387a3394079"
+    },
+    "audio/daily/g09-06.mp3": {
+      "bytes": 12096,
+      "md5": "0979d7dbe3d2ec2ca5f9ff02bcec7bf3"
+    },
+    "audio/daily/g09-07.mp3": {
+      "bytes": 10656,
+      "md5": "1b3fd38201e2d975ba87dd4b8316bb03"
+    },
+    "audio/daily/g09-08.mp3": {
+      "bytes": 11376,
+      "md5": "2e57a25cb3291946c71db229c8f72ef6"
+    },
+    "audio/daily/g09-09.mp3": {
+      "bytes": 13680,
+      "md5": "e2845705b13140d4a8993510ecd06b7e"
+    },
+    "audio/daily/g09-10.mp3": {
+      "bytes": 12384,
+      "md5": "70fabc51efbe70afc002d263c6957e1b"
+    },
+    "audio/daily/g09-11.mp3": {
+      "bytes": 11088,
+      "md5": "b5eb62c5e4266e2cd084cbbd1760c540"
+    },
+    "audio/daily/g09-12.mp3": {
+      "bytes": 10656,
+      "md5": "88bf156a6eb363416d14d8227eef3fad"
+    },
+    "audio/daily/g09-13.mp3": {
+      "bytes": 11520,
+      "md5": "ed0d423be7af54904cd070a7862e2143"
+    },
+    "audio/daily/g09-14.mp3": {
+      "bytes": 14688,
+      "md5": "4cf0f6f7c488482a52f860af859fc3f4"
+    },
+    "audio/daily/g09-15.mp3": {
+      "bytes": 13104,
+      "md5": "3dff096b8b38c3689821c69613fd9bec"
+    },
+    "audio/daily/g09-16.mp3": {
+      "bytes": 11088,
+      "md5": "04d02bb2b9914e8293d6536b44bea28c"
+    },
+    "audio/daily/g09-17.mp3": {
+      "bytes": 12240,
+      "md5": "eec7c4d3025b0641a9cca36a12399fb7"
+    },
+    "audio/daily/g09-18.mp3": {
+      "bytes": 12384,
+      "md5": "cfade6e5c854db0c958225faca69fca3"
+    },
+    "audio/daily/g09-19.mp3": {
+      "bytes": 11520,
+      "md5": "c0147ed2cc928328a729a6226357cc5a"
+    },
+    "audio/daily/g09-20.mp3": {
+      "bytes": 13680,
+      "md5": "a19ec5c54386a12442aa8d1e613250e5"
+    },
+    "audio/daily/g10-01.mp3": {
+      "bytes": 10080,
+      "md5": "e0965f940a1d8dab26407d2132c6bd20"
+    },
+    "audio/daily/g10-02.mp3": {
+      "bytes": 14256,
+      "md5": "917c084dd8c952246249e12992cdcb6d"
+    },
+    "audio/daily/g10-03.mp3": {
+      "bytes": 13968,
+      "md5": "992db5bae063e4d9c27b728f69deba39"
+    },
+    "audio/daily/g10-04.mp3": {
+      "bytes": 12816,
+      "md5": "846db9ec83c9800debf049d1ef12d625"
+    },
+    "audio/daily/g10-05.mp3": {
+      "bytes": 12960,
+      "md5": "199e68f6582b0992d4e6f24708154a65"
+    },
+    "audio/daily/g10-06.mp3": {
+      "bytes": 11808,
+      "md5": "9d388e950e133e89c91d239a8462b742"
+    },
+    "audio/daily/g10-07.mp3": {
+      "bytes": 13680,
+      "md5": "45017478b33d96f6b775ad77c251a50b"
+    },
+    "audio/daily/g10-08.mp3": {
+      "bytes": 14688,
+      "md5": "7588296fc0df9c6636115cb2ad5a92bb"
+    },
+    "audio/daily/g10-09.mp3": {
+      "bytes": 10656,
+      "md5": "a1e666ab73002bfadc5ab9d731f7ab80"
+    },
+    "audio/daily/g10-10.mp3": {
+      "bytes": 11520,
+      "md5": "efa18a9823791abae043ca1d33874a12"
+    },
+    "audio/daily/g10-11.mp3": {
+      "bytes": 12816,
+      "md5": "ef6348e66185e2186fd64e7e266c15f5"
+    },
+    "audio/daily/g10-12.mp3": {
+      "bytes": 13536,
+      "md5": "712f09ed2b4f1e2b1262af22370b72b0"
+    },
+    "audio/daily/g10-13.mp3": {
+      "bytes": 12384,
+      "md5": "465a31fb979b6ae1ad80a88f129fbf4f"
+    },
+    "audio/daily/g10-14.mp3": {
+      "bytes": 11376,
+      "md5": "b86a766406e96899bd5cc4a363f3b038"
+    },
+    "audio/daily/g10-15.mp3": {
+      "bytes": 13104,
+      "md5": "926cddacc0109d3d96deaa6a5436f804"
+    },
+    "audio/daily/g10-16.mp3": {
+      "bytes": 13536,
+      "md5": "49dd956dcb128467d849c94f3b3ce239"
+    },
+    "audio/daily/g10-17.mp3": {
+      "bytes": 10512,
+      "md5": "24dab4529c34f0f0720f1aaffc6ca593"
+    },
+    "audio/daily/g10-18.mp3": {
+      "bytes": 12240,
+      "md5": "b2e4f347a19f3c8beab13090b0dac6ce"
+    },
+    "audio/daily/g10-19.mp3": {
+      "bytes": 13680,
+      "md5": "2103c864cb6b5d56fff01a238317df99"
+    },
+    "audio/daily/g10-20.mp3": {
+      "bytes": 12960,
+      "md5": "7e6e6c62bed82459e98f47425d0dd81f"
+    },
+    "audio/daily/g11-01.mp3": {
+      "bytes": 13248,
+      "md5": "66a357f61167fc745b720e07dccd173a"
+    },
+    "audio/daily/g11-02.mp3": {
+      "bytes": 11376,
+      "md5": "4f5e95eb1ec1c89bcdfd0d02ed8e8cee"
+    },
+    "audio/daily/g11-03.mp3": {
+      "bytes": 11376,
+      "md5": "e963d76264bcd9a26be25cb4b01e5e9d"
+    },
+    "audio/daily/g11-04.mp3": {
+      "bytes": 11952,
+      "md5": "9d9172f98769d7f70f0240b39d696327"
+    },
+    "audio/daily/g11-05.mp3": {
+      "bytes": 11664,
+      "md5": "e1612d0d37c9d14c0b1ce63e1e077c62"
+    },
+    "audio/daily/g11-06.mp3": {
+      "bytes": 12672,
+      "md5": "338a3989bf86c646b85cf42e4e68f75b"
+    },
+    "audio/daily/g11-07.mp3": {
+      "bytes": 13104,
+      "md5": "148ae98a4a447c6e6b8f3f0dd0c25b5e"
+    },
+    "audio/daily/g11-08.mp3": {
+      "bytes": 15120,
+      "md5": "1e890b650160de7d5e6b32716b3763be"
+    },
+    "audio/daily/g11-09.mp3": {
+      "bytes": 15552,
+      "md5": "170e05c7f159ad3a6a7a1e530ab1e509"
+    },
+    "audio/daily/g11-10.mp3": {
+      "bytes": 15120,
+      "md5": "f03e99abe83f5c3b8d29470e5ff56ba8"
+    },
+    "audio/daily/g11-11.mp3": {
+      "bytes": 13968,
+      "md5": "c55cba3c4d2bf65f0ebc8f3901cb0352"
+    },
+    "audio/daily/g11-12.mp3": {
+      "bytes": 13536,
+      "md5": "93fe24be6b279b3862aed37725d3ca72"
+    },
+    "audio/daily/g11-13.mp3": {
+      "bytes": 12816,
+      "md5": "e752b1ed70a680377bd1eeb7fe9de7d1"
+    },
+    "audio/daily/g11-14.mp3": {
+      "bytes": 13968,
+      "md5": "40ffff53c49c72706a32bfdaa86abf2d"
+    },
+    "audio/daily/g11-15.mp3": {
+      "bytes": 13968,
+      "md5": "05fdb5f5aa2f7330bc454a94d28bef16"
+    },
+    "audio/daily/g11-16.mp3": {
+      "bytes": 13680,
+      "md5": "6a8a833fc163abaf7e0dac819ec7c3b1"
+    },
+    "audio/daily/g11-17.mp3": {
+      "bytes": 15696,
+      "md5": "4d211d2ac2cd74e6ece1a92f89a33948"
+    },
+    "audio/daily/g11-18.mp3": {
+      "bytes": 13968,
+      "md5": "6d04a04608fb9c945b0818d706744aaf"
+    },
+    "audio/daily/g11-19.mp3": {
+      "bytes": 14688,
+      "md5": "96fe1bceee9177079bed1d05dec22d74"
+    },
+    "audio/daily/g11-20.mp3": {
+      "bytes": 14256,
+      "md5": "5ec2f962b030b18fcc5c49ea91f4d05c"
+    },
+    "audio/daily/g12-01.mp3": {
+      "bytes": 12240,
+      "md5": "0e93f53bd20d496a7a0af6c465ed4eaa"
+    },
+    "audio/daily/g12-02.mp3": {
+      "bytes": 12384,
+      "md5": "f37067e9360853e6a0257fb6d34a78e7"
+    },
+    "audio/daily/g12-03.mp3": {
+      "bytes": 13680,
+      "md5": "088b28a40e9438bc81154546e83fba51"
+    },
+    "audio/daily/g12-04.mp3": {
+      "bytes": 14112,
+      "md5": "16a02bafc769366e9b3825b5f4a5b625"
+    },
+    "audio/daily/g12-05.mp3": {
+      "bytes": 11664,
+      "md5": "687af42c36d88b8e4d79515e3e4642de"
+    },
+    "audio/daily/g12-06.mp3": {
+      "bytes": 10656,
+      "md5": "61c3c01699b445edecd47ccb1da1ded4"
+    },
+    "audio/daily/g12-07.mp3": {
+      "bytes": 12960,
+      "md5": "349efc9cb41b8c6aaf9234e1c0bf6d7d"
+    },
+    "audio/daily/g12-08.mp3": {
+      "bytes": 10800,
+      "md5": "bea088abbfc135b46ac19af6b67d5d34"
+    },
+    "audio/daily/g12-09.mp3": {
+      "bytes": 13536,
+      "md5": "efe341d5dc40292ae8e89d8ac3043df4"
+    },
+    "audio/daily/g12-10.mp3": {
+      "bytes": 12960,
+      "md5": "b6a14544fc39afdf8ec0511fd4e82478"
+    },
+    "audio/daily/g12-11.mp3": {
+      "bytes": 13536,
+      "md5": "ce05ec45762093d5dd4e5909b8aa7b1c"
+    },
+    "audio/daily/g12-12.mp3": {
+      "bytes": 13968,
+      "md5": "f305e1ff3f42e5aa4dc5e98b2d39927f"
+    },
+    "audio/daily/g12-13.mp3": {
+      "bytes": 10800,
+      "md5": "f2d7b958717d1a9a57746a958296e048"
+    },
+    "audio/daily/g12-14.mp3": {
+      "bytes": 12816,
+      "md5": "8feb8ffba4273c6b6148826616acdfe5"
+    },
+    "audio/daily/g12-15.mp3": {
+      "bytes": 12096,
+      "md5": "dedb46624b817c28890454082e3d22f3"
+    },
+    "audio/daily/g12-16.mp3": {
+      "bytes": 11376,
+      "md5": "de7e62a68c5a7f845b14bc0d5b411219"
+    },
+    "audio/daily/g12-17.mp3": {
+      "bytes": 11088,
+      "md5": "0deec1b2f0633041bfdca73aa5126682"
+    },
+    "audio/daily/g12-18.mp3": {
+      "bytes": 11088,
+      "md5": "f8a131de1b84e9f0437a293f7279b4db"
+    },
+    "audio/daily/g12-19.mp3": {
+      "bytes": 15696,
+      "md5": "e528256af6ea7acc19e35e9a96951f7a"
+    },
+    "audio/daily/g12-20.mp3": {
+      "bytes": 14400,
+      "md5": "cd7c92c99432020405ef3671fde248bc"
+    },
+    "audio/daily/g13-01.mp3": {
+      "bytes": 9792,
+      "md5": "985040fb64c4369a694323e01e1a9bb2"
+    },
+    "audio/daily/g13-02.mp3": {
+      "bytes": 10368,
+      "md5": "1ad70cd64d72f64e7fbee1a312505635"
+    },
+    "audio/daily/g13-03.mp3": {
+      "bytes": 11808,
+      "md5": "790b56c17e24ef93536e52408ead261c"
+    },
+    "audio/daily/g13-04.mp3": {
+      "bytes": 11376,
+      "md5": "d5a24299a073c6b1a15df30dd394355a"
+    },
+    "audio/daily/g13-05.mp3": {
+      "bytes": 11232,
+      "md5": "cc248981ada14e3a79c7b4ac925bbc88"
+    },
+    "audio/daily/g13-06.mp3": {
+      "bytes": 11952,
+      "md5": "f0a1d36bd12126799a47a7430c4d8bd5"
+    },
+    "audio/daily/g13-07.mp3": {
+      "bytes": 10944,
+      "md5": "ab51ba566ff03e3d3abdae7a0c57819b"
+    },
+    "audio/daily/g13-08.mp3": {
+      "bytes": 11088,
+      "md5": "40b01ad9d359e2660680b024069f8d5a"
+    },
+    "audio/daily/g13-09.mp3": {
+      "bytes": 11952,
+      "md5": "5ffc22a6a21e182f8f2f607eadd458c3"
+    },
+    "audio/daily/g13-10.mp3": {
+      "bytes": 13680,
+      "md5": "3a14dc55678ac018b6998af19b02467a"
+    },
+    "audio/daily/g13-11.mp3": {
+      "bytes": 13680,
+      "md5": "e4f5d3bbd6592e24b610f436136906b4"
+    },
+    "audio/daily/g13-12.mp3": {
+      "bytes": 11232,
+      "md5": "85350b74b92230036541a937b6f088dc"
+    },
+    "audio/daily/g13-13.mp3": {
+      "bytes": 15264,
+      "md5": "3e77f10a6428f43e4c5aa2d73dd2ff9c"
+    },
+    "audio/daily/g13-14.mp3": {
+      "bytes": 13104,
+      "md5": "d5d203c124db87d7da75f66fa86a7461"
+    },
+    "audio/daily/g13-15.mp3": {
+      "bytes": 15264,
+      "md5": "1c84ff2bcbc652583de514fcf1598dc0"
+    },
+    "audio/daily/g13-16.mp3": {
+      "bytes": 12816,
+      "md5": "0011399a3de2042603cd4d5cfd3010e8"
+    },
+    "audio/daily/g13-17.mp3": {
+      "bytes": 18720,
+      "md5": "9e4775c987094dee708c63d6796d71c9"
+    },
+    "audio/daily/g13-18.mp3": {
+      "bytes": 12384,
+      "md5": "c4dccc032e75dad63fa166eecf4af9fd"
+    },
+    "audio/daily/g13-19.mp3": {
+      "bytes": 14112,
+      "md5": "aa17a3d1cbb205aea3ce0c8b76d34d95"
+    },
+    "audio/daily/g13-20.mp3": {
+      "bytes": 13104,
+      "md5": "0ba50e067cc8b9c42782e162e27edf1d"
+    },
+    "audio/daily/g14-01.mp3": {
+      "bytes": 11520,
+      "md5": "528465beb6f36b567aeb0bbc8928648d"
+    },
+    "audio/daily/g14-02.mp3": {
+      "bytes": 16416,
+      "md5": "b6b98176d46a935e83a329f5cab2510b"
+    },
+    "audio/daily/g14-03.mp3": {
+      "bytes": 18720,
+      "md5": "7531751986b62688c830900001d17fe2"
+    },
+    "audio/daily/g14-04.mp3": {
+      "bytes": 21888,
+      "md5": "cd03389cd6a583497f54f2145f819245"
+    },
+    "audio/daily/g14-05.mp3": {
+      "bytes": 13536,
+      "md5": "6dccdf077621f51d2ab464545a39828b"
+    },
+    "audio/daily/g14-06.mp3": {
+      "bytes": 12960,
+      "md5": "e420e3423c6d43dc6447431afaa5fe09"
+    },
+    "audio/daily/g14-07.mp3": {
+      "bytes": 15408,
+      "md5": "31193121cf5fbeab4547df7cedd06d77"
+    },
+    "audio/daily/g14-08.mp3": {
+      "bytes": 17856,
+      "md5": "1bca794696d1d0b2f11dccdacc1b2ab3"
+    },
+    "audio/daily/g14-09.mp3": {
+      "bytes": 14688,
+      "md5": "17834db227dc27f558ca8b4282d00e73"
+    },
+    "audio/daily/g14-10.mp3": {
+      "bytes": 17424,
+      "md5": "e1adf3a206cc1d24496dc30d0838dcf6"
+    },
+    "audio/daily/g14-11.mp3": {
+      "bytes": 14544,
+      "md5": "95fc1e893fd52daca0b688640917f9bb"
+    },
+    "audio/daily/g14-12.mp3": {
+      "bytes": 14544,
+      "md5": "f6707d6ba1b9f5e3fb00c755bc966b7d"
+    },
+    "audio/daily/g14-13.mp3": {
+      "bytes": 13968,
+      "md5": "beacf45ecc12e8b3bf4be681669e7355"
+    },
+    "audio/daily/g14-14.mp3": {
+      "bytes": 17136,
+      "md5": "aefcaf689d5c97e5c1a13885e1becf0a"
+    },
+    "audio/daily/g14-15.mp3": {
+      "bytes": 17856,
+      "md5": "8663ba2d834f53715f7a4d0ae053d53b"
+    },
+    "audio/daily/g14-16.mp3": {
+      "bytes": 13536,
+      "md5": "de007b9e265411f4f88bd1f6e78ad498"
+    },
+    "audio/daily/g14-17.mp3": {
+      "bytes": 15408,
+      "md5": "66880b5563d8b47c04148507bba4b0fb"
+    },
+    "audio/daily/g14-18.mp3": {
+      "bytes": 12528,
+      "md5": "76580f32b53b8cee630297fa7da7c594"
+    },
+    "audio/daily/g14-19.mp3": {
+      "bytes": 12528,
+      "md5": "fe4d90a47000b2f5c4909597ef254496"
+    },
+    "audio/daily/g14-20.mp3": {
+      "bytes": 13968,
+      "md5": "2c90fb4787b6e0a6f64f2a933419d292"
+    },
+    "audio/daily/g15-01.mp3": {
+      "bytes": 15264,
+      "md5": "f1db5b9e1d22fda24e3956860b2a2829"
+    },
+    "audio/daily/g15-02.mp3": {
+      "bytes": 12384,
+      "md5": "76562c4bf4c1d5245f3cfe1b97b577c3"
+    },
+    "audio/daily/g15-03.mp3": {
+      "bytes": 16992,
+      "md5": "74864f41c4f59d3e86fbe331cddde2c2"
+    },
+    "audio/daily/g15-04.mp3": {
+      "bytes": 13392,
+      "md5": "cbbcb28f9f6c00041d166bb319939e64"
+    },
+    "audio/daily/g15-05.mp3": {
+      "bytes": 14688,
+      "md5": "b423633d0ffd957960cf9f5e91a312a0"
+    },
+    "audio/daily/g15-06.mp3": {
+      "bytes": 17856,
+      "md5": "d4444a7c7233064f5fd9b88aaa4a7077"
+    },
+    "audio/daily/g15-07.mp3": {
+      "bytes": 13536,
+      "md5": "8ba0abb53966444e2672d714e03fd61a"
+    },
+    "audio/daily/g15-08.mp3": {
+      "bytes": 12096,
+      "md5": "b33194b3ce3fff291618a487a0bbc8bb"
+    },
+    "audio/daily/g15-09.mp3": {
+      "bytes": 12816,
+      "md5": "39f0da16dabec830844ef29eea258bed"
+    },
+    "audio/daily/g15-10.mp3": {
+      "bytes": 14544,
+      "md5": "433066c744d9171215995ade48f6743b"
+    },
+    "audio/daily/g15-11.mp3": {
+      "bytes": 9648,
+      "md5": "748ccb92ca7c00e09fb8871a53635636"
+    },
+    "audio/daily/g15-12.mp3": {
+      "bytes": 15552,
+      "md5": "5019a548942b1b199dd4b5d0e22f23b7"
+    },
+    "audio/daily/g15-13.mp3": {
+      "bytes": 12960,
+      "md5": "cb21bfa71a8875d2affe64cb947cd640"
+    },
+    "audio/daily/g15-14.mp3": {
+      "bytes": 11664,
+      "md5": "5e8922b8677f6084ece3afeb9613bd8c"
+    },
+    "audio/daily/g15-15.mp3": {
+      "bytes": 13536,
+      "md5": "baab4ccff0332e94d4ac8907fb34a8f4"
+    },
+    "audio/daily/g15-16.mp3": {
+      "bytes": 12240,
+      "md5": "2190ee7a37dea41029e6bcfd14a10dbe"
+    },
+    "audio/daily/g15-17.mp3": {
+      "bytes": 11088,
+      "md5": "f9c73f46d115b964b95af7ddc029238c"
+    },
+    "audio/daily/g15-18.mp3": {
+      "bytes": 11232,
+      "md5": "6548ec0678c089f6d7bdba9b1eef7955"
+    },
+    "audio/daily/g15-19.mp3": {
+      "bytes": 12096,
+      "md5": "878ab582339d38b7fd2379e1f3bc5edb"
+    },
+    "audio/daily/g15-20.mp3": {
+      "bytes": 13536,
+      "md5": "d721f944b7691d0f6d8973a4fcce1e5e"
+    },
+    "audio/listen/c01-01.mp3": {
+      "bytes": 204192,
+      "md5": "4fe923d4917c25b7c4ae48b1b4985c5f"
+    },
+    "audio/listen/c01-02.mp3": {
+      "bytes": 175392,
+      "md5": "03b700d0ccbb0ed6255beef62e243e8f"
+    },
+    "audio/listen/c01-03.mp3": {
+      "bytes": 231408,
+      "md5": "09c7de06f8485e179cff3cd958e3393d"
+    },
+    "audio/listen/c01-04.mp3": {
+      "bytes": 177408,
+      "md5": "36be26e807b48dbadbe5b84b597c58a7"
+    },
+    "audio/listen/c01-05.mp3": {
+      "bytes": 185328,
+      "md5": "b4ccd033ab446d5e95be1b7d01a05168"
+    },
+    "audio/listen/c01-06.mp3": {
+      "bytes": 218736,
+      "md5": "8d2f3e18bd5bac9f5984d7acdadbe8e9"
+    },
+    "audio/listen/c01-07.mp3": {
+      "bytes": 187920,
+      "md5": "9118da3555dc4b8e1c24a2844d87e69b"
+    },
+    "audio/listen/c01-08.mp3": {
+      "bytes": 199872,
+      "md5": "43982fed5ecbb5e79dea4483acdd06b0"
+    },
+    "audio/listen/c01-09.mp3": {
+      "bytes": 196992,
+      "md5": "d2ac0360ea6f121c15496420d44e0a9a"
+    },
+    "audio/listen/c01-10.mp3": {
+      "bytes": 214128,
+      "md5": "2b041dcc9bbb871d147ef80489f234cc"
+    },
+    "audio/listen/c02-01.mp3": {
+      "bytes": 211248,
+      "md5": "bc0eb128b2c70444e2f9999b1738c058"
+    },
+    "audio/listen/c02-02.mp3": {
+      "bytes": 204480,
+      "md5": "9cb1abf0c0a01b30a89961052df3d145"
+    },
+    "audio/listen/c02-03.mp3": {
+      "bytes": 258192,
+      "md5": "a91a3c6a8bb703fc64698caaa570368c"
+    },
+    "audio/listen/c02-04.mp3": {
+      "bytes": 204480,
+      "md5": "c321d09db7ad6dd5cb7c8560561422d6"
+    },
+    "audio/listen/c02-05.mp3": {
+      "bytes": 207360,
+      "md5": "c367e07532ae7d77871c2e2362a9018f"
+    },
+    "audio/listen/c02-06.mp3": {
+      "bytes": 191376,
+      "md5": "51f9c16aa469d6da993daf16e7aff900"
+    },
+    "audio/listen/c02-07.mp3": {
+      "bytes": 183168,
+      "md5": "7aebaa3e9917258e68c1fc4ecb493a90"
+    },
+    "audio/listen/c02-08.mp3": {
+      "bytes": 180432,
+      "md5": "61608f1fd28f15c1cc8373a0eb345d0a"
+    },
+    "audio/listen/c02-09.mp3": {
+      "bytes": 204768,
+      "md5": "2578d176efe193cc75b2d1bc87bac23e"
+    },
+    "audio/listen/c02-10.mp3": {
+      "bytes": 182160,
+      "md5": "3e1b68f9f3d91a45d2487cedb2a46081"
+    },
+    "audio/listen/c03-01.mp3": {
+      "bytes": 205488,
+      "md5": "c9aeb537d420e332cd108d0402b5f519"
+    },
+    "audio/listen/c03-02.mp3": {
+      "bytes": 195984,
+      "md5": "0ca9ffb6801d898d30613f74ce9f4b52"
+    },
+    "audio/listen/c03-03.mp3": {
+      "bytes": 195696,
+      "md5": "77d0a02588f341afb71ef726d9a13c6c"
+    },
+    "audio/listen/c03-04.mp3": {
+      "bytes": 188064,
+      "md5": "7b87e2d424ea3583844756c95f3a6118"
+    },
+    "audio/listen/c03-05.mp3": {
+      "bytes": 195984,
+      "md5": "be119b4e368caf60db5120d60fc61ff8"
+    },
+    "audio/listen/c03-06.mp3": {
+      "bytes": 203040,
+      "md5": "e579ef69f0bebce430d5251dd9039611"
+    },
+    "audio/listen/c03-07.mp3": {
+      "bytes": 184320,
+      "md5": "a00bdecccda807674c1fedb3f73b0c8a"
+    },
+    "audio/listen/c03-08.mp3": {
+      "bytes": 182304,
+      "md5": "c8ad1015665eb91646160f85351b919a"
+    },
+    "audio/listen/c03-09.mp3": {
+      "bytes": 170208,
+      "md5": "eaac0bf1d4f38c1f4e3791147ba60740"
+    },
+    "audio/listen/c03-10.mp3": {
+      "bytes": 199584,
+      "md5": "786ebc0b8e3089c56abc06b0fa967908"
+    },
+    "audio/listen/c04-01.mp3": {
+      "bytes": 148896,
+      "md5": "3cdfd00d41ce73422270f725c37312ef"
+    },
+    "audio/listen/c04-02.mp3": {
+      "bytes": 175680,
+      "md5": "99ae042cc66a54b007e32105c7e9dd6f"
+    },
+    "audio/listen/c04-03.mp3": {
+      "bytes": 151632,
+      "md5": "25d3c9ead3d318ebb4edb8c0cd07bc2e"
+    },
+    "audio/listen/c04-04.mp3": {
+      "bytes": 160128,
+      "md5": "69643767225636b606481e7a9df9b3a3"
+    },
+    "audio/listen/c04-05.mp3": {
+      "bytes": 164880,
+      "md5": "3e1c85e4b68beffb8722eb8c866c2811"
+    },
+    "audio/listen/c04-06.mp3": {
+      "bytes": 183024,
+      "md5": "195ab8a2ce87dc68cc15c10e8ea6b56f"
+    },
+    "audio/listen/c04-07.mp3": {
+      "bytes": 165456,
+      "md5": "1e6fa2edee7ba6d540c3839d6e63b433"
+    },
+    "audio/listen/c04-08.mp3": {
+      "bytes": 162000,
+      "md5": "4f6d91dd8972d9859ad53e4a6c3ed8ff"
+    },
+    "audio/listen/c04-09.mp3": {
+      "bytes": 189504,
+      "md5": "b96bee2febe5b7b8850f87622fb0b838"
+    },
+    "audio/listen/c04-10.mp3": {
+      "bytes": 151056,
+      "md5": "6b65231ff7c0dc613ca293ffd14d7974"
+    },
+    "audio/listen/c05-01.mp3": {
+      "bytes": 175248,
+      "md5": "a712a96ad47a549570a93bcfcc2bb80f"
+    },
+    "audio/listen/c05-02.mp3": {
+      "bytes": 177840,
+      "md5": "021c24026b09fa5726df128be42928a8"
+    },
+    "audio/listen/c05-03.mp3": {
+      "bytes": 174384,
+      "md5": "c84a8f57ab95da47a37ed208d0ee1d1f"
+    },
+    "audio/listen/c05-04.mp3": {
+      "bytes": 183600,
+      "md5": "fc46f2991647a718cfbbc4d87df3fe8d"
+    },
+    "audio/listen/c05-05.mp3": {
+      "bytes": 200880,
+      "md5": "cd3c50b80e318ce1395c9c16ad6804ee"
+    },
+    "audio/listen/c05-06.mp3": {
+      "bytes": 203616,
+      "md5": "8b1c812f99159b9db82d1c91fb0c1b91"
+    },
+    "audio/listen/c05-07.mp3": {
+      "bytes": 196848,
+      "md5": "5fae34e8f7dc4fdfc36e145fd6220cee"
+    },
+    "audio/listen/c05-08.mp3": {
+      "bytes": 199872,
+      "md5": "b7e57a1ce4191f83cfed2f131187c379"
+    },
+    "audio/listen/c05-09.mp3": {
+      "bytes": 185616,
+      "md5": "669dfb7a5dc6af70ccd262771a9f9df1"
+    },
+    "audio/listen/c05-10.mp3": {
+      "bytes": 197712,
+      "md5": "645891912cd722604f5dbfecd0668393"
+    },
+    "audio/listen/c06-01.mp3": {
+      "bytes": 182160,
+      "md5": "542f469e084e93b589dfa0e2f22999cb"
+    },
+    "audio/listen/c06-02.mp3": {
+      "bytes": 168336,
+      "md5": "9d132dd623cedcda0f6d803da5f1095d"
+    },
+    "audio/listen/c06-03.mp3": {
+      "bytes": 209376,
+      "md5": "5b33bf53c107b3e74821d23a7f35c157"
+    },
+    "audio/listen/c06-04.mp3": {
+      "bytes": 209232,
+      "md5": "17d84fba109c668842b225a2364c9451"
+    },
+    "audio/listen/c06-05.mp3": {
+      "bytes": 186192,
+      "md5": "d2bf03d68590946045ca00144380a8ce"
+    },
+    "audio/listen/c06-06.mp3": {
+      "bytes": 201600,
+      "md5": "fbf90f968ab481b13e53b763ad043b3a"
+    },
+    "audio/listen/c06-07.mp3": {
+      "bytes": 185040,
+      "md5": "0d6e0e5d15d06f82464be8ac636bea3e"
+    },
+    "audio/listen/c06-08.mp3": {
+      "bytes": 183312,
+      "md5": "daf0ce2db4303be91f7221d69f057e79"
+    },
+    "audio/listen/c06-09.mp3": {
+      "bytes": 196704,
+      "md5": "a6386bd23c90794eb703610171d5011f"
+    },
+    "audio/listen/c06-10.mp3": {
+      "bytes": 187776,
+      "md5": "ec62977d961114216ddfe2955a69fb8f"
+    },
+    "audio/listen/c07-01.mp3": {
+      "bytes": 168336,
+      "md5": "0cf4f53e2309f8d0f76019e78d606c34"
+    },
+    "audio/listen/c07-02.mp3": {
+      "bytes": 213840,
+      "md5": "e9ed7c4abe98ba5429fefdd59d0b3b07"
+    },
+    "audio/listen/c07-03.mp3": {
+      "bytes": 177552,
+      "md5": "f5f330406068cc0f5c0c7565a3de6852"
+    },
+    "audio/listen/c07-04.mp3": {
+      "bytes": 190944,
+      "md5": "2b674712fb130faa73025e98f288a82d"
+    },
+    "audio/listen/c07-05.mp3": {
+      "bytes": 171216,
+      "md5": "d921bd0378b14b1701c873c472181c79"
+    },
+    "audio/listen/c07-06.mp3": {
+      "bytes": 170496,
+      "md5": "09615a57d87a46a45dc0a6ec7bf8c52b"
+    },
+    "audio/listen/c07-07.mp3": {
+      "bytes": 172224,
+      "md5": "b512338f204e48d82f682fe44c130e00"
+    },
+    "audio/listen/c07-08.mp3": {
+      "bytes": 172368,
+      "md5": "4c5611358430442249c39ea4134d8537"
+    },
+    "audio/listen/c07-09.mp3": {
+      "bytes": 181440,
+      "md5": "02d3faa0cde980620dc4efb56a713350"
+    },
+    "audio/listen/c07-10.mp3": {
+      "bytes": 172368,
+      "md5": "257ae2881b63dbbcb82291ca5ded67b3"
+    },
+    "audio/listen/c08-01.mp3": {
+      "bytes": 184752,
+      "md5": "364927581a3c68dd8980eadea3e01adb"
+    },
+    "audio/listen/c08-02.mp3": {
+      "bytes": 180720,
+      "md5": "bb0214eaa98bd7db75304cf718d266d3"
+    },
+    "audio/listen/c08-03.mp3": {
+      "bytes": 185472,
+      "md5": "1d9c5b7f58f451f127b2ab6a0d9ff15c"
+    },
+    "audio/listen/c08-04.mp3": {
+      "bytes": 173808,
+      "md5": "af47c214f9836fb511966f04c54f535f"
+    },
+    "audio/listen/c08-05.mp3": {
+      "bytes": 198144,
+      "md5": "25b4b7a03d7c239187f1b87ac9c563c9"
+    },
+    "audio/listen/c08-06.mp3": {
+      "bytes": 225504,
+      "md5": "87131e9150e16b4a72786149672e5df3"
+    },
+    "audio/listen/c08-07.mp3": {
+      "bytes": 212832,
+      "md5": "893f140a902e1f313d9b18c5bbac470a"
+    },
+    "audio/listen/c08-08.mp3": {
+      "bytes": 193104,
+      "md5": "6d6372f2f1a21aa1ff2e6c6591fd129e"
+    },
+    "audio/listen/c08-09.mp3": {
+      "bytes": 183744,
+      "md5": "e55355fb021365f74e1191b5f73f0963"
+    },
+    "audio/listen/c08-10.mp3": {
+      "bytes": 200160,
+      "md5": "84f70e47ecd8165a63722ba2fc2fb0b0"
+    },
+    "audio/listen/c09-01.mp3": {
+      "bytes": 218304,
+      "md5": "27e39f7d5ff7b4ca45f43a7bd33cfaa9"
+    },
+    "audio/listen/c09-02.mp3": {
+      "bytes": 207792,
+      "md5": "b3516a70669e41805cb2e2b4111aed2c"
+    },
+    "audio/listen/c09-03.mp3": {
+      "bytes": 192096,
+      "md5": "cc08a864304bf35885af84673db421b0"
+    },
+    "audio/listen/c09-04.mp3": {
+      "bytes": 197856,
+      "md5": "ff8b4bd26860ad09553d69a5c58a585e"
+    },
+    "audio/listen/c09-05.mp3": {
+      "bytes": 222480,
+      "md5": "0c4dfc29131426930cd2af683e9b44d8"
+    },
+    "audio/listen/c09-06.mp3": {
+      "bytes": 200592,
+      "md5": "0d66151c6f36bf9026bff57ab1b29657"
+    },
+    "audio/listen/c09-07.mp3": {
+      "bytes": 203904,
+      "md5": "ca13fc3ed56a9de733651f94c4a39570"
+    },
+    "audio/listen/c09-08.mp3": {
+      "bytes": 202608,
+      "md5": "3a6229f47ef4814b9f49d81a333ec78c"
+    },
+    "audio/listen/c09-09.mp3": {
+      "bytes": 204336,
+      "md5": "dbeb7f1a921cdf6ba293e067c75d7216"
+    },
+    "audio/listen/c09-10.mp3": {
+      "bytes": 206784,
+      "md5": "7c7b136db72d0d30497292b41898b106"
+    },
+    "audio/listen/c10-01.mp3": {
+      "bytes": 198864,
+      "md5": "77c9398d16cf40ccf3f70a3ab26717cc"
+    },
+    "audio/listen/c10-02.mp3": {
+      "bytes": 269712,
+      "md5": "d25da0f3576629ee06a72cceafcf4a75"
+    },
+    "audio/listen/c10-03.mp3": {
+      "bytes": 194688,
+      "md5": "1e4077431d2770559ef806c538eb1a3d"
+    },
+    "audio/listen/c10-04.mp3": {
+      "bytes": 209664,
+      "md5": "7bf5423940b5233caa8ac9fdf12df6a7"
+    },
+    "audio/listen/c10-05.mp3": {
+      "bytes": 194688,
+      "md5": "9d142ddafea144ad4e04295c3b721b1b"
+    },
+    "audio/listen/c10-06.mp3": {
+      "bytes": 223056,
+      "md5": "8b97623cfe0fc87a0790e91b2def65ec"
+    },
+    "audio/listen/c10-07.mp3": {
+      "bytes": 209232,
+      "md5": "b81b4abfe78b6b46ff1b16fb5a26835a"
+    },
+    "audio/listen/c10-08.mp3": {
+      "bytes": 219312,
+      "md5": "75524f8dbd25d63a59bdb35f3be8eb1e"
+    },
+    "audio/listen/c10-09.mp3": {
+      "bytes": 211392,
+      "md5": "419ca7aac36bee1b5d10febd74672218"
+    },
+    "audio/listen/c10-10.mp3": {
+      "bytes": 185904,
+      "md5": "b8eba58b99c9526259c327d194d1e1bb"
+    },
+    "audio/sentences/L-a-ex.mp3": {
+      "bytes": 12528,
+      "md5": "4a8033449c7a25608df4d7d5a5956d30"
+    },
+    "audio/sentences/L-b-ex.mp3": {
+      "bytes": 12240,
+      "md5": "669faced490b4f19db1787bad7a86ead"
+    },
+    "audio/sentences/L-c-ex.mp3": {
+      "bytes": 12960,
+      "md5": "fe17a2d137c68a7bfcb48647203110ff"
+    },
+    "audio/sentences/L-d-ex.mp3": {
+      "bytes": 12528,
+      "md5": "fab76f9456c1886d55aad1931fa5139a"
+    },
+    "audio/sentences/L-e-ex.mp3": {
+      "bytes": 12384,
+      "md5": "d6793df6facb3c170917a5f834f33d48"
+    },
+    "audio/sentences/L-f-ex.mp3": {
+      "bytes": 13104,
+      "md5": "4d0b157850f7f9a411a2e60c27bdd56a"
+    },
+    "audio/sentences/L-g-ex.mp3": {
+      "bytes": 12528,
+      "md5": "6610558a7b33203e289930488a16bd2f"
+    },
+    "audio/sentences/L-h-ex.mp3": {
+      "bytes": 12384,
+      "md5": "5ab78d22088ee7a24f2126974d8373ac"
+    },
+    "audio/sentences/L-i-ex.mp3": {
+      "bytes": 12384,
+      "md5": "ac7d824dbe6dabd53c7698eefd4e9dfb"
+    },
+    "audio/sentences/L-j-ex.mp3": {
+      "bytes": 13392,
+      "md5": "d773603c9c5007170803ef978265bf1a"
+    },
+    "audio/sentences/L-k-ex.mp3": {
+      "bytes": 12816,
+      "md5": "e470a90bda3dc4f475a4b090e194c779"
+    },
+    "audio/sentences/L-l-ex.mp3": {
+      "bytes": 12672,
+      "md5": "89047a89b400abd24f72d5fe2d0cdf9c"
+    },
+    "audio/sentences/L-m-ex.mp3": {
+      "bytes": 12240,
+      "md5": "d1a8464447612679578ffb7b5e46850c"
+    },
+    "audio/sentences/L-n-ex.mp3": {
+      "bytes": 13104,
+      "md5": "d0ee7fe84feffb62dbfb9bfa2507ae2f"
+    },
+    "audio/sentences/L-o-ex.mp3": {
+      "bytes": 14832,
+      "md5": "fc9dd898edcde5655d2e1e9e4b0c208b"
+    },
+    "audio/sentences/L-p-ex.mp3": {
+      "bytes": 12528,
+      "md5": "81dd141dea130916bee5f65ac3cd56e4"
+    },
+    "audio/sentences/L-q-ex.mp3": {
+      "bytes": 12528,
+      "md5": "af0fd0aa95307c584b34e6244eedcdfb"
+    },
+    "audio/sentences/L-r-ex.mp3": {
+      "bytes": 12528,
+      "md5": "a77c588dabb608685d57f7e0fc7d7f65"
+    },
+    "audio/sentences/L-s-ex.mp3": {
+      "bytes": 12816,
+      "md5": "6d8639e489cdf84c55df16f28ff922ec"
+    },
+    "audio/sentences/L-t-ex.mp3": {
+      "bytes": 13392,
+      "md5": "d738e04795d8f520dd6480d971f9813a"
+    },
+    "audio/sentences/L-u-ex.mp3": {
+      "bytes": 13104,
+      "md5": "3e8217926cb417dd5e72e4ce8e75dab2"
+    },
+    "audio/sentences/L-v-ex.mp3": {
+      "bytes": 12528,
+      "md5": "607a9b38f3c0265f3397b88b10f3d590"
+    },
+    "audio/sentences/L-w-ex.mp3": {
+      "bytes": 16128,
+      "md5": "5717e1c0c4b7ca8d20f1452b195b0df2"
+    },
+    "audio/sentences/L-x-ex.mp3": {
+      "bytes": 13248,
+      "md5": "6d1c06bedf7e0159d859b9890d1f453f"
+    },
+    "audio/sentences/L-y-ex.mp3": {
+      "bytes": 13104,
+      "md5": "4e779c638d938f056d1ffd69c88a7f3f"
+    },
+    "audio/sentences/L-z-ex.mp3": {
+      "bytes": 12960,
+      "md5": "2bd3fccd2d325faf7e6763f05563e568"
+    },
+    "audio/sentences/bear-ex.mp3": {
+      "bytes": 12240,
+      "md5": "56b7105750ba9a86d348d74df850f29d"
+    },
+    "audio/sentences/bed-ex.mp3": {
+      "bytes": 12096,
+      "md5": "c5da14a5cac12ffbd6c7b42b39416c62"
+    },
+    "audio/sentences/bird-ex.mp3": {
+      "bytes": 13104,
+      "md5": "f9c966c3b6375f7f53840785fdc19f52"
+    },
+    "audio/sentences/black-ex.mp3": {
+      "bytes": 12960,
+      "md5": "e55fd3d83452a238387d267b3430f669"
+    },
+    "audio/sentences/blue-ex.mp3": {
+      "bytes": 12816,
+      "md5": "d45590c56fb8988ef18f746be1c85ad3"
+    },
+    "audio/sentences/box-ex.mp3": {
+      "bytes": 12240,
+      "md5": "d2af3ea93ca750fa7d10350b7e388b7e"
+    },
+    "audio/sentences/brown-ex.mp3": {
+      "bytes": 12960,
+      "md5": "c0fc57063fc4128e12f1d9af9aea9bff"
+    },
+    "audio/sentences/bug-ex.mp3": {
+      "bytes": 12816,
+      "md5": "653458b6338373207ceaa42b94c9c1fd"
+    },
+    "audio/sentences/cat-ex.mp3": {
+      "bytes": 12528,
+      "md5": "1e1b851adb2e006a23b11dc8ff1adb1e"
+    },
+    "audio/sentences/dog-ex.mp3": {
+      "bytes": 12960,
+      "md5": "df377eb06b6fd001f00200a43726488e"
+    },
+    "audio/sentences/duck-ex.mp3": {
+      "bytes": 13392,
+      "md5": "365b186c2ad23774534df173151915d3"
+    },
+    "audio/sentences/fish-ex.mp3": {
+      "bytes": 13680,
+      "md5": "f49d374491cd90972759ea03f64499c4"
+    },
+    "audio/sentences/green-ex.mp3": {
+      "bytes": 13104,
+      "md5": "8f78f8ffee4d7a130f3493d3b4002de6"
+    },
+    "audio/sentences/hat-ex.mp3": {
+      "bytes": 11664,
+      "md5": "5e903ed3e06d742026607e5317dbadea"
+    },
+    "audio/sentences/hot-ex.mp3": {
+      "bytes": 12672,
+      "md5": "c297a5b05400a1f37e09c5ab888f564b"
+    },
+    "audio/sentences/map-ex.mp3": {
+      "bytes": 11664,
+      "md5": "fd0bbed87a01015647f7a81197016324"
+    },
+    "audio/sentences/monkey-ex.mp3": {
+      "bytes": 13536,
+      "md5": "63229d1e4323f32f6c37e60a45b458d4"
+    },
+    "audio/sentences/orange-ex.mp3": {
+      "bytes": 12672,
+      "md5": "52d76a83918e1644504cbdf911e3c922"
+    },
+    "audio/sentences/panda-ex.mp3": {
+      "bytes": 12816,
+      "md5": "37916316b52519426e8d514b7d8ac766"
+    },
+    "audio/sentences/pen-ex.mp3": {
+      "bytes": 12096,
+      "md5": "ed0ba06a482560672ff2febe722ddeee"
+    },
+    "audio/sentences/pig-ex.mp3": {
+      "bytes": 12816,
+      "md5": "b96977719fcf9726a19bafc59180bcbe"
+    },
+    "audio/sentences/pink-ex.mp3": {
+      "bytes": 12816,
+      "md5": "d613967cc912b2ff1790993a9bc03a8a"
+    },
+    "audio/sentences/purple-ex.mp3": {
+      "bytes": 13536,
+      "md5": "51a7604bc83033324fe95d9e0dee0ad5"
+    },
+    "audio/sentences/rabbit-ex.mp3": {
+      "bytes": 13248,
+      "md5": "9328412315b9b7be5f3615ccf81333d2"
+    },
+    "audio/sentences/red-ex.mp3": {
+      "bytes": 13104,
+      "md5": "be1790ff77cadd203b569a7705996eb0"
+    },
+    "audio/sentences/sit-ex.mp3": {
+      "bytes": 15408,
+      "md5": "a97dc64a8c2ec76a93a8e686bbeedc98"
+    },
+    "audio/sentences/sun-ex.mp3": {
+      "bytes": 11952,
+      "md5": "123679b60341e2bd592ac431684ee95a"
+    },
+    "audio/sentences/u0-s1.mp3": {
+      "bytes": 12528,
+      "md5": "8e78a95b3a065b863c956f2890be19f4"
+    },
+    "audio/sentences/u0-s2.mp3": {
+      "bytes": 12960,
+      "md5": "ef22fba8222034a037fb66bf57b4945e"
+    },
+    "audio/sentences/u1-s1.mp3": {
+      "bytes": 13104,
+      "md5": "a5a79f8c15941e4637b243756350ec06"
+    },
+    "audio/sentences/u1-s2.mp3": {
+      "bytes": 11664,
+      "md5": "0a4e8e05c9d71a082caf415b01c00356"
+    },
+    "audio/sentences/u1-s3.mp3": {
+      "bytes": 11232,
+      "md5": "beb2a882ca77aca4f6b7466287440aba"
+    },
+    "audio/sentences/u1-s4.mp3": {
+      "bytes": 12816,
+      "md5": "71bc219fc60c3f120678cdab94176da5"
+    },
+    "audio/sentences/u1-s5.mp3": {
+      "bytes": 13104,
+      "md5": "8f2b781bbe5e63c69e9641a4400aa31d"
+    },
+    "audio/sentences/u1-s6.mp3": {
+      "bytes": 11952,
+      "md5": "b7893b08cdff9d25e7600cc572a26bf5"
+    },
+    "audio/sentences/u2-s1.mp3": {
+      "bytes": 22752,
+      "md5": "d64c8249d5a5f1cfe36663252b772072"
+    },
+    "audio/sentences/u2-s2.mp3": {
+      "bytes": 13104,
+      "md5": "dce3433206af57fdbf99de942894a296"
+    },
+    "audio/sentences/u2-s3.mp3": {
+      "bytes": 12960,
+      "md5": "e91f7456d030afb73c42e794f28709d7"
+    },
+    "audio/sentences/u2-s4.mp3": {
+      "bytes": 14688,
+      "md5": "02bc80c8036a59c55932a7483f880dbd"
+    },
+    "audio/sentences/u3-s1.mp3": {
+      "bytes": 22032,
+      "md5": "7afbdca00ef71c4c2553fc56f946086b"
+    },
+    "audio/sentences/u3-s2.mp3": {
+      "bytes": 12672,
+      "md5": "fa41466f63903f019d10b05d1c54fb0f"
+    },
+    "audio/sentences/u3-s3.mp3": {
+      "bytes": 12816,
+      "md5": "1f60be1eab6b42db977b1aea1b457beb"
+    },
+    "audio/sentences/u3-s4.mp3": {
+      "bytes": 13392,
+      "md5": "49daf1d8c7fa4bfc5760569bf2bac0ee"
+    },
+    "audio/sentences/u3-s5.mp3": {
+      "bytes": 12240,
+      "md5": "050d46e4d44594927799652fbe67b88f"
+    },
+    "audio/sentences/u3-s6.mp3": {
+      "bytes": 14688,
+      "md5": "0893edbb3db56e11f338007e30567106"
+    },
+    "audio/sentences/white-ex.mp3": {
+      "bytes": 13248,
+      "md5": "28ede2c8147f28e278e62695143302ee"
+    },
+    "audio/sentences/yellow-ex.mp3": {
+      "bytes": 13248,
+      "md5": "79dc4936a7df205cffa4648604b8fe9a"
+    },
+    "audio/stories/s01-cat-and-dog/p1.mp3": {
+      "bytes": 12384,
+      "md5": "b58230ebceba416ed063bad666dcf607"
+    },
+    "audio/stories/s01-cat-and-dog/p2.mp3": {
+      "bytes": 12096,
+      "md5": "025518df82bafabd4b188736e8e08e13"
+    },
+    "audio/stories/s01-cat-and-dog/p3.mp3": {
+      "bytes": 12960,
+      "md5": "7b629cbd7f806840f6d295cc5b7ce30f"
+    },
+    "audio/stories/s01-cat-and-dog/p4.mp3": {
+      "bytes": 12816,
+      "md5": "dc79ea77f5c4cb7a800debf544b73d97"
+    },
+    "audio/stories/s01-cat-and-dog/p5.mp3": {
+      "bytes": 13536,
+      "md5": "a7c7009d4762370f6041b5d67ad87579"
+    },
+    "audio/stories/s01-cat-and-dog/p6.mp3": {
+      "bytes": 12960,
+      "md5": "36843cadfc7c8e709756c09988189db0"
+    },
+    "audio/stories/s01-cat-and-dog/p7.mp3": {
+      "bytes": 24480,
+      "md5": "8066306959da1a8c5b2688c5a63a31aa"
+    },
+    "audio/stories/s01-cat-and-dog/p8.mp3": {
+      "bytes": 9648,
+      "md5": "9cf4a84583b5dd292552884a162452c4"
+    },
+    "audio/stories/s02-rainbow-fish/p1.mp3": {
+      "bytes": 12672,
+      "md5": "3899cab397ffebbbe67f58ada4dffafd"
+    },
+    "audio/stories/s02-rainbow-fish/p2.mp3": {
+      "bytes": 12672,
+      "md5": "f6faab2ebec6bd9c90fb11109c902e36"
+    },
+    "audio/stories/s02-rainbow-fish/p3.mp3": {
+      "bytes": 12816,
+      "md5": "2bc5c514e09b1952e7fb58a2166e16b0"
+    },
+    "audio/stories/s02-rainbow-fish/p4.mp3": {
+      "bytes": 13248,
+      "md5": "868c0da5ba8ce3f65d9b5d985f334213"
+    },
+    "audio/stories/s02-rainbow-fish/p5.mp3": {
+      "bytes": 16704,
+      "md5": "faee74456c1055942552fa6d552b87d4"
+    },
+    "audio/stories/s02-rainbow-fish/p6.mp3": {
+      "bytes": 12960,
+      "md5": "f81961a0b9204e2b76984e6e53df627f"
+    },
+    "audio/stories/s02-rainbow-fish/p7.mp3": {
+      "bytes": 14832,
+      "md5": "bb4eeaffa3b1e2c1b7a7ddb6edc4e109"
+    },
+    "audio/stories/s02-rainbow-fish/p8.mp3": {
+      "bytes": 9648,
+      "md5": "9cf4a84583b5dd292552884a162452c4"
+    },
+    "audio/stories/s03-the-hat-and-the-cat/p1.mp3": {
+      "bytes": 13680,
+      "md5": "70b7034341002ef0fe6c6e4a874f859d"
+    },
+    "audio/stories/s03-the-hat-and-the-cat/p2.mp3": {
+      "bytes": 14256,
+      "md5": "8117e2a1bbff4f7d72cf92e9e82e2604"
+    },
+    "audio/stories/s03-the-hat-and-the-cat/p3.mp3": {
+      "bytes": 13536,
+      "md5": "dbfbaf058c278024919aa85fc47eb67d"
+    },
+    "audio/stories/s03-the-hat-and-the-cat/p4.mp3": {
+      "bytes": 16848,
+      "md5": "09ebff8c8e33b88d167463ecce08e5fb"
+    },
+    "audio/stories/s03-the-hat-and-the-cat/p5.mp3": {
+      "bytes": 23040,
+      "md5": "76521f952a9762346188af500329ecf5"
+    },
+    "audio/stories/s03-the-hat-and-the-cat/p6.mp3": {
+      "bytes": 12672,
+      "md5": "69a477c48583fab727a18b5b07c6e7ae"
+    },
+    "audio/stories/s03-the-hat-and-the-cat/p7.mp3": {
+      "bytes": 14832,
+      "md5": "c64de8ab3cbcdbe75d64a02e3bdfc109"
+    },
+    "audio/stories/s03-the-hat-and-the-cat/p8.mp3": {
+      "bytes": 23184,
+      "md5": "81acdfa57ccb31f9db2999039b01d856"
+    },
+    "audio/stories/s04-the-big-bear/p1.mp3": {
+      "bytes": 13248,
+      "md5": "b7c1ffc654b9f5da1d565719fb599e49"
+    },
+    "audio/stories/s04-the-big-bear/p2.mp3": {
+      "bytes": 12960,
+      "md5": "be4e260f2b52464b334fad15baf41213"
+    },
+    "audio/stories/s04-the-big-bear/p3.mp3": {
+      "bytes": 12960,
+      "md5": "cee34a5e951beb09bb85dcf4bf4fcd7b"
+    },
+    "audio/stories/s04-the-big-bear/p4.mp3": {
+      "bytes": 12528,
+      "md5": "7cba9717d570072677eaa1278d43ba8d"
+    },
+    "audio/stories/s04-the-big-bear/p5.mp3": {
+      "bytes": 12672,
+      "md5": "db08e3ef9a1d06ef99b0c44e53569873"
+    },
+    "audio/stories/s04-the-big-bear/p6.mp3": {
+      "bytes": 12384,
+      "md5": "8e3b70d9ef871d31b20fd62b92669231"
+    },
+    "audio/stories/s04-the-big-bear/p7.mp3": {
+      "bytes": 15984,
+      "md5": "3cf3b2cfb8291e837062e478ce69b5d9"
+    },
+    "audio/stories/s04-the-big-bear/p8.mp3": {
+      "bytes": 14400,
+      "md5": "44dec03915c3bf42901853fb58e5da61"
+    },
+    "audio/ui/foxy-hello-zh.mp3": {
+      "bytes": 31824,
+      "md5": "6b4f17a6282115edabb8fea9421bebb4"
+    },
+    "audio/ui/foxy-hello.mp3": {
+      "bytes": 33840,
+      "md5": "845bed76be67b84fe7a4f21956769251"
+    },
+    "audio/ui/foxy-line-1-zh.mp3": {
+      "bytes": 18000,
+      "md5": "75f277b66440a30a361e96797a841e98"
+    },
+    "audio/ui/foxy-line-1.mp3": {
+      "bytes": 21024,
+      "md5": "7e800db7dd478204845ac632de06d92d"
+    },
+    "audio/ui/foxy-line-2-zh.mp3": {
+      "bytes": 16272,
+      "md5": "59acf5894f3808de67d37db9754e39ba"
+    },
+    "audio/ui/foxy-line-2.mp3": {
+      "bytes": 13536,
+      "md5": "791fdd8c1d45c52232eab74cfee8a17e"
+    },
+    "audio/ui/foxy-line-3-zh.mp3": {
+      "bytes": 14112,
+      "md5": "37f1050d92ec6c56bf05f8dab20a14d4"
+    },
+    "audio/ui/foxy-line-3.mp3": {
+      "bytes": 12384,
+      "md5": "c9dcac63eb9cd69c9c525d2121812128"
+    },
+    "audio/ui/foxy-line-4-zh.mp3": {
+      "bytes": 10512,
+      "md5": "0cfca05d6e6419cef123f93b3adb80b4"
+    },
+    "audio/ui/foxy-line-4.mp3": {
+      "bytes": 12240,
+      "md5": "d7eb49443c67ee0b3bd4d5f0c8fc70b2"
+    },
+    "audio/ui/foxy-line-5-zh.mp3": {
+      "bytes": 14688,
+      "md5": "49598b257b19698f0883c457c15ca6a5"
+    },
+    "audio/ui/foxy-line-5.mp3": {
+      "bytes": 13392,
+      "md5": "5a3277d227dd05dd60aece1343b009bb"
+    },
+    "audio/ui/foxy-line-6-zh.mp3": {
+      "bytes": 14400,
+      "md5": "24122f9523b8a8fb13cf8bce40e388a1"
+    },
+    "audio/ui/foxy-line-6.mp3": {
+      "bytes": 13680,
+      "md5": "ff21a0bf27c647a3991455190b7c0f37"
+    },
+    "audio/words/L-a.mp3": {
+      "bytes": 16992,
+      "md5": "ed88009647ce738f37a31c2c77625038"
+    },
+    "audio/words/L-b.mp3": {
+      "bytes": 16416,
+      "md5": "88517d35f631000fb980996a30139962"
+    },
+    "audio/words/L-c.mp3": {
+      "bytes": 17280,
+      "md5": "4d970c0d1d723f6844e765d178329dd7"
+    },
+    "audio/words/L-d.mp3": {
+      "bytes": 16416,
+      "md5": "f03df868fcdb5f81e6148adc5125e8b6"
+    },
+    "audio/words/L-e.mp3": {
+      "bytes": 17280,
+      "md5": "23c44b283ed5ce07c0be9d7584dd7d7c"
+    },
+    "audio/words/L-f.mp3": {
+      "bytes": 17568,
+      "md5": "65c8036d0bd81a58100f6844cfcc7928"
+    },
+    "audio/words/L-g.mp3": {
+      "bytes": 16704,
+      "md5": "34a66240986a988dce35febfee87f05f"
+    },
+    "audio/words/L-h.mp3": {
+      "bytes": 16992,
+      "md5": "12e1ffd24b2a63a66b649361a2148406"
+    },
+    "audio/words/L-i.mp3": {
+      "bytes": 18000,
+      "md5": "9fa5187d80f3a5c4ae03cd2ebc6e79a9"
+    },
+    "audio/words/L-j.mp3": {
+      "bytes": 18144,
+      "md5": "7e0046cc2da395878f5a84b7d794da6f"
+    },
+    "audio/words/L-k.mp3": {
+      "bytes": 18288,
+      "md5": "91c2690eb54f03a3d2aa0bf54225ce20"
+    },
+    "audio/words/L-l.mp3": {
+      "bytes": 16704,
+      "md5": "3f2bbca8b6006dfc594ed15d87f97bbc"
+    },
+    "audio/words/L-m.mp3": {
+      "bytes": 16272,
+      "md5": "ea6cebf702eae4535807e995c84af2b9"
+    },
+    "audio/words/L-n.mp3": {
+      "bytes": 17280,
+      "md5": "8343fe24045134d14fcb31387ea07599"
+    },
+    "audio/words/L-o.mp3": {
+      "bytes": 20160,
+      "md5": "e8a3c87709db45b167d5f46ac6dba013"
+    },
+    "audio/words/L-p.mp3": {
+      "bytes": 16848,
+      "md5": "67e00f1497a75c271557d597f0e88009"
+    },
+    "audio/words/L-q.mp3": {
+      "bytes": 18144,
+      "md5": "6fdb42ec1c2a20067f476015bc4e1aad"
+    },
+    "audio/words/L-r.mp3": {
+      "bytes": 16848,
+      "md5": "62fa2ed39f5e9267a6c608be1217b102"
+    },
+    "audio/words/L-s.mp3": {
+      "bytes": 16848,
+      "md5": "5350a01a88698d2609925d0ab839a301"
+    },
+    "audio/words/L-t.mp3": {
+      "bytes": 17424,
+      "md5": "f7a0137a7df312635f9d4bcc5bfdf86a"
+    },
+    "audio/words/L-u.mp3": {
+      "bytes": 18144,
+      "md5": "bed09c95f719a2788faa52bf1775348a"
+    },
+    "audio/words/L-v.mp3": {
+      "bytes": 17424,
+      "md5": "88ccc2bb12ee295d5446bcc9fef55558"
+    },
+    "audio/words/L-w.mp3": {
+      "bytes": 22896,
+      "md5": "12274fc6a48c42b13074665fc129b778"
+    },
+    "audio/words/L-x.mp3": {
+      "bytes": 17856,
+      "md5": "240f198a901bf6639fe231a2c64585ea"
+    },
+    "audio/words/L-y.mp3": {
+      "bytes": 17856,
+      "md5": "a5a0dac9554925a87dba89b48ac0c512"
+    },
+    "audio/words/L-z.mp3": {
+      "bytes": 17424,
+      "md5": "5cd391f4608a2f955376324891da6947"
+    },
+    "audio/words/bear.mp3": {
+      "bytes": 10800,
+      "md5": "f5c8d14c7d372c99c74489ff1027d6a7"
+    },
+    "audio/words/bed.mp3": {
+      "bytes": 10512,
+      "md5": "4370faea10b1de9865e0bddf61972eb2"
+    },
+    "audio/words/bird.mp3": {
+      "bytes": 10368,
+      "md5": "f2d1509c4d4cfd550af737a0ae86cd6c"
+    },
+    "audio/words/black.mp3": {
+      "bytes": 11376,
+      "md5": "74f6dccdbdf6629077a6247614b99ff1"
+    },
+    "audio/words/blue.mp3": {
+      "bytes": 10800,
+      "md5": "97c49c92290e3cfbda4c52f1074fe236"
+    },
+    "audio/words/box.mp3": {
+      "bytes": 11520,
+      "md5": "cd0ebb52a3acc1895533670a217f8103"
+    },
+    "audio/words/brown.mp3": {
+      "bytes": 11088,
+      "md5": "7291f756c4fe601c19594b43468d3916"
+    },
+    "audio/words/bug.mp3": {
+      "bytes": 10512,
+      "md5": "b91911dd9c1920bc187402791b778cd8"
+    },
+    "audio/words/cat.mp3": {
+      "bytes": 11088,
+      "md5": "8890dc482cc8a4e69ce98948aba7ac26"
+    },
+    "audio/words/dog.mp3": {
+      "bytes": 10800,
+      "md5": "440df5b27a4a5ce01539260740ca5709"
+    },
+    "audio/words/duck.mp3": {
+      "bytes": 10944,
+      "md5": "0f02dabd14d096ce50c6c831e59d3a8a"
+    },
+    "audio/words/fish.mp3": {
+      "bytes": 11232,
+      "md5": "3ddb3f6a636b4f341cb74379c053f00c"
+    },
+    "audio/words/green.mp3": {
+      "bytes": 11088,
+      "md5": "9eca36765190547438835b8ec3a1ba26"
+    },
+    "audio/words/hat.mp3": {
+      "bytes": 11088,
+      "md5": "aa7696eed5fb13890ac4cde61bc434da"
+    },
+    "audio/words/hot.mp3": {
+      "bytes": 10800,
+      "md5": "1f00bb524ac763584cffdc5da283151b"
+    },
+    "audio/words/map.mp3": {
+      "bytes": 10656,
+      "md5": "ae7663ddc40bdc97f94d32c89a006bab"
+    },
+    "audio/words/monkey.mp3": {
+      "bytes": 11952,
+      "md5": "0f242ea35c6dd88040b5b4a79fd29251"
+    },
+    "audio/words/orange.mp3": {
+      "bytes": 11664,
+      "md5": "bcb46cc177dd4a1c38567376b1c17b5b"
+    },
+    "audio/words/panda.mp3": {
+      "bytes": 11376,
+      "md5": "cf781e46caefd247d41b9b86d885c6b9"
+    },
+    "audio/words/pen.mp3": {
+      "bytes": 10656,
+      "md5": "9181ecc0ca12063a85fbf671571700b8"
+    },
+    "audio/words/pig.mp3": {
+      "bytes": 10368,
+      "md5": "54286ec466428a3a6914b2c30da2ac36"
+    },
+    "audio/words/pink.mp3": {
+      "bytes": 11088,
+      "md5": "ce2040de29c38aba5a09cc34b0712a35"
+    },
+    "audio/words/purple.mp3": {
+      "bytes": 11520,
+      "md5": "8b8afa1824a421c9dccc84d108c8386b"
+    },
+    "audio/words/rabbit.mp3": {
+      "bytes": 11520,
+      "md5": "55fda1e3307a0c28c710e49ce4846ae5"
+    },
+    "audio/words/red.mp3": {
+      "bytes": 10800,
+      "md5": "854189034e7e3ad85bb7a84061ee0021"
+    },
+    "audio/words/sit.mp3": {
+      "bytes": 11376,
+      "md5": "fbad0415e38e58e8122eb738af9991bb"
+    },
+    "audio/words/sun.mp3": {
+      "bytes": 11232,
+      "md5": "0b2e2f5daa59d9caf791f8264df6ff8c"
+    },
+    "audio/words/white.mp3": {
+      "bytes": 11232,
+      "md5": "f77edc17cd4ac20dae45c16fce21ec88"
+    },
+    "audio/words/yellow.mp3": {
+      "bytes": 11664,
+      "md5": "0c54fd6962ae634132966b40707cc29e"
+    },
+    "images/stories/s01-cat-and-dog/p1.jpg": {
+      "bytes": 245403,
+      "md5": "a924c226c1be8aae0d97a10e9156f90e"
+    },
+    "images/stories/s01-cat-and-dog/p2.jpg": {
+      "bytes": 211358,
+      "md5": "d8575ede3f9aaba21010b34f8a1de8cb"
+    },
+    "images/stories/s01-cat-and-dog/p3.jpg": {
+      "bytes": 174426,
+      "md5": "c1d5a93bef5392e3cb104373b93a60e0"
+    },
+    "images/stories/s01-cat-and-dog/p4.jpg": {
+      "bytes": 201755,
+      "md5": "f40e33e86edc3623794717ed03131962"
+    },
+    "images/stories/s01-cat-and-dog/p5.jpg": {
+      "bytes": 132785,
+      "md5": "8ad5dd6ea83663f497cbc454531ec15b"
+    },
+    "images/stories/s01-cat-and-dog/p6.jpg": {
+      "bytes": 220577,
+      "md5": "4184cc33177129ae151d0d3e9c70580d"
+    },
+    "images/stories/s01-cat-and-dog/p7.jpg": {
+      "bytes": 219490,
+      "md5": "a43a1cd2c2ad68d9ef6650d5ef912c87"
+    },
+    "images/stories/s01-cat-and-dog/p8.jpg": {
+      "bytes": 287735,
+      "md5": "4243dbf5fb70782075e6d5dcc206930e"
+    },
+    "images/stories/s02-rainbow-fish/p1.jpg": {
+      "bytes": 224339,
+      "md5": "a81ef5dc7a99e3fd8027289a2d278b22"
+    },
+    "images/stories/s02-rainbow-fish/p2.jpg": {
+      "bytes": 238685,
+      "md5": "de61367797a0686660e542db6dbced6a"
+    },
+    "images/stories/s02-rainbow-fish/p3.jpg": {
+      "bytes": 182778,
+      "md5": "079b192d29a378ef9a384563b157f36a"
+    },
+    "images/stories/s02-rainbow-fish/p4.jpg": {
+      "bytes": 264761,
+      "md5": "a7af384dfe0bf46d4a4ab65581bde228"
+    },
+    "images/stories/s02-rainbow-fish/p5.jpg": {
+      "bytes": 248092,
+      "md5": "f55b23596c6d325bd4fca71acf9e5bc9"
+    },
+    "images/stories/s02-rainbow-fish/p6.jpg": {
+      "bytes": 159182,
+      "md5": "50aeafcdd2d2a65022f59e48c58e315a"
+    },
+    "images/stories/s02-rainbow-fish/p7.jpg": {
+      "bytes": 188885,
+      "md5": "e98a7a3467fe8b687ed884e5f01acdc8"
+    },
+    "images/stories/s02-rainbow-fish/p8.jpg": {
+      "bytes": 275600,
+      "md5": "2b78857c6ffafa23eb0c2de6983e7841"
+    },
+    "images/stories/s03-the-hat-and-the-cat/p1.jpg": {
+      "bytes": 212627,
+      "md5": "b0276bdf63eb611d74dd5272ee70d4dc"
+    },
+    "images/stories/s03-the-hat-and-the-cat/p2.jpg": {
+      "bytes": 189553,
+      "md5": "c06cb75e1954013f5e96407d417eb932"
+    },
+    "images/stories/s03-the-hat-and-the-cat/p3.jpg": {
+      "bytes": 164359,
+      "md5": "f40c6406ce2107c882586a14115f7fe6"
+    },
+    "images/stories/s03-the-hat-and-the-cat/p4.jpg": {
+      "bytes": 175710,
+      "md5": "4546d4e8ee807d7181c5d10f80975092"
+    },
+    "images/stories/s03-the-hat-and-the-cat/p5.jpg": {
+      "bytes": 278115,
+      "md5": "42d96f40c24820ce85a4efb0f5a5c1e4"
+    },
+    "images/stories/s03-the-hat-and-the-cat/p6.jpg": {
+      "bytes": 279643,
+      "md5": "d8a1f3c9b9a4aa078e8eac1837f6b85b"
+    },
+    "images/stories/s03-the-hat-and-the-cat/p7.jpg": {
+      "bytes": 279617,
+      "md5": "27e22c2b46079c63183e51a49c2b7b57"
+    },
+    "images/stories/s03-the-hat-and-the-cat/p8.jpg": {
+      "bytes": 242002,
+      "md5": "cdca3ae5542be83d88269418f112b8cb"
+    },
+    "images/stories/s04-the-big-bear/p1.jpg": {
+      "bytes": 269866,
+      "md5": "90e664c7569cae662715cf89ad28c79e"
+    },
+    "images/stories/s04-the-big-bear/p2.jpg": {
+      "bytes": 263624,
+      "md5": "c3f2b052aa4fd6124de142475888dbce"
+    },
+    "images/stories/s04-the-big-bear/p3.jpg": {
+      "bytes": 201604,
+      "md5": "5e61e9fab962966856f8d04131221a84"
+    },
+    "images/stories/s04-the-big-bear/p4.jpg": {
+      "bytes": 171280,
+      "md5": "58a8a382432a0d35913761e42aa81150"
+    },
+    "images/stories/s04-the-big-bear/p5.jpg": {
+      "bytes": 189468,
+      "md5": "327e221cfd31f7dfc77f8475751d8d8f"
+    },
+    "images/stories/s04-the-big-bear/p6.jpg": {
+      "bytes": 286447,
+      "md5": "da9b20f8425b48d114395a6ef3942525"
+    },
+    "images/stories/s04-the-big-bear/p7.jpg": {
+      "bytes": 182569,
+      "md5": "51f8aafb7ad74cfccd516becc2ce2b15"
+    },
+    "images/stories/s04-the-big-bear/p8.jpg": {
+      "bytes": 285238,
+      "md5": "07336cf58a2cd008c1b65488a1bbd0ce"
+    },
+    "images/units/u0-letters.jpg": {
+      "bytes": 293311,
+      "md5": "daf43958c4567183ba99b19c1425618b"
+    },
+    "images/units/u1-phonics-cvc.jpg": {
+      "bytes": 149314,
+      "md5": "4346d7607488f771972f68495189b372"
+    },
+    "images/units/u2-colors.jpg": {
+      "bytes": 177612,
+      "md5": "8493d8a7d0c9ff82c3ca5c3757c8f5f2"
+    },
+    "images/units/u3-animals.jpg": {
+      "bytes": 394605,
+      "md5": "3bbd09184734277791fb9febb79bab2e"
+    },
+    "images/words/bear.jpg": {
+      "bytes": 166725,
+      "md5": "82334f29bf796d73c4008b5fe3e7897a"
+    },
+    "images/words/bed.jpg": {
+      "bytes": 153233,
+      "md5": "702aae724037fd3932d9c2e1397ec4d4"
+    },
+    "images/words/bird.jpg": {
+      "bytes": 211251,
+      "md5": "f428094cea38b42e0d43bedf0d453498"
+    },
+    "images/words/black.jpg": {
+      "bytes": 82178,
+      "md5": "4bf15d1976bddbe5e69d9d8b305ad930"
+    },
+    "images/words/blue.jpg": {
+      "bytes": 120548,
+      "md5": "9d24f0631171ccc92ad4ce1dd3059798"
+    },
+    "images/words/box.jpg": {
+      "bytes": 161462,
+      "md5": "a6ffb182d806d1d740f4e1d779eeb9cb"
+    },
+    "images/words/brown.jpg": {
+      "bytes": 261778,
+      "md5": "1835137030ec9ca1565a0c4b81999df3"
+    },
+    "images/words/bug.jpg": {
+      "bytes": 186858,
+      "md5": "6bed7d941e122605e02af3c13bf28a02"
+    },
+    "images/words/cat.jpg": {
+      "bytes": 221062,
+      "md5": "55187b6f176ee7064a8ea226ed7804b8"
+    },
+    "images/words/dog.jpg": {
+      "bytes": 245751,
+      "md5": "8d4a2e83dd707d5329ed100974d189cf"
+    },
+    "images/words/duck.jpg": {
+      "bytes": 129547,
+      "md5": "90a7d20101f439f93cf7b0230eb02fbb"
+    },
+    "images/words/fish.jpg": {
+      "bytes": 194114,
+      "md5": "25312d5875d60db3a0c398ae852d7b51"
+    },
+    "images/words/green.jpg": {
+      "bytes": 141970,
+      "md5": "2d75f561d10b4838bb0d7fbc6090b1a0"
+    },
+    "images/words/hat.jpg": {
+      "bytes": 189044,
+      "md5": "234c608de68c97c817657d86cdab3724"
+    },
+    "images/words/hot.jpg": {
+      "bytes": 247269,
+      "md5": "c426d087682842dd1f742259e550ae05"
+    },
+    "images/words/map.jpg": {
+      "bytes": 184834,
+      "md5": "6e67a1ddc31d72b7e80e9b84c940b3a8"
+    },
+    "images/words/monkey.jpg": {
+      "bytes": 339962,
+      "md5": "a543c8c0a692719b31fd0a5aaaf91db4"
+    },
+    "images/words/orange.jpg": {
+      "bytes": 134074,
+      "md5": "a32aa9cebc359dd9a17b8ba92af8cbb1"
+    },
+    "images/words/panda.jpg": {
+      "bytes": 210571,
+      "md5": "be592ebc23ed5289ad7f418a8bc89abf"
+    },
+    "images/words/pen.jpg": {
+      "bytes": 142145,
+      "md5": "c59bd72789da14d5f40f9d0e3f28f73b"
+    },
+    "images/words/pig.jpg": {
+      "bytes": 84420,
+      "md5": "4602d323863515f0d32de3db545f55f5"
+    },
+    "images/words/pink.jpg": {
+      "bytes": 113607,
+      "md5": "301bda03a935e44d6ced9fa14a88c36d"
+    },
+    "images/words/purple.jpg": {
+      "bytes": 73333,
+      "md5": "e99e78924dffbbf3d11e00f7c474f1ef"
+    },
+    "images/words/rabbit.jpg": {
+      "bytes": 177783,
+      "md5": "c037bd1b3edf4d6bb0929e8bced50f81"
+    },
+    "images/words/red.jpg": {
+      "bytes": 118734,
+      "md5": "93b1e6cc04e46daac5ae3b2341a00f96"
+    },
+    "images/words/sit.jpg": {
+      "bytes": 246907,
+      "md5": "395022d16d076e14f26a6107368e4fdc"
+    },
+    "images/words/sun.jpg": {
+      "bytes": 190264,
+      "md5": "8b4ffc2ae6cb9f3c43f664977db1618d"
+    },
+    "images/words/white.jpg": {
+      "bytes": 68046,
+      "md5": "5cb8567cc818f4a1f753d5a2774bceaf"
+    }
+  }
+}

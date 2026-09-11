@@ -5,6 +5,9 @@
 
 export interface PlayOpts {
   rate?: number; // TTS 兜底语速，词 0.8 / 句 0.95
+  /** MP3 资产的播放速度（HTMLMediaElement.playbackRate，降速不变调）。
+   *  注意与 rate 分开：资产生成时已带慢速（词 0.8x），此处只用于「慢速开关」等交互，默认 1 */
+  assetRate?: number;
   lang?: "en-US" | "zh-CN"; // TTS 兜底语言
   onEnd?: () => void;
 }
@@ -171,6 +174,13 @@ export function playAsset(path: string, fallbackText: string, opts: PlayOpts = {
       markFailed(path);
       speak(fallbackText, { ...opts, onEnd: done });
     };
+    // 慢速开关：作用于真实资产（降速不变调）
+    const ar = opts.assetRate ?? 1;
+    try {
+      a.playbackRate = Math.min(2, Math.max(0.5, ar));
+    } catch {
+      /* 个别老浏览器设置时机限制，忽略 */
+    }
     void a.play()
       .then(() => {
         // 播放成功启动

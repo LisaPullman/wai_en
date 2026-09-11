@@ -23,7 +23,7 @@ export default function Page() {
     <div className="mx-auto w-full max-w-2xl px-4 pb-28 pt-6">
       <header className="mb-5 flex items-center justify-between">
         <h1 className="text-2xl font-black text-slate-700">👨‍👩‍👧 家长中心 Parent</h1>
-        <button onClick={() => setUnlocked(false)} className="text-sm font-bold text-slate-400">
+        <button onClick={() => setUnlocked(false)} className="text-sm font-bold text-slate-500">
           锁定 Lock
         </button>
       </header>
@@ -69,7 +69,7 @@ export default function Page() {
                 <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-slate-100">
                   <div className="h-full rounded-full bg-grape" style={{ width: `${(stars / max) * 100}%` }} />
                 </div>
-                <span className="w-12 text-right text-slate-400">
+                <span className="w-12 text-right text-slate-500">
                   {stars}/{max}
                 </span>
               </div>
@@ -90,7 +90,10 @@ export default function Page() {
             placeholder="小朋友"
           />
         </label>
-        <div className="flex flex-col gap-2">
+
+        <BackupPanel />
+
+        <div className="mt-3 flex flex-col gap-2">
           <BigButton
             zh="解锁下一单元（孩子已掌握当前单元时用）"
             en="Unlock next unit"
@@ -116,24 +119,134 @@ function pct(n: number, s: ReturnType<typeof srsStats>) {
   return total === 0 ? 0 : (n / total) * 100;
 }
 
-function Stat({ label, value }: { label: string; value: string | number }) {
+/** 进度备份：导出（进度 + 自定义绘本 → 复制/下载 JSON）/ 导入（粘贴 JSON 恢复） */
+function BackupPanel() {
+  const [open, setOpen] = useState<"none" | "export" | "import">("none");
+  const [text, setText] = useState("");
+  const [msg, setMsg] = useState("");
+
+  const exportData = () =>
+    JSON.stringify(
+      {
+        exportedAt: new Date().toISOString(),
+        progress: JSON.parse(localStorage.getItem("wai-en-progress") ?? "{}"),
+        customStories: JSON.parse(localStorage.getItem("wai-en-custom-stories") ?? "[]"),
+      },
+      null,
+      0,
+    );
+
+  const doExport = async () => {
+    const data = exportData();
+    setText(data);
+    setOpen("export");
+    setMsg("");
+    try {
+      await navigator.clipboard.writeText(data);
+      setMsg("已复制到剪贴板 Copied! 也可保存下面的文本");
+    } catch {
+      setMsg("请手动全选复制下面的文本 Select & copy below");
+    }
+  };
+
+  const doImport = () => {
+    try {
+      const parsed = JSON.parse(text) as {
+        progress?: Record<string, unknown>;
+        customStories?: unknown[];
+      };
+      if (!parsed.progress || typeof parsed.progress !== "object") {
+        setMsg("格式不对：这不是本站导出的备份文件");
+        return;
+      }
+      if (!confirm("导入会覆盖本机当前进度和自定义绘本，确定吗？")) return;
+      localStorage.setItem("wai-en-progress", JSON.stringify(parsed.progress));
+      localStorage.setItem(
+        "wai-en-custom-stories",
+        JSON.stringify(parsed.customStories ?? []),
+      );
+      setMsg("导入成功！即将刷新页面…");
+      setTimeout(() => location.reload(), 800);
+    } catch {
+      setMsg("解析失败：请粘贴完整的备份文本");
+    }
+  };
+
   return (
-    <div className="rounded-2xl bg-white p-3 shadow-sm">
-      <div className="text-xl font-black text-grape">{value}</div>
-      <div className="text-[11px] font-bold text-slate-400">{label}</div>
+    <div className="mb-3 rounded-2xl bg-sky-50 p-4">
+      <div className="mb-2 flex items-center justify-between">
+        <span className="text-sm font-black text-slate-600">
+          📦 数据备份 Backup（换设备前先导出）
+        </span>
+      </div>
+      <div className="flex gap-2">
+        <button onClick={doExport} className="rounded-full bg-white px-4 py-2.5 text-sm font-black text-slate-600 shadow">
+          导出 Export
+        </button>
+        <button
+          onClick={() => (open === "import" ? setOpen("none") : (setText(""), setOpen("import"), setMsg("")))}
+          className="rounded-full bg-white px-4 py-2.5 text-sm font-black text-slate-600 shadow"
+        >
+          导入 Import
+        </button>
+        {open !== "none" && (
+          <button onClick={() => setOpen("none")} className="text-sm font-bold text-slate-500">
+            收起
+          </button>
+        )}
+      </div>
+      {msg && <p className="mt-2 text-xs font-bold text-sky-600">{msg}</p>}
+      {open !== "none" && (
+        <div className="mt-2">
+          <textarea
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            readOnly={open === "export"}
+            rows={4}
+            placeholder={open === "import" ? "把之前导出的备份文本粘贴到这里…" : ""}
+            className="w-full rounded-xl bg-white p-3 font-mono text-[10px] text-slate-600 outline-none"
+          />
+          {open === "import" && (
+            <button
+              onClick={doImport}
+              className="mt-2 w-full rounded-full bg-grape py-3 text-sm font-black text-white shadow"
+            >
+              覆盖导入 Restore
+            </button>
+          )}
+        </div>
+      )}
     </div>
   );
 }
 
+function Stat({ label, value }: { label: string; value: string | number }) {
+  return (
+    <div className="rounded-2xl bg-white p-3 shadow-sm">
+      <div className="text-xl font-black text-grape">{value}</div>
+      <div className="text-[11px] font-bold text-slate-500">{label}</div>
+    </div>
+  );
+}
+
+/** 随机题在模块加载时生成（渲染期不可调用不纯函数）；答错时在事件里换题 */
+function makeGate() {
+  return {
+    a: 1 + Math.floor(Math.random() * 48),
+    b: 11 + Math.floor(Math.random() * 48),
+  };
+}
+const INITIAL_GATE = makeGate();
+
 function Gate({ onPass }: { onPass: () => void }) {
-  const [a, b] = useMemo(() => [1 + Math.floor(Math.random() * 48), 11 + Math.floor(Math.random() * 48)], []);
+  const [gate, setGate] = useState(INITIAL_GATE);
   const [ans, setAns] = useState("");
   const [err, setErr] = useState(false);
   return (
     <div className="mx-auto flex max-w-sm flex-col items-center gap-5 px-4 py-28 text-center">
       <span className="text-6xl">🔐</span>
       <h1 className="text-xl font-black text-slate-600">家长验证</h1>
-      <p className="font-medium text-slate-400">请回答：{a} + {b} = ?</p>
+      <p className="font-medium text-slate-500">请回答：{gate.a} + {gate.b} = ?</p>
       <input
         inputMode="numeric"
         value={ans}
@@ -146,7 +259,11 @@ function Gate({ onPass }: { onPass: () => void }) {
         zh="进入"
         en="Enter"
         className="bg-grape text-white"
-        onClick={() => (Number(ans) === a + b ? onPass() : setErr(true))}
+        onClick={() =>
+          Number(ans) === gate.a + gate.b
+            ? onPass()
+            : (setErr(true), setAns(""), setGate(makeGate()))
+        }
       />
     </div>
   );

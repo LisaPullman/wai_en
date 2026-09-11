@@ -1,8 +1,8 @@
 "use client";
 
-import { AnimatePresence, motion } from "motion/react";
+import { motion } from "motion/react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { ListenCollection, ListenStory } from "@/content/listen100";
+import type { ListenCollection } from "@/content/listen100";
 import { listenAudioPath } from "@/content/listen100";
 import { playAsset, stopAudio } from "@/lib/audio/play";
 import { progressActions } from "@/lib/progress/store";
@@ -35,9 +35,11 @@ export function ListenOverlay({
   );
   const totalWords = useMemo(() => wordCounts.reduce((a, b) => a + b, 0), [wordCounts]);
 
-  // 播放状态放 ref，供计时器回调读取最新值
-  const ref = useRef({ playing, autoNext, slow, si });
-  ref.current = { playing, autoNext, slow, si };
+  // 播放决策镜像：异步回调读取最新状态；effect 中同步（渲染期不碰 ref）
+  const ref = useRef({ playing: false, autoNext: true, slow: false, si: startIdx });
+  useEffect(() => {
+    ref.current = { playing, autoNext, slow, si };
+  }, [playing, autoNext, slow, si]);
 
   const stop = useCallback(() => {
     setPlaying(false);
@@ -48,58 +50,55 @@ export function ListenOverlay({
   // 卸载时停止
   useEffect(() => () => stopAudio(), []);
 
-  const play = useCallback(
-    (idx: number) => {
-      const s = collection.stories[idx];
-      setPlaying(true);
-      // 句子高亮：按词数占比分配整篇时长（实测时长拿不到时用 0.42s/词估算）
-      const perWord = ref.current.slow ? 0.55 : 0.42;
-      const totalMs = s.sentences.join(" ").split(/\s+/).length * perWord * 1000;
-      let acc = 0;
-      const starts = wordCounts.map((w) => {
-        const t = acc;
-        acc += (w / Math.max(1, totalWords)) * totalMs;
-        return t;
-      });
-      const t0 = Date.now();
-      setActiveSentence(0);
-      const tick = () => {
-        if (!ref.current.playing) return;
-        const el = Date.now() - t0;
-        let i = 0;
-        while (i < starts.length - 1 && el >= starts[i + 1]) i++;
-        setActiveSentence((prev) => (prev === i ? prev : i));
-        if (el < totalMs + 800) {
-          requestAnimationFrame(tick);
-        } else {
-          setActiveSentence(-1);
-        }
-      };
-      requestAnimationFrame(tick);
+  // 函数声明（提升）：允许 onEnd 里自引用连播
+  function play(idx: number) {
+    const s = collection.stories[idx];
+    const st = ref.current;
+    setPlaying(true);
+    // 句子高亮：按词数占比分配整篇时长（0.42s/词估算，慢速按 0.55）
+    const perWord = st.slow ? 0.55 : 0.42;
+    const totalMs = s.sentences.join(" ").split(/\s+/).length * perWord * 1000;
+    let acc = 0;
+    const starts = wordCounts.map((w) => {
+      const t = acc;
+      acc += (w / Math.max(1, totalWords)) * totalMs;
+      return t;
+    });
+    const t0 = Date.now();
+    setActiveSentence(0);
+    const tick = () => {
+      if (!ref.current.playing) return;
+      const el = Date.now() - t0;
+      let i = 0;
+      while (i < starts.length - 1 && el >= starts[i + 1]) i++;
+      setActiveSentence((prev) => (prev === i ? prev : i));
+      if (el < totalMs + 800) {
+        requestAnimationFrame(tick);
+      } else {
+        setActiveSentence(-1);
+      }
+    };
+    requestAnimationFrame(tick);
 
-      playAsset(listenAudioPath(s.id), s.sentences.join(" "), {
-        rate: ref.current.slow ? 0.75 : 0.92,
-        onEnd: () => {
-          setActiveSentence(-1);
-          // 记完成 + 连播
-          setFinishedIds((prev) => new Set(prev).add(s.id));
-          progressActions.markDailyTask("story");
-          const st = ref.current;
-          if (st.playing && st.autoNext && st.si + 1 < collection.stories.length) {
-            const next = st.si + 1;
-            setSi(next);
-            setTimeout(() => play(next), 700);
-          } else if (st.playing && st.autoNext) {
-            setPlaying(false); // 整专辑播完
-          } else {
-            setPlaying(false);
-          }
-        },
-      });
-    },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [collection, wordCounts, totalWords],
-  );
+    playAsset(listenAudioPath(s.id), s.sentences.join(" "), {
+      rate: st.slow ? 0.75 : 0.92, // TTS 兜底语速
+      assetRate: st.slow ? 0.8 : 1, // 真实 MP3 播放速度（慢速开关）
+      onEnd: () => {
+        setActiveSentence(-1);
+        // 记完成 + 连播
+        setFinishedIds((prev) => new Set(prev).add(s.id));
+        progressActions.markDailyTask("story");
+        const cur = ref.current;
+        if (cur.playing && cur.autoNext && cur.si + 1 < collection.stories.length) {
+          const next = cur.si + 1;
+          setSi(next);
+          setTimeout(() => play(next), 700);
+        } else {
+          setPlaying(false); // 单篇或整专辑播完
+        }
+      },
+    });
+  }
 
   const jump = (d: -1 | 1) => {
     const np = Math.min(collection.stories.length - 1, Math.max(0, ref.current.si + d));
@@ -160,7 +159,7 @@ export function ListenOverlay({
                 key={i}
                 className={cn(
                   "rounded-xl px-3 py-2 text-base font-bold leading-snug transition-colors sm:text-lg",
-                  activeSentence === i ? "bg-butter text-indigo-950" : "text-white/75",
+                  activeSentence === i ? "bg-butter text-indigo-950" : "text-amber-900/75",
                 )}
               >
                 {s}
@@ -188,7 +187,7 @@ export function ListenOverlay({
           </button>
           <button
             onClick={() => (playing ? stop() : play(si))}
-            className="flex h-20 w-20 items-center justify-center rounded-full bg-butter text-4xl text-white shadow-xl"
+            className="flex h-20 w-20 items-center justify-center rounded-full bg-butter text-4xl text-amber-900 shadow-xl"
             aria-label={playing ? "暂停" : "播放"}
           >
             {playing ? "⏸" : "▶️"}
@@ -215,7 +214,7 @@ function T({ on, onClick, children, disabled }: { on: boolean; onClick: () => vo
       disabled={disabled}
       className={cn(
         "rounded-full px-3.5 py-2 transition-colors",
-        on ? "bg-butter text-white" : "bg-white/15 text-white/80",
+        on ? "bg-butter text-amber-900" : "bg-white/15 text-white/80",
         disabled && "opacity-30",
       )}
     >

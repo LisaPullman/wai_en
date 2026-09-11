@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import type { Word } from "@/content/types";
 import { playWordAudio } from "@/lib/audio/play";
 import { sfx } from "@/lib/audio/sfx";
-import { getAssessor, recognizeOnce, type AssessResult } from "@/lib/speech/assessor";
+import { getAssessor, type AssessResult } from "@/lib/speech/assessor";
 import { recorderSupported, startRecording, type RecorderHandle } from "@/lib/speech/recorder";
 import { BigButton, Mascot } from "@/components/common/common";
 import { WordImage } from "@/components/common/WordImage";
@@ -103,7 +103,7 @@ export function SayStep({ words, onDone }: { words: Word[]; onDone: (wrongIds: s
 
       <WordImage word={word} className="h-36 w-36 sm:h-44 sm:w-44" />
       <div className="text-5xl font-black text-slate-800">{word.text}</div>
-      <div className="text-lg font-bold text-slate-400">{word.zh}</div>
+      <div className="text-lg font-bold text-slate-500">{word.zh}</div>
 
       {micDenied ? (
         /* 无麦克风/被拒：降级为跟读模式 */
@@ -149,7 +149,7 @@ export function SayStep({ words, onDone }: { words: Word[]; onDone: (wrongIds: s
                   "🎤"
                 )}
               </motion.button>
-              <span className="text-sm font-bold text-slate-400">
+              <span className="text-sm font-bold text-slate-500">
                 {phase === "recording" ? "松开结束 Release to stop" : "按住说话 Hold to talk"}
               </span>
             </div>
@@ -163,7 +163,7 @@ export function SayStep({ words, onDone }: { words: Word[]; onDone: (wrongIds: s
                   <div className={`text-6xl font-black ${result.passed ? "text-mint" : "text-butter"}`}>
                     {result.score}分
                   </div>
-                  <div className="text-sm font-medium text-slate-400">我听到：{result.transcript}</div>
+                  <div className="text-sm font-medium text-slate-500">我听到：{result.transcript}</div>
                 </>
               ) : (
                 <p className="text-center text-base font-bold text-slate-500">

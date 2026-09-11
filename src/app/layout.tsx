@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="font-sans antialiased">
         <AudioUnlock />
         <SiteLock>
-          {children}
+          <main className="min-h-dvh">{children}</main>
           <TabBarNav />
         </SiteLock>
       </body>

@@ -45,7 +45,7 @@ export function Flashcard({ word, className }: { word: Word; className?: string 
           <div className="text-center">
             <div className="text-4xl font-black text-slate-800 sm:text-5xl">{word.text}</div>
             {word.phonics && (
-              <div className="mt-1 text-lg font-medium text-slate-400">{word.phonics}</div>
+              <div className="mt-1 text-lg font-medium text-slate-500">{word.phonics}</div>
             )}
           </div>
           <div className="text-sm font-semibold text-slate-300">点我翻面 Flip</div>

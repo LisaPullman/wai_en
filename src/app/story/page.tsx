@@ -9,9 +9,10 @@ import { listCustomStories, deleteCustomStory, type CustomStory } from "@/lib/pr
 export default function Page() {
   const p = useProgress();
   const [customs, setCustoms] = useState<CustomStory[]>([]);
-  const [editing, setEditing] = useState(false);
 
   useEffect(() => {
+    // 挂载后读 localStorage（客户端专属数据源），effect 内同步 set 是该场景的标准做法
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setCustoms(listCustomStories());
   }, []);
 
@@ -20,9 +21,9 @@ export default function Page() {
       <header className="mb-5 flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-black text-slate-700">
-            📚 故事书架 <span className="text-sm font-bold text-slate-400">Story Shelf</span>
+            📚 故事书架 <span className="text-sm font-bold text-slate-500">Story Shelf</span>
           </h1>
-          <p className="text-sm font-medium text-slate-400">用学过的单词读小故事 Read with your words!</p>
+          <p className="text-sm font-medium text-slate-500">用学过的单词读小故事 Read with your words!</p>
         </div>
         <Link
           href="/story/new"
@@ -34,9 +35,9 @@ export default function Page() {
       </header>
 
       {/* 自定义绘本 */}
-      {(customs.length > 0 || editing) && (
+      {customs.length > 0 && (
         <h2 className="mb-2 px-1 text-base font-black text-slate-500">
-          ✏️ 我们的绘本 <span className="text-xs font-bold text-slate-400">Our Stories</span>
+          ✏️ 我们的绘本 <span className="text-xs font-bold text-slate-500">Our Stories</span>
         </h2>
       )}
       <div className="mb-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
@@ -45,7 +46,7 @@ export default function Page() {
             <Link href={`/story/${s.id}`} className="flex flex-col items-center gap-2">
               <span className="text-5xl">{s.emoji}</span>
               <span className="text-base font-black text-slate-700">{s.titleZh}</span>
-              <span className="text-xs font-bold text-slate-400">{s.title}</span>
+              <span className="text-xs font-bold text-slate-500">{s.title}</span>
             </Link>
             <button
               onClick={() => {
@@ -54,7 +55,7 @@ export default function Page() {
                   setCustoms(listCustomStories());
                 }
               }}
-              className="absolute right-2 top-2 flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-sm text-slate-400"
+              className="absolute right-2 top-2 flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-sm text-slate-500"
               aria-label="删除"
             >
               🗑
@@ -73,7 +74,7 @@ export default function Page() {
 
       {/* 内置绘本 */}
       <h2 className="mb-2 px-1 text-base font-black text-slate-500">
-        🌟 课程绘本 <span className="text-xs font-bold text-slate-400">Course Stories</span>
+        🌟 课程绘本 <span className="text-xs font-bold text-slate-500">Course Stories</span>
       </h2>
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
         {curriculum.stories.map((s) => {
@@ -88,7 +89,7 @@ export default function Page() {
             >
               <span className="text-5xl">{s.emoji}</span>
               <span className="text-base font-black text-slate-700">{s.titleZh}</span>
-              <span className="text-xs font-bold text-slate-400">{s.title}</span>
+              <span className="text-xs font-bold text-slate-500">{s.title}</span>
               {read ? (
                 <span className="rounded-full bg-mint/20 px-2 py-0.5 text-[10px] font-black text-mint">
                   读过 {read.readCount} 次
@@ -100,7 +101,7 @@ export default function Page() {
           ) : (
             <div key={s.id} className="flex flex-col items-center gap-2 rounded-3xl bg-white/40 p-5">
               <span className="text-5xl opacity-40">🔒</span>
-              <span className="text-sm font-bold text-slate-400">学完「{unit?.title}」解锁</span>
+              <span className="text-sm font-bold text-slate-500">学完「{unit?.title}」解锁</span>
             </div>
           );
         })}

@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, motion } from "motion/react";
+import { motion } from "motion/react";
 import Link from "next/link";
 import { useCallback, useRef, useState } from "react";
 import type { Story } from "@/content/types";
@@ -58,6 +58,24 @@ export function StoryReader({ story }: { story: Story }) {
     setPlaying(false);
   }, []);
 
+  // 先定义翻页（供 playPage 的自动连播回调引用，避免声明前访问）
+  const goNext = useCallback(() => {
+    stopKaraoke();
+    sfx.flip();
+    if (last) {
+      setFinished(true);
+      progressActions.completeStory(story.id);
+      sfx.tada();
+    } else {
+      setPage((i) => i + 1);
+    }
+  }, [last, stopKaraoke, story.id]);
+  const goPrev = useCallback(() => {
+    stopKaraoke();
+    sfx.flip();
+    setPage((i) => Math.max(0, i - 1));
+  }, [stopKaraoke]);
+
   const playPage = useCallback(
     (autoNext: boolean) => {
       stopAudio();
@@ -88,23 +106,6 @@ export function StoryReader({ story }: { story: Story }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [pg, page, last],
   );
-
-  const goNext = () => {
-    stopKaraoke();
-    sfx.flip();
-    if (last) {
-      setFinished(true);
-      progressActions.completeStory(story.id);
-      sfx.tada();
-    } else {
-      setPage((i) => i + 1);
-    }
-  };
-  const goPrev = () => {
-    stopKaraoke();
-    sfx.flip();
-    setPage((i) => Math.max(0, i - 1));
-  };
 
   const tapWord = (tok: string) => {
     const w = curriculum.words[tok.toLowerCase()];
@@ -159,9 +160,9 @@ export function StoryReader({ story }: { story: Story }) {
         </Link>
         <div className="text-center">
           <div className="text-lg font-black text-slate-700">{story.titleZh}</div>
-          <div className="text-xs font-bold text-slate-400">{story.title}</div>
+          <div className="text-xs font-bold text-slate-500">{story.title}</div>
         </div>
-        <div className="text-sm font-black text-slate-400">
+        <div className="text-sm font-black text-slate-500">
           {page + 1}/{story.pages.length}
         </div>
       </div>
@@ -186,7 +187,7 @@ export function StoryReader({ story }: { story: Story }) {
           </motion.button>
         ))}
       </div>
-      <p className="mt-3 text-center text-base font-bold text-slate-400">{pg.zh}</p>
+      <p className="mt-3 text-center text-base font-bold text-slate-500">{pg.zh}</p>
 
       {/* 控制 */}
       <div className="mt-auto flex items-center justify-center gap-3 pt-6">
@@ -201,7 +202,7 @@ export function StoryReader({ story }: { story: Story }) {
         <BigButton
           zh={playing ? "停止" : "读这页"}
           en={playing ? "Stop" : "Read"}
-          className={cn("min-w-36", playing ? "bg-slate-200" : "bg-butter text-white")}
+          className={cn("min-w-36", playing ? "bg-slate-200" : "bg-butter text-amber-900")}
           onClick={() => (playing ? stopKaraoke() : playPage(false))}
         />
         <button

@@ -40,7 +40,7 @@ export function DeckClient({ deckId }: { deckId: string }) {
     return (
       <div className="mx-auto flex max-w-md flex-col items-center gap-6 px-4 py-24 text-center">
         <Mascot mood="happy" bubble="这里还是空的！" bubbleEn="Nothing here yet!" />
-        <p className="font-medium text-slate-400">
+        <p className="font-medium text-slate-500">
           {deckId === "wrong"
             ? "太棒了，没有错词！Keep it up!"
             : "先去上课学新单词吧～ Go learn some new words!"}
@@ -56,9 +56,9 @@ export function DeckClient({ deckId }: { deckId: string }) {
     <div className="mx-auto w-full max-w-md px-4 pb-28 pt-4 sm:pt-6">
       <header className="mb-4 text-center">
         <h1 className="text-2xl font-black text-slate-700">
-          {title} <span className="text-sm font-bold text-slate-400">{titleEn}</span>
+          {title} <span className="text-sm font-bold text-slate-500">{titleEn}</span>
         </h1>
-        <p className="text-sm font-medium text-slate-400">
+        <p className="text-sm font-medium text-slate-500">
           点卡片翻面发声，然后告诉阿福你会不会 Tap, flip, and tell Foxy!
         </p>
       </header>

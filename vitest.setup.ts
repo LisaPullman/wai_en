@@ -2,10 +2,11 @@
 import "@testing-library/jest-dom/vitest";
 import { vi, beforeEach } from "vitest";
 
-// Audio 构造 mock（HTC jsdom 没有 HTMLMediaElement.play）
+type Mutable<T> = { -readonly [K in keyof T]: T[K] };
+
+// Audio 构造 mock（jsdom 没有 HTMLMediaElement.play）
 if (typeof window !== "undefined") {
-  // HTMLAudioElement.play 返回 Promise，jsdom 默认 undefined，加 mock
-  if (!("play" in HTMLMediaElement.prototype) || typeof (HTMLMediaElement.prototype as any).play !== "function") {
+  if (!("play" in HTMLMediaElement.prototype) || typeof HTMLMediaElement.prototype.play !== "function") {
     Object.defineProperty(HTMLMediaElement.prototype, "play", {
       configurable: true,
       writable: true,
@@ -19,29 +20,39 @@ if (typeof window !== "undefined") {
   }
 
   // speechSynthesis 兜底 mock（jsdom 完全没有）
-  const fakeUtterance = function (this: any, text: string) {
-    this.text = text;
+  interface FakeUtterance {
+    text: string;
+    lang: string;
+    rate: number;
+    pitch: number;
+    voice: SpeechSynthesisVoice | null;
+    onend: (() => void) | null;
+    onerror: (() => void) | null;
+  }
+  const fakeUtterance = function (this: FakeUtterance, text?: string) {
+    this.text = text ?? "";
     this.lang = "en-US";
     this.rate = 1;
     this.pitch = 1;
     this.voice = null;
     this.onend = null;
     this.onerror = null;
-  };
-  (window as any).SpeechSynthesisUtterance = fakeUtterance;
-  (window as any).speechSynthesis = {
+  } as unknown as new (text?: string) => FakeUtterance;
+  const w = window as Mutable<typeof window> & typeof globalThis;
+  w.SpeechSynthesisUtterance = fakeUtterance as unknown as typeof SpeechSynthesisUtterance;
+  w.speechSynthesis = {
     getVoices: () => [],
     cancel: vi.fn(),
-    speak: vi.fn((u: any) => {
+    speak: vi.fn((u: FakeUtterance) => {
       // 同步触发 onend 让测试里的 await 立即生效
       queueMicrotask(() => u.onend && u.onend());
     }),
     onvoiceschanged: null,
-  };
+  } as unknown as typeof window.speechSynthesis;
 
   // matchMedia（motion 库会查 prefers-reduced-motion）
   if (!window.matchMedia) {
-    window.matchMedia = (query: string) => ({
+    window.matchMedia = ((query: string) => ({
       matches: false,
       media: query,
       onchange: null,
@@ -50,12 +61,12 @@ if (typeof window !== "undefined") {
       addListener: vi.fn(),
       removeListener: vi.fn(),
       dispatchEvent: vi.fn(),
-    }) as any;
+    })) as unknown as typeof window.matchMedia;
   }
 
   // pointerdown unlock
   if (!window.PointerEvent) {
-    (window as any).PointerEvent = MouseEvent;
+    w.PointerEvent = MouseEvent as unknown as typeof PointerEvent;
   }
 }
 

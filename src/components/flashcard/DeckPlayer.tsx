@@ -111,9 +111,9 @@ export function DeckPlayer({
           </div>
         </div>
         {summary.miss > 0 && (
-          <p className="text-sm font-medium text-slate-400">还不会的词会安排到明天复习哦～</p>
+          <p className="text-sm font-medium text-slate-500">还不会的词会安排到明天复习哦～</p>
         )}
-        <BigButton zh={doneLabel.zh} en={doneLabel.en} className="bg-butter text-white" onClick={() => onDone(summary)} />
+        <BigButton zh={doneLabel.zh} en={doneLabel.en} className="bg-butter text-amber-900" onClick={() => onDone(summary)} />
       </div>
     );
   }
@@ -136,7 +136,7 @@ export function DeckPlayer({
         >
           ←
         </button>
-        <div className="text-lg font-bold text-slate-400">
+        <div className="text-lg font-bold text-slate-500">
           {idx + 1} / {items.length}
         </div>
         <button
@@ -181,7 +181,7 @@ export function DeckPlayer({
         <BigButton zh="会了" en="Got it" className="bg-mint text-white" onClick={() => grade(2)} />
         <BigButton zh="太简单" en="Too easy" className="bg-grape text-white" onClick={() => grade(3)} />
       </div>
-      <p className="text-xs font-medium text-slate-400">也可以左右滑动卡片查看 Swipe to flip cards</p>
+      <p className="text-xs font-medium text-slate-500">也可以左右滑动卡片查看 Swipe to flip cards</p>
     </div>
   );
 }

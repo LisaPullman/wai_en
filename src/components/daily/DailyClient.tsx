@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "motion/react";
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { DailyTheme } from "@/content/daily300";
 import { dailyAudioPath } from "@/content/daily300";
 import { playAsset, stopAudio } from "@/lib/audio/play";
@@ -19,7 +19,7 @@ export function DailyClient({ theme }: { theme: DailyTheme }) {
         <span className="text-5xl">{theme.emoji}</span>
         <div>
           <h1 className="text-2xl font-black text-slate-700">{theme.titleZh}</h1>
-          <p className="text-sm font-bold text-slate-400">
+          <p className="text-sm font-bold text-slate-500">
             {theme.title} · {theme.sentences.length} 句
           </p>
         </div>
@@ -33,7 +33,7 @@ export function DailyClient({ theme }: { theme: DailyTheme }) {
       />
       <button
         onClick={() => setShowZhList((v) => !v)}
-        className="mb-3 text-sm font-bold text-slate-400"
+        className="mb-3 text-sm font-bold text-slate-500"
       >
         {showZhList ? "隐藏中文 Hide Chinese" : "显示中文 Show Chinese"}
       </button>
@@ -50,7 +50,7 @@ export function DailyClient({ theme }: { theme: DailyTheme }) {
             </span>
             <span className="flex-1">
               <span className="block text-lg font-bold text-slate-700">{s.text}</span>
-              {showZhList && <span className="block text-sm text-slate-400">{s.zh}</span>}
+              {showZhList && <span className="block text-sm text-slate-500">{s.zh}</span>}
             </span>
             <span className="text-2xl">🔊</span>
           </button>
@@ -74,34 +74,39 @@ function ListeningOverlay({ theme, onClose }: { theme: DailyTheme; onClose: () =
   const [shuffleMode, setShuffleMode] = useState(false);
   const [slow, setSlow] = useState(false);
   const [showZh, setShowZh] = useState(true);
-  const stateRef = useRef({ playing, loopOne, pos, order, slow });
-  stateRef.current = { playing, loopOne, pos, order, slow };
+
+  // 播放决策镜像：异步回调（onEnd 等）读取最新状态，避免闭包过期。
+  // 在 effect 中同步（渲染期不可读写 ref —— React Compiler 规则）
+  const stateRef = useRef({ playing: false, loopOne: false, pos: 0, order, slow: false });
+  useEffect(() => {
+    stateRef.current = { playing, loopOne, pos, order, slow };
+  }, [playing, loopOne, pos, order, slow]);
 
   const idx = order[pos];
   const s = theme.sentences[idx];
 
-  const play = useCallback(
-    (i: number) => {
-      const sent = theme.sentences[i];
-      setPlaying(true);
-      playAsset(dailyAudioPath(sent.id), sent.text, {
-        rate: stateRef.current.slow ? 0.75 : 0.95,
-        onEnd: () => {
-          const st = stateRef.current;
-          if (!st.playing) return;
-          if (st.loopOne) {
-            play(i);
-          } else if (st.pos + 1 < st.order.length) {
-            setPos(st.pos + 1);
-            play(st.order[st.pos + 1]);
-          } else {
-            setPlaying(false); // 播完一轮
-          }
-        },
-      });
-    },
-    [theme],
-  );
+  // 函数声明（提升）：允许 onEnd 里自引用续播
+  function play(i: number) {
+    const sent = theme.sentences[i];
+    const st = stateRef.current;
+    setPlaying(true);
+    playAsset(dailyAudioPath(sent.id), sent.text, {
+      rate: st.slow ? 0.75 : 0.95, // TTS 兜底语速
+      assetRate: st.slow ? 0.8 : 1, // 真实 MP3 播放速度（慢速开关）
+      onEnd: () => {
+        const cur = stateRef.current;
+        if (!cur.playing) return;
+        if (cur.loopOne) {
+          play(i);
+        } else if (cur.pos + 1 < cur.order.length) {
+          setPos(cur.pos + 1);
+          play(cur.order[cur.pos + 1]);
+        } else {
+          setPlaying(false); // 播完一轮
+        }
+      },
+    });
+  }
 
   const start = () => play(stateRef.current.order[stateRef.current.pos]);
   const pause = () => {
@@ -168,7 +173,7 @@ function ListeningOverlay({ theme, onClose }: { theme: DailyTheme; onClose: () =
           </button>
           <button
             onClick={() => (playing ? pause() : start())}
-            className="flex h-24 w-24 items-center justify-center rounded-full bg-butter text-5xl text-white shadow-xl"
+            className="flex h-24 w-24 items-center justify-center rounded-full bg-butter text-5xl text-amber-900 shadow-xl"
             aria-label={playing ? "暂停" : "播放"}
           >
             {playing ? "⏸" : "▶️"}
@@ -193,7 +198,7 @@ function Toggle({ on, onClick, children }: { on: boolean; onClick: () => void; c
   return (
     <button
       onClick={onClick}
-      className={`rounded-full px-4 py-2 transition-colors ${on ? "bg-butter text-white" : "bg-white/15 text-white/80"}`}
+      className={`rounded-full px-4 py-2 transition-colors ${on ? "bg-butter text-amber-900" : "bg-white/15 text-white/80"}`}
     >
       {children}
     </button>

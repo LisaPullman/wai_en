@@ -8,9 +8,9 @@ export default function Page() {
     <div className="mx-auto w-full max-w-2xl px-4 pb-28 pt-4 sm:pt-8">
       <header className="mb-5">
         <h1 className="text-2xl font-black text-slate-700">
-          🎧 听故事 <span className="text-sm font-bold text-slate-400">Story Time</span>
+          🎧 听故事 <span className="text-sm font-bold text-slate-500">Story Time</span>
         </h1>
-        <p className="text-sm font-medium text-slate-400">
+        <p className="text-sm font-medium text-slate-500">
           {listenCollections.length} 个专辑 · {listenStoryCount} 个英语小故事 · 磨耳朵必备
         </p>
       </header>
@@ -23,14 +23,14 @@ export default function Page() {
           >
             <span className="text-5xl">{c.emoji}</span>
             <span className="text-base font-black text-slate-700">{c.titleZh}</span>
-            <span className="text-xs font-bold text-slate-400">{c.title}</span>
+            <span className="text-xs font-bold text-slate-500">{c.title}</span>
             <span className="rounded-full bg-grape/10 px-2 py-0.5 text-[10px] font-black text-grape">
               {c.stories.length} 个故事
             </span>
           </Link>
         ))}
       </div>
-      <p className="mt-5 text-center text-xs font-medium text-slate-400">
+      <p className="mt-5 text-center text-xs font-medium text-slate-500">
         建议每天听 1-2 个专辑（15 分钟），先「只听」再「看文本」效果最好
       </p>
     </div>
