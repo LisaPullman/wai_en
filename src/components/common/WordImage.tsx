@@ -3,8 +3,9 @@
 import { useState } from "react";
 import type { Word } from "@/content/types";
 import { cn } from "@/lib/utils";
+import { WordArt, hasWordArt } from "@/components/word-art/WordArt";
 
-/** 单词图：优先 /images/words/{id}.jpg，缺失自动降级为 emoji 大圆；字母卡显示大写字母 */
+/** 单词图：优先级 1️⃣ /images/words/{id}.jpg → 2️⃣ 手绘 SVG(WordArt)→ 3️⃣ emoji 兜底；字母卡显示大写字母 */
 export function WordImage({ word, className, emojiClass }: { word: Word; className?: string; emojiClass?: string }) {
   const [failed, setFailed] = useState(false);
   const showImg = word.kind === "word" && !failed;
@@ -28,6 +29,20 @@ export function WordImage({ word, className, emojiClass }: { word: Word; classNa
         onError={() => setFailed(true)}
         className={cn("rounded-3xl object-contain", className)}
       />
+    );
+  }
+
+  // 兜底层：手绘 SVG（高清 / 主题色可控）优先于 emoji
+  if (hasWordArt(word.id)) {
+    return (
+      <div
+        className={cn(
+          "flex items-center justify-center rounded-full bg-white shadow-sm",
+          className,
+        )}
+      >
+        <WordArt wordId={word.id} className="h-3/4 w-3/4" />
+      </div>
     );
   }
 
