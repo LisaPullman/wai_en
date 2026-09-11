@@ -12,6 +12,7 @@ const TABS = [
   { href: "/daily", zh: "300句", en: "Daily", icon: "💬" },
   { href: "/games", zh: "游戏", en: "Play", icon: "🎮" },
   { href: "/story", zh: "故事", en: "Story", icon: "📚" },
+  { href: "/listen", zh: "听故事", en: "Listen", icon: "🎧" },
 ];
 
 /** 底部导航（双语，课程页隐藏以免分心）；Foxy 悬浮其上 */

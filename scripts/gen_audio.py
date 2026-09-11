@@ -82,6 +82,15 @@ def build_jobs(only: str | None) -> list[Job]:
             for s in theme["sentences"]:
                 jobs.append(Job(f"daily/{s['id']}.mp3", s["text"], VOICE_EN, SPEED_SENT))
 
+    if not only or only == "listen":
+        # 听故事 100 篇：整篇朗读（句间用句号自然停顿）
+        for part in ["part1.json", "part2.json"]:
+            data = load_json(ROOT / "src/content/listen100" / part)
+            for col in data["collections"]:
+                for s in col["stories"]:
+                    text = " ".join(s["sentences"])
+                    jobs.append(Job(f"listen/{s['id']}.mp3", text, VOICE_EN, 0.92))
+
     if not only or only == "ui":
         # Foxy 台词（与 src/components/common/Foxy.tsx 保持一致）
         foxy = [
@@ -109,7 +118,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true", help="已存在也重新生成")
     ap.add_argument("--dry-run", action="store_true", help="只打印清单不合成")
-    ap.add_argument("--only", choices=["words", "sentences", "stories", "daily", "ui"], default=None)
+    ap.add_argument("--only", choices=["words", "sentences", "stories", "daily", "listen", "ui"], default=None)
     args = ap.parse_args()
 
     jobs = build_jobs(args.only)

@@ -91,7 +91,7 @@ export function HomeClient() {
           🧒
         </div>
         <div className="flex-1">
-          <div className="text-xl font-black text-slate-700">{p.childName}，你好！</div>
+          <div className="text-xl font-black text-slate-700">{p.childName}，你好啊</div>
           <div className="text-sm font-bold text-slate-400">Hi! Let&apos;s learn English!</div>
         </div>
         <div className="flex items-center gap-2 rounded-full bg-white px-4 py-2 shadow">

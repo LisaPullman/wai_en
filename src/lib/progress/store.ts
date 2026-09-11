@@ -29,7 +29,7 @@ const KEY = "wai-en-progress";
 function defaults(): Progress {
   return {
     v: 2,
-    childName: "小朋友",
+    childName: "张慎易（歪歪）",
     stars: 0,
     maxUnlockedUnitIndex: 0,
     lessons: {},
@@ -57,6 +57,8 @@ function load(): Progress {
   try {
     const raw = localStorage.getItem(KEY);
     cache = raw ? { ...defaults(), ...(JSON.parse(raw) as Progress) } : defaults();
+    // 旧默认昵称迁移到新默认
+    if (cache.childName === "小朋友") cache.childName = defaults().childName;
   } catch {
     cache = defaults();
   }

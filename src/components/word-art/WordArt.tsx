@@ -1,5 +1,7 @@
 "use client";
 
+import type { JSX } from "react";
+
 /**
  * 内联 SVG 单词图（fallback 资产）。
  * 当 /public/images/words/{id}.jpg 不存在时，<WordImage /> 会渲染 emoji；
@@ -59,7 +61,7 @@ function YellowBalloon({ className }: { className?: string }) {
   );
 }
 
-const REGISTRY: Record<string, (props: { className?: string }) => JSX.Element> = {
+const REGISTRY: Record<string, (props: { className?: string }) => React.JSX.Element> = {
   yellow: YellowBalloon,
   // 后续可继续追加:red/blue/green/black/white...（直到 schnell 配额恢复）
 };

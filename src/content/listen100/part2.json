@@ -1,0 +1,829 @@
+{
+  "collections": [
+    {
+      "id": "c06", "title": "Good Friends", "titleZh": "好朋友", "emoji": "🤝", "level": 1,
+      "stories": [
+        {
+          "id": "c06-01", "title": "Can I Play With You?", "titleZh": "我能一起玩吗", "emoji": "🧸", "level": 1,
+          "zh": "想加入游戏只要勇敢问一句：我能一起玩吗？",
+          "sentences": [
+            "I see kids playing ball.",
+            "The ball goes up and down.",
+            "They look so happy.",
+            "I want to play too.",
+            "I take a big breath.",
+            "\"Can I play with you?\"",
+            "\"Yes! Come and join us!\"",
+            "Now we play together.",
+            "The ball flies to me. I catch it!",
+            "Asking is easy. Friends say yes."
+          ]
+        },
+        {
+          "id": "c06-02", "title": "Sharing My Toys", "titleZh": "分享玩具", "emoji": "🪀", "level": 1,
+          "zh": "分享玩具，快乐翻倍。",
+          "sentences": [
+            "I have a red kite.",
+            "I have a brown teddy bear.",
+            "I have many toys.",
+            "My friend Lily comes over.",
+            "She looks at my toys.",
+            "\"Do you want to play?\" I ask.",
+            "We fly the kite together.",
+            "We make tea for teddy.",
+            "Two people, twice the fun!",
+            "Sharing makes me happy."
+          ]
+        },
+        {
+          "id": "c06-03", "title": "Sorry Means a Lot", "titleZh": "对不起很重要", "emoji": "💙", "level": 1,
+          "zh": "不小心弄坏了朋友的积木，一句对不起让友谊回来了。",
+          "sentences": [
+            "Tom and I build with blocks.",
+            "We build a tall, tall tower.",
+            "I run to get more blocks.",
+            "Oh no! My foot hits the table.",
+            "The tower falls down. Crash!",
+            "Tom's eyes are full of tears.",
+            "\"I am so sorry,\" I say.",
+            "\"It is OK,\" Tom says slowly.",
+            "We build the tower again, together.",
+            "A sorry can fix many things."
+          ]
+        },
+        {
+          "id": "c06-04", "title": "A Friend for Foxy", "titleZh": "阿福找朋友", "emoji": "🦊", "level": 1,
+          "zh": "小狐狸阿福搬新家找朋友，一次分享让它有了最好的伙伴。",
+          "sentences": [
+            "Foxy the fox moved to a new woods.",
+            "\"Who will play with me?\"",
+            "He asked the bird in the tree.",
+            "The bird was busy with her eggs.",
+            "He asked the rabbit in the grass.",
+            "The rabbit was busy with his carrots.",
+            "Foxy sat alone under the moon.",
+            "Then he heard a little cry.",
+            "A small cat was lost in the dark!",
+            "Foxy shared his warm tail. They became best friends."
+          ]
+        },
+        {
+          "id": "c06-05", "title": "The Birthday Gift", "titleZh": "生日礼物", "emoji": "🎁", "level": 1,
+          "zh": "亲手画的画是最棒的生日礼物，心意比价格更重要。",
+          "sentences": [
+            "Tomorrow is Amy's birthday.",
+            "What can I give her?",
+            "I have no money for a big gift.",
+            "But I have paper and crayons!",
+            "I draw a big blue bird.",
+            "I draw flowers and a sun.",
+            "I write, \"Happy Birthday, Amy!\"",
+            "At the party, Amy opens it.",
+            "\"This is the best gift!\" she says.",
+            "She hugs me very tight."
+          ]
+        },
+        {
+          "id": "c06-06", "title": "Helping Hands", "titleZh": "帮把手", "emoji": "🧹", "level": 1,
+          "zh": "帮妈妈打扫、帮爷爷浇花，帮助别人心里甜甜的。",
+          "sentences": [
+            "Mom is cleaning the house.",
+            "\"Can I help?\" I ask.",
+            "\"Yes! Please put away your toys.\"",
+            "One toy, two toys, three.",
+            "I put the blocks in the box.",
+            "Grandpa is watering the flowers.",
+            "\"Can I help?\" I ask.",
+            "I water the little red flowers.",
+            "They drink and smile at the sun.",
+            "Helping hands are happy hands."
+          ]
+        },
+        {
+          "id": "c06-07", "title": "The New Kid", "titleZh": "新同学", "emoji": "👋", "level": 1,
+          "zh": "新同学第一天有点孤单，一个微笑让她变成了好朋友。",
+          "sentences": [
+            "A new girl came to our class.",
+            "She stood quietly by the door.",
+            "She did not know anyone.",
+            "Her shoes were new and white.",
+            "I smiled and waved at her.",
+            "She smiled back, just a little.",
+            "\"Do you want to sit with me?\"",
+            "We shared my crayons at art time.",
+            "Now we play together every day.",
+            "One smile can make a friend."
+          ]
+        },
+        {
+          "id": "c06-08", "title": "Rainy Day Together", "titleZh": "雨天在一起", "emoji": "☔", "level": 1,
+          "zh": "下雨不能出去玩，和朋友在室内盖被子城堡。",
+          "sentences": [
+            "Rain, rain, all day long.",
+            "We can not go out to play.",
+            "My friend comes to my house.",
+            "What can we do inside?",
+            "We build a blanket fort!",
+            "Two chairs and a big blanket.",
+            "We crawl inside with flashlights.",
+            "We tell silly stories and laugh.",
+            "The rain sings on the window.",
+            "Rainy days can be fun too."
+          ]
+        },
+        {
+          "id": "c06-09", "title": "My Best Friend", "titleZh": "我最好的朋友", "emoji": "🌟", "level": 1,
+          "zh": "最好的朋友会陪你笑、陪你哭、永远站在你身边。",
+          "sentences": [
+            "My best friend is Tom.",
+            "He has curly hair and a big smile.",
+            "When I am happy, he laughs with me.",
+            "When I fall down, he helps me up.",
+            "When I am sad, he sits with me.",
+            "We like the same games.",
+            "We like the same songs.",
+            "Sometimes we fight, but not for long.",
+            "Best friends always come back.",
+            "I am lucky to have Tom."
+          ]
+        },
+        {
+          "id": "c06-10", "title": "The Lost Teddy", "titleZh": "丢失的泰迪", "emoji": "🧸", "level": 1,
+          "zh": "妹妹的泰迪熊丢了，全家出动寻找，原来在洗衣机里睡着了。",
+          "sentences": [
+            "My little sister cried and cried.",
+            "Her teddy bear was gone!",
+            "\"Do not cry. We will find him.\"",
+            "We looked under the bed.",
+            "We looked behind the door.",
+            "We looked in the toy box.",
+            "No teddy anywhere!",
+            "Then we heard a funny sound.",
+            "It came from the washing machine.",
+            "Teddy was taking a bath! We all laughed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c07", "title": "Family & Home", "titleZh": "温暖的家", "emoji": "🏠", "level": 1,
+      "stories": [
+        {
+          "id": "c07-01", "title": "Mom's Warm Hug", "titleZh": "妈妈的抱抱", "emoji": "🤗", "level": 1,
+          "zh": "摔疼了的膝盖，妈妈的抱抱比创可贴还有用。",
+          "sentences": [
+            "I fell off my bike.",
+            "My knee hurt a little.",
+            "I ran to find Mom.",
+            "Mom opened her arms wide.",
+            "She gave me a big, warm hug.",
+            "The hug was soft like a cloud.",
+            "My knee still had a band-aid.",
+            "But the hurt flew away!",
+            "Mom's hugs are magic.",
+            "I love you, Mom."
+          ]
+        },
+        {
+          "id": "c07-02", "title": "Dad the Super Chef", "titleZh": "大厨爸爸", "emoji": "👨‍🍳", "level": 1,
+          "zh": "爸爸周末下厨，煎蛋像太阳，面条像云朵。",
+          "sentences": [
+            "On Sunday, Dad cooks breakfast.",
+            "Dad wears a tall white hat.",
+            "\"I am a super chef!\" he says.",
+            "He cracks two eggs. Crack, crack!",
+            "The eggs look like little suns.",
+            "He cooks long, long noodles.",
+            "They look like white clouds.",
+            "Everything tastes so good!",
+            "Mom says, \"Yum! Ten points!\"",
+            "Dad is the best chef in the world."
+          ]
+        },
+        {
+          "id": "c07-03", "title": "Grandma's Cookies", "titleZh": "奶奶的饼干", "emoji": "🍪", "level": 1,
+          "zh": "和奶奶一起烤饼干，面粉撒得像下雪。",
+          "sentences": [
+            "Grandma bakes the best cookies.",
+            "Today I will help her!",
+            "We wash our hands first.",
+            "We mix the flour and butter.",
+            "Flour falls like white snow!",
+            "I make a star cookie.",
+            "Grandma makes a moon cookie.",
+            "We wait by the warm oven.",
+            "Ding! The cookies are ready.",
+            "They taste like love."
+          ]
+        },
+        {
+          "id": "c07-04", "title": "Grandpa's Garden", "titleZh": "爷爷的花园", "emoji": "🌻", "level": 1,
+          "zh": "爷爷的花园里有向日葵、番茄和小蜗牛。",
+          "sentences": [
+            "Grandpa has a magic garden.",
+            "Sunflowers grow tall and yellow.",
+            "Red tomatoes hide in green leaves.",
+            "I help Grandpa water them.",
+            "We find a little snail.",
+            "He carries his house on his back!",
+            "\"Hello, Mr. Snail!\"",
+            "The bees come to say hi too.",
+            "Grandpa's garden is full of life.",
+            "I want a garden like this one day."
+          ]
+        },
+        {
+          "id": "c07-05", "title": "My Baby Brother", "titleZh": "我的小弟弟", "emoji": "👶", "level": 1,
+          "zh": "小弟弟会抓我手指咯咯笑，我是最棒的大姐姐。",
+          "sentences": [
+            "I have a baby brother.",
+            "He is small and soft.",
+            "He can not talk yet.",
+            "He speaks in goo-goo sounds!",
+            "I hold his tiny hand.",
+            "He grabs my finger.",
+            "I make a funny face.",
+            "He laughs and kicks his feet.",
+            "Mom says I am a big sister now.",
+            "I will take care of him, always."
+          ]
+        },
+        {
+          "id": "c07-06", "title": "My Big Sister", "titleZh": "我的大姐姐", "emoji": "👧", "level": 1,
+          "zh": "姐姐教我系鞋带，帮我够高处的书。",
+          "sentences": [
+            "I have a big sister.",
+            "She is tall and kind.",
+            "She teaches me to tie my shoes.",
+            "Bunny ears, loop, and pull!",
+            "I can not reach my book.",
+            "She gets it for me.",
+            "When thunder scares me at night,",
+            "she holds my hand and sings.",
+            "\"You are the best sister!\"",
+            "She smiles and pats my head."
+          ]
+        },
+        {
+          "id": "c07-07", "title": "Cleanup Day", "titleZh": "大扫除", "emoji": "🧹", "level": 1,
+          "zh": "全家大扫除，擦桌子扫地，家变得亮晶晶。",
+          "sentences": [
+            "Today is cleanup day!",
+            "Dad cleans the windows.",
+            "Mom sweeps the floor.",
+            "I put my books on the shelf.",
+            "Sister folds the clothes.",
+            "Even the cat chases the dust!",
+            "We work and we laugh.",
+            "The house shines like a star.",
+            "We sit down for sweet tea.",
+            "A clean home is a happy home."
+          ]
+        },
+        {
+          "id": "c07-08", "title": "The Weekend", "titleZh": "周末在家", "emoji": "🛋️", "level": 1,
+          "zh": "周末不用上学，全家窝在沙发上看书吃水果。",
+          "sentences": [
+            "It is the weekend!",
+            "No school today. Hooray!",
+            "We stay in our warm home.",
+            "Dad reads his thick book.",
+            "Mom cuts a sweet watermelon.",
+            "Sister draws a purple cat.",
+            "I build a block castle.",
+            "The cat sleeps in the sun.",
+            "We are all together.",
+            "This is the best weekend."
+          ]
+        },
+        {
+          "id": "c07-09", "title": "When I Am Sick", "titleZh": "我生病时", "emoji": "🤒", "level": 1,
+          "zh": "生病发烧时全家照顾我，很快又活蹦乱跳。",
+          "sentences": [
+            "I do not feel good today.",
+            "My head is hot.",
+            "Mom touches my forehead.",
+            "\"You have a fever, sweetie.\"",
+            "I stay in bed under warm blankets.",
+            "Dad brings me warm water.",
+            "Sister draws me a get-well card.",
+            "Mom tells me a quiet story.",
+            "The next day, I feel better!",
+            "My family took care of me."
+          ]
+        },
+        {
+          "id": "c07-10", "title": "Hugs for Everyone", "titleZh": "人人有抱抱", "emoji": "❤️", "level": 1,
+          "zh": "睡前给全家每人一个抱抱，爱要说出来。",
+          "sentences": [
+            "It is time for bed.",
+            "But first, hugs for everyone!",
+            "A big hug for Dad.",
+            "A soft hug for Mom.",
+            "A quick hug for my sister.",
+            "A gentle hug for the baby.",
+            "Even a hug for my teddy bear!",
+            "\"I love you,\" I say.",
+            "\"We love you too,\" they say.",
+            "I fall asleep with a smile."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c08", "title": "Nature & Weather", "titleZh": "大自然", "emoji": "🌈", "level": 1,
+      "stories": [
+        {
+          "id": "c08-01", "title": "Hello, Sun!", "titleZh": "你好，太阳", "emoji": "☀️", "level": 1,
+          "zh": "太阳公公的一天：叫醒公鸡、晒干露水、染红晚霞。",
+          "sentences": [
+            "The sun wakes up in the east.",
+            "\"Good morning, world!\"",
+            "He tickles the rooster's tail.",
+            "Cock-a-doodle-doo!",
+            "He dries the dew on the grass.",
+            "He warms my window.",
+            "He plays hide-and-seek with clouds.",
+            "In the evening, he turns orange.",
+            "He paints the sky pink and red.",
+            "\"Good night! See you tomorrow!\""
+          ]
+        },
+        {
+          "id": "c08-02", "title": "The Rainy Puddle", "titleZh": "雨后小水洼", "emoji": "💧", "level": 1,
+          "zh": "雨停了，地上的水洼是孩子的小海洋。",
+          "sentences": [
+            "The rain has stopped.",
+            "The sun peeks out.",
+            "I put on my yellow rain boots.",
+            "I find a big puddle.",
+            "It is like a little sea!",
+            "The sky is inside the puddle.",
+            "I step in. Splash!",
+            "Muddy water jumps up.",
+            "I splash and splash and splash.",
+            "Rain boots and puddles are best friends."
+          ]
+        },
+        {
+          "id": "c08-03", "title": "The Kite in the Wind", "titleZh": "风中的风筝", "emoji": "🪁", "level": 1,
+          "zh": "风筝乘着风越飞越高，风是看不见的好朋友。",
+          "sentences": [
+            "The wind blows today.",
+            "It pushes the trees. Swoosh!",
+            "It is a good day for a kite.",
+            "I hold my red kite tight.",
+            "Run, run, run!",
+            "The wind lifts my kite.",
+            "Up, up, up it goes!",
+            "The string pulls my hand.",
+            "My kite dances with the wind.",
+            "Thank you, wind, my flying friend!"
+          ]
+        },
+        {
+          "id": "c08-04", "title": "Snow Is Falling", "titleZh": "下雪啦", "emoji": "❄️", "level": 1,
+          "zh": "第一场雪落下来，堆雪人打雪仗，冬天真好玩。",
+          "sentences": [
+            "Look out of the window!",
+            "White flakes are falling.",
+            "Snow! It is snow!",
+            "The ground turns white.",
+            "The trees turn white.",
+            "I put on my warm coat.",
+            "I catch snow on my tongue.",
+            "We build a fat snowman.",
+            "A carrot nose and a red scarf!",
+            "Winter is a white, happy world."
+          ]
+        },
+        {
+          "id": "c08-05", "title": "The Little Seed", "titleZh": "小种子", "emoji": "🌱", "level": 1,
+          "zh": "小种子钻进泥土，喝雨水晒太阳，长成了大向日葵。",
+          "sentences": [
+            "I plant a little seed.",
+            "I cover it with soft soil.",
+            "\"Sleep well, little seed.\"",
+            "The rain waters it. Drip, drop.",
+            "The sun warms it. So nice.",
+            "One morning, a sprout pops up!",
+            "\"Hello, world!\"",
+            "It grows taller every day.",
+            "At last, it is a big sunflower.",
+            "It turns its face to the sun."
+          ]
+        },
+        {
+          "id": "c08-06", "title": "A Bee's Busy Day", "titleZh": "蜜蜂忙碌的一天", "emoji": "🐝", "level": 1,
+          "zh": "小蜜蜂拜访花朵采蜜，花儿谢谢它帮忙传粉。",
+          "sentences": [
+            "Buzz, buzz! Here comes a little bee.",
+            "She has so much work today.",
+            "She flies to the red rose.",
+            "\"Hello, Bee! Please take my honey.\"",
+            "She flies to the yellow sunflower.",
+            "\"Hello, Bee! My honey is sweet.\"",
+            "Buzz, buzz, from flower to flower.",
+            "Her little bags are full of gold.",
+            "\"Thank you, Bee!\"",
+            "\"You help us grow. You are welcome!\""
+          ]
+        },
+        {
+          "id": "c08-07", "title": "The Butterfly", "titleZh": "毛毛虫变蝴蝶", "emoji": "🦋", "level": 1,
+          "zh": "毛毛虫吃了睡睡了吃，结茧破壳变成漂亮蝴蝶。",
+          "sentences": [
+            "A little caterpillar crawls.",
+            "She is green and small.",
+            "She eats leaves all day.",
+            "Crunch, crunch, crunch!",
+            "She grows fat and long.",
+            "She makes a little house. It is a chrysalis.",
+            "She sleeps inside. One, two, ten days.",
+            "One morning, the house opens!",
+            "Out comes a beautiful butterfly!",
+            "She spreads her wings and flies."
+          ]
+        },
+        {
+          "id": "c08-08", "title": "Where Is the Moon?", "titleZh": "月亮去哪儿了", "emoji": "🌙", "level": 1,
+          "zh": "月亮有时圆有时弯，有时躲起来，它一直都在。",
+          "sentences": [
+            "Where is the moon tonight?",
+            "Yesterday it was round like a plate.",
+            "Today it is thin like a banana.",
+            "Tomorrow, where will it go?",
+            "Sometimes it hides behind clouds.",
+            "I can not see it at all.",
+            "But I know it is still there.",
+            "Moon, are you playing hide-and-seek?",
+            "The stars twinkle and laugh.",
+            "Good night, moon, wherever you are."
+          ]
+        },
+        {
+          "id": "c08-09", "title": "The Rainbow", "titleZh": "雨后的彩虹", "emoji": "🌈", "level": 1,
+          "zh": "雨后太阳出来，天上挂起七彩桥。",
+          "sentences": [
+            "The rain goes away.",
+            "The sun comes out to play.",
+            "Look up at the sky!",
+            "A rainbow is there!",
+            "Red and orange and yellow.",
+            "Green and blue and purple.",
+            "So many colors in one line!",
+            "It looks like a magic bridge.",
+            "Can I walk on it? Maybe not!",
+            "Hello, rainbow. You are so pretty."
+          ]
+        },
+        {
+          "id": "c08-10", "title": "Autumn Leaves", "titleZh": "秋天的落叶", "emoji": "🍂", "level": 1,
+          "zh": "秋风把树叶染成黄色红色，落叶铺成软软的地毯。",
+          "sentences": [
+            "Autumn is here.",
+            "The wind turns the leaves yellow.",
+            "Some turn red. Some turn brown.",
+            "The leaves let go of the trees.",
+            "They dance in the wind.",
+            "Round and round, down they come.",
+            "They make a soft carpet on the ground.",
+            "I collect the prettiest ones.",
+            "Crunch, crunch when I walk!",
+            "Goodbye, leaves. See you in spring."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c09", "title": "Funny Stories", "titleZh": "开心一笑", "emoji": "😄", "level": 2,
+      "stories": [
+        {
+          "id": "c09-01", "title": "The Silly Hat", "titleZh": "傻傻的帽子", "emoji": "🎩", "level": 1,
+          "zh": "爷爷的帽子卡在头上下不来，全家想办法，喷嚏救了场。",
+          "sentences": [
+            "Grandpa tried on my party hat.",
+            "It was too small for his big head.",
+            "Now the hat was stuck!",
+            "\"Pull it!\" said Mom. They pulled.",
+            "\"Twist it!\" said Dad. They twisted.",
+            "The hat did not come off.",
+            "Grandpa looked so funny!",
+            "We all tried not to laugh.",
+            "Then Grandpa's nose felt tickly...",
+            "Ah-choo! The hat flew off! We all laughed."
+          ]
+        },
+        {
+          "id": "c09-02", "title": "Monkey See, Monkey Do", "titleZh": "猴子学样", "emoji": "🐵", "level": 1,
+          "zh": "小猴子学爷爷戴眼镜、学奶奶拄拐杖，学得滑稽又可爱。",
+          "sentences": [
+            "A little monkey watched Grandpa Lion.",
+            "Grandpa put on his glasses.",
+            "Monkey put leaves on his eyes!",
+            "He watched Grandma Bear.",
+            "Grandma walked with a stick.",
+            "Monkey walked with a branch!",
+            "He watched the baby duck.",
+            "The duck waddled left and right.",
+            "Monkey waddled too. Plop! He fell.",
+            "Everyone laughed. Monkey laughed too!"
+          ]
+        },
+        {
+          "id": "c09-03", "title": "The Dog Who Said Moo", "titleZh": "学牛叫的小狗", "emoji": "🐕", "level": 1,
+          "zh": "小狗跟牛学 moo 叫，跟羊学 baa，最后还是汪汪最合适。",
+          "sentences": [
+            "A puppy met a big cow.",
+            "The cow said, \"Moo!\"",
+            "The puppy said, \"Moo!\"",
+            "The cow laughed. \"You are a dog!\"",
+            "The puppy met a sheep.",
+            "The sheep said, \"Baa!\"",
+            "The puppy said, \"Baa!\"",
+            "The sheep laughed. \"You are a dog!\"",
+            "The puppy thought and thought.",
+            "\"Woof! Woof!\" That was perfect!"
+          ]
+        },
+        {
+          "id": "c09-04", "title": "The Mud Cake", "titleZh": "泥巴蛋糕", "emoji": "🍰", "level": 1,
+          "zh": "小猪用泥巴做了个大蛋糕送给妈妈，妈妈的反应暖暖的。",
+          "sentences": [
+            "Tomorrow is Mom Pig's birthday.",
+            "Little Pig wanted to make a cake.",
+            "But he had no flour or eggs.",
+            "He had... mud! Lots of mud!",
+            "He mixed and patted the mud.",
+            "He put flowers on the top.",
+            "\"Happy birthday, Mom!\"",
+            "Mom Pig looked at the mud cake.",
+            "She hugged Little Pig tight.",
+            "\"The best cake ever!\" she smiled."
+          ]
+        },
+        {
+          "id": "c09-05", "title": "The Sock Monster", "titleZh": "袜子小怪物", "emoji": "🧦", "level": 1,
+          "zh": "袜子总丢一只？原来是洗衣机后面住了个爱收集袜子的小家伙。",
+          "sentences": [
+            "Where do my socks go?",
+            "I put in two. I get out one!",
+            "One sock always runs away.",
+            "Mom says, \"The sock monster took it!\"",
+            "One day, I heard a little sound.",
+            "It came from behind the washing machine.",
+            "I peeked. What did I see?",
+            "A tiny monster in a sock hat!",
+            "He had ten of my socks!",
+            "\"Can I have them back?\" He gave me nine. Fair enough!"
+          ]
+        },
+        {
+          "id": "c09-06", "title": "Cat on My Head", "titleZh": "头上的猫", "emoji": "🐈", "level": 1,
+          "zh": "小猫总在早晨睡到头上，像一顶会呼噜的帽子。",
+          "sentences": [
+            "Every morning, the same thing!",
+            "I wake up with something warm.",
+            "It is soft. It is purring.",
+            "It is... the cat on my head!",
+            "\"Good morning,\" says the cat.",
+            "Well, he says, \"Meow.\"",
+            "He thinks my head is his bed.",
+            "I walk to breakfast. He rides along.",
+            "My hair is full of cat fur.",
+            "A purring hat is the best hat."
+          ]
+        },
+        {
+          "id": "c09-07", "title": "The Dancing Duck", "titleZh": "跳舞的鸭子", "emoji": "🩰", "level": 1,
+          "zh": "小鸭子一看音乐就摇摆，整个池塘开起了舞会。",
+          "sentences": [
+            "There was a duck who loved music.",
+            "When music played, something happened.",
+            "His feet went tap, tap, tap!",
+            "His tail went shake, shake, shake!",
+            "He could not stop dancing!",
+            "The fish jumped to the beat.",
+            "The frogs hopped in a line.",
+            "Even slow turtle moved his head.",
+            "The pond turned into a dance party!",
+            "Everybody dance, quack, quack!"
+          ]
+        },
+        {
+          "id": "c09-08", "title": "The Yawning Bear", "titleZh": "打哈欠的熊", "emoji": "🥱", "level": 1,
+          "zh": "哈欠会传染！熊一个哈欠传遍整座森林。",
+          "sentences": [
+            "Big Bear sat under a tree.",
+            "He felt a yawn coming.",
+            "Ah... ah... ah-choo-no, a YAWN!",
+            "Next to him, Rabbit yawned.",
+            "On the branch, Bird yawned.",
+            "In the grass, Duck yawned.",
+            "In the river, Fish yawned. Blub!",
+            "Everyone in the forest yawned.",
+            "Big Bear laughed and said,",
+            "\"Let us all take a nap!\" And they did."
+          ]
+        },
+        {
+          "id": "c09-09", "title": "The Sneezing Panda", "titleZh": "打喷嚏的熊猫", "emoji": "🐼", "level": 1,
+          "zh": "熊猫一闻到花粉就打大喷嚏，喷嚏的力量大得惊人。",
+          "sentences": [
+            "There was a panda named Po.",
+            "Po loved flowers. Oh no!",
+            "Flowers made Po sneeze.",
+            "Ah... ah... AH-CHOO!",
+            "His sneeze blew off his hat.",
+            "His sneeze shook the bamboo.",
+            "His sneeze woke the sleeping pig!",
+            "\"Po, no more flowers for you.\"",
+            "But flowers were so pretty.",
+            "AH-CHOO! There went his hat again!"
+          ]
+        },
+        {
+          "id": "c09-10", "title": "Bubble Trouble", "titleZh": "泡泡大麻烦", "emoji": "🫧", "level": 1,
+          "zh": "泡泡水倒太多，整个教室都是泡泡，像云朵学校。",
+          "sentences": [
+            "It was bubble day at school.",
+            "Each kid got a little cup.",
+            "But I knocked over the BIG bottle!",
+            "Glug, glug, glug! Bubble soap everywhere!",
+            "The bubbles began to grow.",
+            "One bubble was as big as a ball!",
+            "One was as big as a chair!",
+            "One was as big as the teacher!",
+            "The classroom turned into clouds.",
+            "\"Best day ever!\" we all shouted."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c10", "title": "Bedtime Stories", "titleZh": "睡前故事", "emoji": "🌙", "level": 1,
+      "stories": [
+        {
+          "id": "c10-01", "title": "The Sleepy Little Cat", "titleZh": "困困的小猫", "emoji": "🐈‍⬛", "level": 1,
+          "zh": "小猫找最舒服的地方睡觉，最后发现妈妈的怀里最好。",
+          "sentences": [
+            "The little cat was sleepy.",
+            "She tried to sleep on the chair.",
+            "The chair was too hard.",
+            "She tried to sleep in the box.",
+            "The box was too small.",
+            "She tried to sleep by the fire.",
+            "The fire spot was too hot.",
+            "Then Mother Cat called softly.",
+            "The little cat snuggled in Mom's arms.",
+            "Warm, soft, perfect. Zzz..."
+          ]
+        },
+        {
+          "id": "c10-02", "title": "Good Night, Farm", "titleZh": "晚安，农场", "emoji": "🚜", "level": 1,
+          "zh": "跟农场每个朋友道晚安，大家都睡了。",
+          "sentences": [
+            "The sun sets behind the farm.",
+            "Good night, big cow. Moo... zzz.",
+            "Good night, little pig. Oink... zzz.",
+            "Good night, red hen. Cluck... zzz.",
+            "Good night, white sheep. Baa... zzz.",
+            "Good night, brown horse. Neigh... zzz.",
+            "Good night, little duck. Quack... zzz.",
+            "The barn is quiet now.",
+            "The stars watch over the farm.",
+            "Good night, farm. Sleep tight."
+          ]
+        },
+        {
+          "id": "c10-03", "title": "The Moon Boat", "titleZh": "月亮船", "emoji": "⛵", "level": 1,
+          "zh": "弯弯的月亮像小船，载着孩子飘过星空。",
+          "sentences": [
+            "The moon is like a little boat.",
+            "Tonight, it floats by my window.",
+            "\"Hop in,\" says the moon boat.",
+            "I climb in, soft as a dream.",
+            "We float over the sleeping town.",
+            "We float over the quiet sea.",
+            "Stars swim by like little fish.",
+            "The wind sings a low, slow song.",
+            "My eyes are heavy now.",
+            "The moon boat rocks me to sleep."
+          ]
+        },
+        {
+          "id": "c10-04", "title": "Little Star's Bed", "titleZh": "小星星的床", "emoji": "⭐", "level": 1,
+          "zh": "小星星找自己的云朵床，找到了才安心眨眼睡觉。",
+          "sentences": [
+            "High in the sky, a little star yawned.",
+            "\"Where is my bed tonight?\"",
+            "He looked at the round moon.",
+            "The moon was full. No room!",
+            "He looked at the fluffy clouds.",
+            "That cloud was too thin.",
+            "That cloud was too gray.",
+            "Then he found the softest cloud.",
+            "It was white like cotton candy.",
+            "He snuggled in. Twinkle... twinkle... zzz."
+          ]
+        },
+        {
+          "id": "c10-05", "title": "The Dream Blanket", "titleZh": "梦境小毯子", "emoji": "🛌", "level": 1,
+          "zh": "盖上奶奶织的小毯子，就会做甜甜的梦。",
+          "sentences": [
+            "Grandma knitted me a little blanket.",
+            "It is blue like the night sky.",
+            "Grandma said it was magic.",
+            "\"It brings sweet dreams.\"",
+            "Tonight I sleep under it.",
+            "I dream of flying over clouds.",
+            "I dream of a candy mountain.",
+            "I dream of laughing with friends.",
+            "In the morning, I remember them all.",
+            "Thank you, magic dream blanket."
+          ]
+        },
+        {
+          "id": "c10-06", "title": "Night-Night, Bear", "titleZh": "晚安，小熊", "emoji": "🐻‍❄️", "level": 1,
+          "zh": "小熊害怕黑，月亮和萤火虫点亮了它的夜晚。",
+          "sentences": [
+            "Little Bear did not like the dark.",
+            "\"It is too black at night!\"",
+            "The moon heard him.",
+            "She shone her light through the window.",
+            "\"Now it is silver,\" said Little Bear.",
+            "A firefly flew in.",
+            "His little light blinked. Blink, blink!",
+            "Another firefly came. Then ten!",
+            "The room was full of tiny stars.",
+            "\"The dark can be beautiful,\" smiled Little Bear. \"Night-night.\""
+          ]
+        },
+        {
+          "id": "c10-07", "title": "The Quiet Owl", "titleZh": "安静的猫头鹰", "emoji": "🦉", "level": 1,
+          "zh": "猫头鹰守着夜晚，看顾所有睡着的小动物。",
+          "sentences": [
+            "When everyone sleeps, owl wakes up.",
+            "Whooo is watching the night?",
+            "The quiet owl, that is who.",
+            "She watches the sleeping bunnies.",
+            "She watches the dreaming ducks.",
+            "She watches the snoring bear.",
+            "If a little one cries, she calls Mom.",
+            "Whooo... whooo... all is well.",
+            "The night is safe and soft.",
+            "Sleep on, little ones. Owl is here."
+          ]
+        },
+        {
+          "id": "c10-08", "title": "Sleep, Little Fish", "titleZh": "睡吧小鱼", "emoji": "🐠", "level": 1,
+          "zh": "海里的朋友也有睡前仪式：泡泡晚安吻。",
+          "sentences": [
+            "The sea turns dark blue.",
+            "The sun goes down, down, down.",
+            "\"Time for bed,\" says Mother Fish.",
+            "The little fish yawns. Blub!",
+            "The whale sings a low, deep song.",
+            "The seahorse rocks in the grass.",
+            "The starfish tucks in the sand.",
+            "The little fish blows a good-night kiss.",
+            "A bubble floats up. Pop!",
+            "Sleep, little fish, under the quiet sea."
+          ]
+        },
+        {
+          "id": "c10-09", "title": "One More Kiss", "titleZh": "再亲一个", "emoji": "💋", "level": 1,
+          "zh": "睡前讨价还价：再亲一个、再抱一下，最后安心睡着。",
+          "sentences": [
+            "\"Time to sleep,\" says Mom.",
+            "\"One more kiss?\" I ask.",
+            "Mom kisses my forehead.",
+            "\"One more hug?\" I ask.",
+            "Mom hugs me, warm and tight.",
+            "\"One more blanket?\" I ask.",
+            "Mom tucks the blanket in.",
+            "\"One more... \" I start to say.",
+            "But my eyes are closing...",
+            "Zzz. Mom smiles: \"Good night, my love.\""
+          ]
+        },
+        {
+          "id": "c10-10", "title": "Sweet Dreams, Little One", "titleZh": "做个好梦", "emoji": "🌟", "level": 1,
+          "zh": "世界跟孩子一起入睡：太阳睡了花儿睡了，你也睡吧。",
+          "sentences": [
+            "The sun has gone to sleep.",
+            "The flowers have closed their eyes.",
+            "The birds are in their nests.",
+            "The fish are in their coral beds.",
+            "The moon is on watch.",
+            "The stars keep her company.",
+            "Your bed is warm and soft.",
+            "Your teddy is by your side.",
+            "Close your eyes, little one.",
+            "Sweet dreams. I love you."
+          ]
+        }
+      ]
+    }
+  ]
+}

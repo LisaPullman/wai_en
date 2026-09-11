@@ -1,0 +1,827 @@
+{
+  "collections": [
+    {
+      "id": "c01", "title": "Classic Tales", "titleZh": "经典童话", "emoji": "🏰", "level": 2,
+      "stories": [
+        {
+          "id": "c01-01", "title": "The Three Little Pigs", "titleZh": "三只小猪", "emoji": "🐷", "level": 2,
+          "zh": "三只小猪各自盖房，草房木房被大灰狼吹倒，只有砖房最结实，齐心赶走了狼。",
+          "sentences": [
+            "Once there were three little pigs.",
+            "One pig made a house of straw.",
+            "One pig made a house of sticks.",
+            "One pig made a house of bricks.",
+            "A big bad wolf came to the straw house.",
+            "He huffed and puffed, and the straw house fell down!",
+            "The wolf came to the brick house.",
+            "He huffed and puffed, but the brick house stood strong.",
+            "The three pigs were safe and happy."
+          ]
+        },
+        {
+          "id": "c01-02", "title": "Goldilocks and the Three Bears", "titleZh": "金发姑娘和三只熊", "emoji": "🐻", "level": 3,
+          "zh": "金发姑娘闯进熊家，尝了粥、坐了椅子、睡了床，熊回家发现了她，她红着逃跑了。",
+          "sentences": [
+            "Goldilocks walked in the woods.",
+            "She saw a little house.",
+            "Three bears lived there.",
+            "She tasted the three bowls of soup.",
+            "The little bowl was just right.",
+            "She sat on three chairs.",
+            "The little chair broke!",
+            "She slept on the little bed.",
+            "The bears came home.",
+            "Goldilocks woke up and ran away."
+          ]
+        },
+        {
+          "id": "c01-03", "title": "The Gingerbread Man", "titleZh": "姜饼人", "emoji": "🍪", "level": 2,
+          "zh": "姜饼人从烤箱里跳出来逃跑，谁都追不上他，最后却被聪明的狐狸吃掉了。",
+          "sentences": [
+            "A little old woman made a gingerbread man.",
+            "The gingerbread man jumped out of the oven!",
+            "Run, run, as fast as you can!",
+            "You can not catch me. I am the gingerbread man!",
+            "The woman ran. The man ran.",
+            "A cow ran. A horse ran.",
+            "They could not catch him.",
+            "A fox said, \"I can help you cross the river.\"",
+            "The gingerbread man jumped on the fox's nose.",
+            "The fox ate him all up!"
+          ]
+        },
+        {
+          "id": "c01-04", "title": "The Big Turnip", "titleZh": "拔萝卜", "emoji": "🥕", "level": 2,
+          "zh": "老爷爷拔不动大萝卜，全家一个拉一个，连小老鼠都来帮忙，终于拔出来了。",
+          "sentences": [
+            "A grandpa planted a turnip.",
+            "The turnip grew and grew.",
+            "It was a big, big turnip!",
+            "Grandpa pulled the turnip.",
+            "He could not pull it up.",
+            "Grandma pulled grandpa.",
+            "The boy pulled grandma.",
+            "The girl pulled the boy.",
+            "The little dog and the little cat pulled too.",
+            "Pop! The big turnip came out!"
+          ]
+        },
+        {
+          "id": "c01-05", "title": "Little Red Riding Hood", "titleZh": "小红帽", "emoji": "🧺", "level": 3,
+          "zh": "小红帽去看奶奶，大灰狼假扮奶奶，猎人及时赶到救了她们。",
+          "sentences": [
+            "Little Red Riding Hood had a red hood.",
+            "She took a basket to grandma.",
+            "She walked through the woods.",
+            "A wolf saw her.",
+            "The wolf ran to grandma's house first.",
+            "He put on grandma's hat.",
+            "\"What big eyes you have!\" said Little Red.",
+            "\"What big ears you have!\"",
+            "A hunter came and helped.",
+            "Grandma and Little Red were safe."
+          ]
+        },
+        {
+          "id": "c01-06", "title": "The Ugly Duckling", "titleZh": "丑小鸭", "emoji": "🦆", "level": 3,
+          "zh": "丑小鸭被大家嘲笑，孤独地长大，春天才发现自己是一只美丽的白天鹅。",
+          "sentences": [
+            "Mother Duck had five eggs.",
+            "Four eggs opened. Four little ducks came out.",
+            "The fifth duck was big and gray.",
+            "\"You are ugly!\" said the ducks.",
+            "The ugly duckling was sad.",
+            "He ran away to the river.",
+            "Winter came. Winter went.",
+            "Spring came, and he saw his shadow in the water.",
+            "He was a beautiful white swan!",
+            "He flew high in the sky, happy at last."
+          ]
+        },
+        {
+          "id": "c01-07", "title": "The Three Goats", "titleZh": "三只山羊", "emoji": "🐐", "level": 2,
+          "zh": "三只山羊想过桥吃青草，用聪明和勇气战胜了桥下的大怪物。",
+          "sentences": [
+            "Three goats wanted the green grass on the hill.",
+            "A big troll lived under the bridge.",
+            "The little goat walked on the bridge.",
+            "\"Who is on my bridge?\" said the troll.",
+            "\"It is I, the little goat.\"",
+            "\"Wait for my big brother!\"",
+            "The big goat came. He was strong.",
+            "He pushed the troll into the river.",
+            "The three goats ate the green grass all day."
+          ]
+        },
+        {
+          "id": "c01-08", "title": "The Magic Pot", "titleZh": "魔法粥锅", "emoji": "🍲", "level": 3,
+          "zh": "神奇的锅会说咒语煮粥，却没人记得怎么让它停下，全村都是粥啦！",
+          "sentences": [
+            "A little girl had a magic pot.",
+            "\"Cook, little pot, cook!\"",
+            "The pot cooked hot soup.",
+            "\"Stop, little pot, stop!\"",
+            "The pot stopped.",
+            "One day, the pot began to cook.",
+            "No one knew how to stop it!",
+            "Soup ran into the street.",
+            "The little girl came home.",
+            "\"Stop, little pot, stop!\" At last, the pot stopped."
+          ]
+        },
+        {
+          "id": "c01-09", "title": "Stone Soup", "titleZh": "石头汤", "emoji": "🥘", "level": 3,
+          "zh": "聪明的士兵用一块石头煮汤，村民们你一点我一点，煮出了全村最香的汤。",
+          "sentences": [
+            "A hungry man came to a town.",
+            "He had a pot and a little stone.",
+            "\"I can make stone soup!\" he said.",
+            "He put the stone in the pot of water.",
+            "\"It is good with a carrot,\" he said.",
+            "A boy brought a carrot.",
+            "\"It is good with some meat,\" he said.",
+            "A man brought some meat.",
+            "Everyone tasted the soup.",
+            "\"Yum! Stone soup is the best soup!\""
+          ]
+        },
+        {
+          "id": "c01-10", "title": "The Wolf and the Kids", "titleZh": "狼和七只小羊", "emoji": "🐑", "level": 3,
+          "zh": "羊妈妈出门后大灰狼装成妈妈进门，小羊们用智慧最终平安团圆。",
+          "sentences": [
+            "Mother Goat had seven little kids.",
+            "\"Do not open the door for the wolf!\"",
+            "The wolf knocked on the door.",
+            "\"Open the door, my kids!\"",
+            "\"Your voice is not soft like Mom's!\"",
+            "The wolf ate some honey. His voice was soft.",
+            "The kids opened the door.",
+            "The wolf jumped in! The kids hid.",
+            "Mother Goat came home and found her kids.",
+            "The family was together again."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c02", "title": "Aesop's Fables", "titleZh": "伊索寓言", "emoji": "🦉", "level": 2,
+      "stories": [
+        {
+          "id": "c02-01", "title": "The Lion and the Mouse", "titleZh": "狮子和老鼠", "emoji": "🦁", "level": 2,
+          "zh": "小老鼠救了大狮子——小小的朋友也能帮大忙。",
+          "sentences": [
+            "A big lion was sleeping.",
+            "A little mouse ran on his nose.",
+            "The lion woke up. He caught the mouse.",
+            "\"Please let me go!\" said the mouse.",
+            "The lion smiled and let her go.",
+            "One day, the lion was in a net.",
+            "He could not get out.",
+            "The little mouse came.",
+            "She bit the net, bit and bit.",
+            "The lion was free! Small friends can be big helpers."
+          ]
+        },
+        {
+          "id": "c02-02", "title": "The Race", "titleZh": "龟兔赛跑", "emoji": "🐢", "level": 2,
+          "zh": "骄傲的兔子睡了一觉，慢慢走的乌龟赢了比赛。",
+          "sentences": [
+            "A rabbit and a turtle had a race.",
+            "\"You are so slow!\" said the rabbit.",
+            "The rabbit ran fast, fast, fast.",
+            "The turtle walked slowly, step by step.",
+            "The rabbit looked back.",
+            "The turtle was far, far away.",
+            "The rabbit slept under a tree.",
+            "The turtle walked and walked.",
+            "The turtle got to the end first!",
+            "Slow and steady wins the race."
+          ]
+        },
+        {
+          "id": "c02-03", "title": "The Boy and the Wolf", "titleZh": "狼来了", "emoji": "🐑", "level": 2,
+          "zh": "放羊的孩子两次说谎喊狼来了，狼真的来时没人再信他。",
+          "sentences": [
+            "A little boy watched his sheep.",
+            "He was bored. He wanted fun.",
+            "\"Wolf! Wolf!\" he cried.",
+            "The farmers ran to help.",
+            "But there was no wolf. The boy laughed.",
+            "The next day, he cried, \"Wolf! Wolf!\" again.",
+            "The farmers ran. No wolf. The boy laughed.",
+            "Then a real wolf came!",
+            "\"Wolf! Wolf!\" No one came.",
+            "Do not tell lies, or no one will believe you."
+          ]
+        },
+        {
+          "id": "c02-04", "title": "The Ant and the Grasshopper", "titleZh": "蚂蚁和蚱蜢", "emoji": "🐜", "level": 3,
+          "zh": "蚂蚁夏天忙存粮，蚱蜢只顾唱歌玩，冬天来了谁暖谁饿？",
+          "sentences": [
+            "Summer was warm and sunny.",
+            "The ants worked day after day.",
+            "They put food in their little house.",
+            "A grasshopper sang and played.",
+            "\"Come and play!\" he said.",
+            "\"We must save food for winter,\" said the ants.",
+            "Winter came. It was cold and white.",
+            "The grasshopper had no food.",
+            "The ants had warm soup every day.",
+            "Work first, then play."
+          ]
+        },
+        {
+          "id": "c02-05", "title": "The Fox and the Grapes", "titleZh": "狐狸和葡萄", "emoji": "🦊", "level": 2,
+          "zh": "狐狸够不着葡萄就说葡萄是酸的——吃不到的东西才不稀罕呢！",
+          "sentences": [
+            "A fox was very hungry.",
+            "He saw purple grapes on a tall tree.",
+            "The grapes looked so sweet.",
+            "He jumped. He could not get them.",
+            "He jumped again. Still no grapes.",
+            "He jumped higher and higher.",
+            "His legs were tired.",
+            "\"The grapes are sour!\" he said.",
+            "He walked away with an empty tummy.",
+            "It is easy to say what you can not get is bad."
+          ]
+        },
+        {
+          "id": "c02-06", "title": "The Crow and the Water", "titleZh": "聪明的乌鸦", "emoji": "🐦‍⬛", "level": 2,
+          "zh": "口渴的乌鸦往瓶子里丢石子，水位升高，喝到了水。",
+          "sentences": [
+            "A crow was so thirsty.",
+            "She saw a bottle with a little water.",
+            "The bottle was tall.",
+            "Her beak could not reach the water.",
+            "She thought and thought.",
+            "She put a little stone in the bottle.",
+            "The water came up a bit.",
+            "Stone after stone, the water came up.",
+            "At last, she drank the water!",
+            "Think hard, and you will find a way."
+          ]
+        },
+        {
+          "id": "c02-07", "title": "The Wind and the Sun", "titleZh": "北风和太阳", "emoji": "🌞", "level": 2,
+          "zh": "风和太阳比赛谁能让旅人脱下外套，温暖比强硬更有力量。",
+          "sentences": [
+            "The wind and the sun had a talk.",
+            "\"I am strong!\" said the wind.",
+            "A man in a coat walked by.",
+            "\"Let us see who can take off his coat.\"",
+            "The wind blew and blew.",
+            "The man held his coat tight.",
+            "The sun smiled, warm and bright.",
+            "The man felt hot.",
+            "He took off his coat!",
+            "Kindness is stronger than force."
+          ]
+        },
+        {
+          "id": "c02-08", "title": "The Dog and His Bone", "titleZh": "小狗和骨头", "emoji": "🐶", "level": 2,
+          "zh": "小狗叼着骨头看见水里的倒影，贪心一张嘴，骨头掉进水里了。",
+          "sentences": [
+            "A dog had a big bone in his mouth.",
+            "He was so happy.",
+            "He walked over a little bridge.",
+            "He looked down at the water.",
+            "He saw a dog with a bone!",
+            "\"I want that bone too!\" he thought.",
+            "He opened his mouth to bark.",
+            "His bone fell into the water!",
+            "The other dog was only his shadow.",
+            "Do not be too greedy."
+          ]
+        },
+        {
+          "id": "c02-09", "title": "Two Little Mice", "titleZh": "城里老鼠和乡下老鼠", "emoji": "🐭", "level": 3,
+          "zh": "城里食物好吃却有猫，乡下清贫却安心——平安简单才是真快乐。",
+          "sentences": [
+            "A country mouse lived in a quiet field.",
+            "A city mouse came to visit.",
+            "\"Your food is so simple,\" he said.",
+            "\"Come to the city with me!\"",
+            "They ran to the city house.",
+            "They found bread and cheese and cake.",
+            "\"Yum!\" said the country mouse.",
+            "Then a big cat jumped in!",
+            "They ran and ran and hid in a little hole.",
+            "\"I like my quiet field,\" said the country mouse."
+          ]
+        },
+        {
+          "id": "c02-10", "title": "The Fox and the Crow", "titleZh": "狐狸和乌鸦", "emoji": "🦅", "level": 3,
+          "zh": "狐狸夸乌鸦嗓子美，乌鸦一开口唱歌，嘴里的奶酪掉了。",
+          "sentences": [
+            "A crow sat on a tree.",
+            "She had cheese in her beak.",
+            "A fox walked by. He was hungry.",
+            "\"Hello, beautiful bird!\" he said.",
+            "\"Your feathers are so pretty.\"",
+            "\"Can you sing for me?\"",
+            "The crow was very happy.",
+            "She opened her beak to sing.",
+            "The cheese fell down!",
+            "The fox ate it and ran away."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c03", "title": "Animal Friends", "titleZh": "动物朋友们", "emoji": "🐾", "level": 1,
+      "stories": [
+        {
+          "id": "c03-01", "title": "The Cat's Red Balloon", "titleZh": "小猫的红气球", "emoji": "🎈", "level": 1,
+          "zh": "小猫心爱的红气球飞走了，朋友们帮它追，最后收获了满天气球。",
+          "sentences": [
+            "A little cat had a red balloon.",
+            "She loved her red balloon.",
+            "The wind blew. The balloon flew up!",
+            "\"Come back!\" said the little cat.",
+            "A bird flew up to help.",
+            "A monkey jumped high to help.",
+            "The balloon flew over the trees.",
+            "Pop! It hit a tree.",
+            "The cat was sad. Her friends hugged her.",
+            "\"We are your balloons now!\" they said."
+          ]
+        },
+        {
+          "id": "c03-02", "title": "Panda's Picnic", "titleZh": "熊猫的野餐", "emoji": "🐼", "level": 1,
+          "zh": "熊猫带竹子去野餐，遇见朋友分享食物，野餐变得热闹又开心。",
+          "sentences": [
+            "Panda had a picnic in the sun.",
+            "He had green bamboo to eat.",
+            "A rabbit came by.",
+            "\"Hello, Rabbit! Have some bamboo.\"",
+            "A duck came by.",
+            "\"Hello, Duck! Sit with me.\"",
+            "A bear came by with honey.",
+            "\"Yum! Honey and bamboo!\"",
+            "They ate and ate under the sun.",
+            "Picnics are fun with friends."
+          ]
+        },
+        {
+          "id": "c03-03", "title": "Duck's Rainy Day", "titleZh": "鸭子下雨天", "emoji": "🦆", "level": 1,
+          "zh": "下雨了大家躲雨，只有小鸭子 happiest——雨天是它的游乐场。",
+          "sentences": [
+            "Rain fell from the gray clouds.",
+            "The cat ran under a chair.",
+            "The bird flew to her nest.",
+            "The rabbit hid in his hole.",
+            "But the little duck was happy!",
+            "Rain, rain, splash, splash!",
+            "She jumped in the puddles.",
+            "The rain was her best friend.",
+            "\"I love rainy days!\" she said.",
+            "Some love sun. Some love rain."
+          ]
+        },
+        {
+          "id": "c03-04", "title": "The Sleepy Bear", "titleZh": "瞌睡熊", "emoji": "🐻", "level": 1,
+          "zh": "熊怎么都睡不着，朋友们用歌声哄它入眠。",
+          "sentences": [
+            "A big bear could not sleep.",
+            "He rolled left. He rolled right.",
+            "\"I am not sleepy at all!\"",
+            "The moon came to see him.",
+            "The owl sang a soft song.",
+            "The wind said, \"Hush, hush.\"",
+            "The bear's eyes closed slowly.",
+            "He had a sweet dream about honey.",
+            "Good night, sleepy bear.",
+            "Good night, everyone."
+          ]
+        },
+        {
+          "id": "c03-05", "title": "Rabbit's Big Carrot", "titleZh": "兔子的大萝卜", "emoji": "🥕", "level": 1,
+          "zh": "兔子拔出一根超级大萝卜，做成萝卜汤和全森林分享。",
+          "sentences": [
+            "Rabbit had a garden.",
+            "One carrot grew and grew.",
+            "It was as big as a house!",
+            "Rabbit pulled and pulled.",
+            "The big carrot came out. Boom!",
+            "\"I can not eat it all!\"",
+            "So rabbit made hot carrot soup.",
+            "Cat came. Dog came. Bear came.",
+            "Everyone had a big bowl.",
+            "Sharing makes food taste better."
+          ]
+        },
+        {
+          "id": "c03-06", "title": "Monkey's Yellow Banana", "titleZh": "猴子的黄香蕉", "emoji": "🍌", "level": 1,
+          "zh": "猴子找到一根大香蕉，一路忍住不吃想带回家，到家和家人分享。",
+          "sentences": [
+            "Monkey found a big yellow banana.",
+            "\"Yum! I love bananas!\"",
+            "\"I will take it home to Mom.\"",
+            "He walked by the river.",
+            "He walked up the hill.",
+            "His tummy said, \"Eat it now!\"",
+            "\"No, no. Wait for Mom.\"",
+            "At home, Mom cut the banana.",
+            "Monkey, Mom, and Dad each had a piece.",
+            "The banana was extra sweet at home."
+          ]
+        },
+        {
+          "id": "c03-07", "title": "Dog Finds a Friend", "titleZh": "小狗找朋友", "emoji": "🐕", "level": 1,
+          "zh": "害羞的小狗想交朋友，一个滚皮球的动作带来了好朋友。",
+          "sentences": [
+            "Dog was new in town.",
+            "He had no friends yet.",
+            "He saw kids playing with a ball.",
+            "He wanted to play too.",
+            "But he was too shy to say hi.",
+            "The ball rolled to his feet.",
+            "Dog pushed the ball back with his nose!",
+            "\"Good dog! Come play with us!\"",
+            "Dog jumped and wagged his tail.",
+            "A ball can make a friend."
+          ]
+        },
+        {
+          "id": "c03-08", "title": "The Bird's New Nest", "titleZh": "小鸟的新窝", "emoji": "🐦", "level": 1,
+          "zh": "小鸟一根树枝一根草，耐心搭出温暖的新家。",
+          "sentences": [
+            "A little bird needed a home.",
+            "She found a tall green tree.",
+            "\"I will build my nest here.\"",
+            "She flew down for a stick.",
+            "One stick, two sticks, three.",
+            "She found soft grass and feathers.",
+            "She worked all day.",
+            "The nest was round and warm.",
+            "She laid three little eggs.",
+            "Home is the best place to be."
+          ]
+        },
+        {
+          "id": "c03-09", "title": "Fish and the Bubble", "titleZh": "小鱼和泡泡", "emoji": "🐟", "level": 1,
+          "zh": "小鱼追着泡泡玩，一路吐泡泡认识了新朋友。",
+          "sentences": [
+            "A little fish saw a bubble.",
+            "The bubble went up, up, up.",
+            "Fish followed the bubble.",
+            "The bubble went pop!",
+            "Fish made a new bubble.",
+            "Another little fish came to see.",
+            "\"Can I play too?\"",
+            "They blew bubbles together.",
+            "Ten bubbles, twenty bubbles!",
+            "The sea was full of round bubbles."
+          ]
+        },
+        {
+          "id": "c03-10", "title": "Pig's Mud Bath", "titleZh": "小猪的泥巴澡", "emoji": "🐷", "level": 1,
+          "zh": "小猪最爱泥巴澡，虽然脏兮兮，但快乐最重要。",
+          "sentences": [
+            "It was a hot, hot day.",
+            "The sun was like a big fire ball.",
+            "Little pig found cool mud.",
+            "He jumped in. Splat!",
+            "The mud was cool and soft.",
+            "He rolled left. He rolled right.",
+            "\"This is the best bath ever!\"",
+            "A duck said, \"You are so dirty!\"",
+            "\"But I am so happy!\" said pig.",
+            "Happy is what matters."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c04", "title": "My Day", "titleZh": "我的一天", "emoji": "🌞", "level": 1,
+      "stories": [
+        {
+          "id": "c04-01", "title": "Good Morning!", "titleZh": "早上好", "emoji": "⏰", "level": 1,
+          "zh": "跟着太阳一起起床，伸伸懒腰，开始美好一天。",
+          "sentences": [
+            "The sun is up.",
+            "I open my eyes.",
+            "Good morning, sun!",
+            "I stretch my arms up high.",
+            "I get out of my warm bed.",
+            "Good morning, Mom!",
+            "Good morning, Dad!",
+            "A new day is here.",
+            "What will we do today?",
+            "I am ready to go!"
+          ]
+        },
+        {
+          "id": "c04-02", "title": "Brush, Brush, Brush", "titleZh": "刷刷牙", "emoji": "🪥", "level": 1,
+          "zh": "上刷刷下刷刷，牙齿白白细菌跑光光。",
+          "sentences": [
+            "Time to brush my teeth.",
+            "I get my little toothbrush.",
+            "I put on the toothpaste.",
+            "Brush, brush, brush!",
+            "Up and down, up and down.",
+            "Left and right, left and right.",
+            "I brush the front.",
+            "I brush the back.",
+            "Sparkle, sparkle, white teeth!",
+            "Bye-bye, little germs!"
+          ]
+        },
+        {
+          "id": "c04-03", "title": "Breakfast Time", "titleZh": "早餐时间", "emoji": "🍞", "level": 1,
+          "zh": "早餐吃什么？面包、鸡蛋和牛奶，吃得饱饱去上学。",
+          "sentences": [
+            "What is for breakfast?",
+            "I smell something good.",
+            "It is a warm egg.",
+            "It is bread with jam.",
+            "Here is a cup of milk.",
+            "Yum, yum, yum!",
+            "I eat it all up.",
+            "My tummy is happy now.",
+            "Thank you, Mom!",
+            "Now I am ready for school."
+          ]
+        },
+        {
+          "id": "c04-04", "title": "The School Bus", "titleZh": "校车来了", "emoji": "🚌", "level": 1,
+          "zh": "黄色校车嘟嘟来，排队上车去学校。",
+          "sentences": [
+            "Here comes the school bus.",
+            "It is big and yellow.",
+            "Beep, beep!",
+            "I wait in line with my friends.",
+            "One, two, three, four.",
+            "I get on the bus.",
+            "I sit by the window.",
+            "The wheels go round and round.",
+            "We sing a happy song.",
+            "School is fun!"
+          ]
+        },
+        {
+          "id": "c04-05", "title": "In the Classroom", "titleZh": "在教室里", "emoji": "✏️", "level": 1,
+          "zh": "教室里学字母、数数字、唱唱歌，课堂真有趣。",
+          "sentences": [
+            "This is my classroom.",
+            "Here is my little desk.",
+            "Here is my teacher.",
+            "We say, \"Good morning!\"",
+            "We learn A, B, C.",
+            "We count one, two, three.",
+            "We draw with our crayons.",
+            "We sing a little song.",
+            "Look at my picture!",
+            "School time is happy time."
+          ]
+        },
+        {
+          "id": "c04-06", "title": "Playtime!", "titleZh": "游戏时间", "emoji": "⚽", "level": 1,
+          "zh": "操场上跑步、跳绳、滑滑梯，玩得满头大汗。",
+          "sentences": [
+            "Ring! It is playtime!",
+            "We run out to the yard.",
+            "I run fast like the wind.",
+            "Amy jumps rope.",
+            "Tom kicks the ball.",
+            "I go down the slide. Whee!",
+            "We play hide-and-seek.",
+            "One, two, three. I see you!",
+            "My face is red and hot.",
+            "Playtime is the best time!"
+          ]
+        },
+        {
+          "id": "c04-07", "title": "Yummy Dinner", "titleZh": "好吃的晚饭", "emoji": "🍚", "level": 1,
+          "zh": "晚饭有米饭、青菜和鱼，不挑食才能长高高。",
+          "sentences": [
+            "Dinner is ready!",
+            "What a nice smell!",
+            "We have hot rice.",
+            "We have green vegetables.",
+            "We have a little fish.",
+            "I try one bite of everything.",
+            "The vegetables are not bad!",
+            "I drink my soup. Yum!",
+            "No picky eating for me.",
+            "I will grow big and strong."
+          ]
+        },
+        {
+          "id": "c04-08", "title": "Bath Time", "titleZh": "洗澡澡", "emoji": "🛁", "level": 1,
+          "zh": "泡泡飞满天，洗得香喷喷。",
+          "sentences": [
+            "Time for my bath!",
+            "The water is warm.",
+            "I put in bubble soap.",
+            "Bubbles, bubbles everywhere!",
+            "I wash my hair.",
+            "I wash my little toes.",
+            "I make a bubble hat.",
+            "The bubbles fly up, up, up!",
+            "Now I am clean and warm.",
+            "I smell like a flower!"
+          ]
+        },
+        {
+          "id": "c04-09", "title": "One More Story", "titleZh": "再讲一个嘛", "emoji": "📖", "level": 1,
+          "zh": "睡前想再听一个故事，妈妈说：听完这个就睡觉。",
+          "sentences": [
+            "I am in my little bed.",
+            "\"Mom, one more story, please!\"",
+            "Mom sits by my bed.",
+            "She opens the story book.",
+            "The story is about a dragon.",
+            "The dragon is not scary.",
+            "He likes to pick flowers!",
+            "\"And then?\" I ask.",
+            "\"Tomorrow,\" Mom smiles.",
+            "I close my eyes. Sweet dreams."
+          ]
+        },
+        {
+          "id": "c04-10", "title": "Good Night", "titleZh": "晚安", "emoji": "🌙", "level": 1,
+          "zh": "和月亮星星道晚安，好好睡觉明天见。",
+          "sentences": [
+            "The sun goes to sleep.",
+            "The moon comes out.",
+            "The stars say hello.",
+            "Good night, Dad.",
+            "Good night, Mom.",
+            "Good night, moon.",
+            "Good night, stars.",
+            "My eyes are so sleepy.",
+            "See you tomorrow!",
+            "Good night, sweet dreams."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c05", "title": "Numbers & Colors", "titleZh": "数字和颜色", "emoji": "🔢", "level": 1,
+      "stories": [
+        {
+          "id": "c05-01", "title": "One Red Apple", "titleZh": "一个红苹果", "emoji": "🍎", "level": 1,
+          "zh": "树上有苹果，数一数：一个、两个……红苹果真多呀。",
+          "sentences": [
+            "Look at the apple tree.",
+            "I see one red apple.",
+            "One apple for me!",
+            "Now I see two red apples.",
+            "One for me, one for you.",
+            "Now I see three red apples.",
+            "Red like the sun at sunset.",
+            "Crunch! Apples are sweet.",
+            "How many apples do you see?",
+            "Let us count again!"
+          ]
+        },
+        {
+          "id": "c05-02", "title": "Two Little Shoes", "titleZh": "两只小鞋", "emoji": "👟", "level": 1,
+          "zh": "左脚一只右脚一只，两只鞋是好朋友。",
+          "sentences": [
+            "Here are my shoes.",
+            "One, two. Two little shoes!",
+            "This one is for my left foot.",
+            "This one is for my right foot.",
+            "They are blue like the sky.",
+            "Left shoe, right shoe.",
+            "They are best friends.",
+            "They go everywhere together.",
+            "Tap, tap, tap on the floor.",
+            "Good shoes, good day!"
+          ]
+        },
+        {
+          "id": "c05-03", "title": "Three Happy Birds", "titleZh": "三只快乐鸟", "emoji": "🐦", "level": 1,
+          "zh": "三只小鸟站树枝，唱歌跳舞真快乐。",
+          "sentences": [
+            "One little bird on a tree.",
+            "Two little birds, you and me.",
+            "Three little birds sing a song.",
+            "Tweet, tweet, tweet!",
+            "The first bird is brown.",
+            "The second bird is blue.",
+            "The third bird is yellow.",
+            "They sing to the morning sun.",
+            "They dance on the little branch.",
+            "Three happy little birds!"
+          ]
+        },
+        {
+          "id": "c05-04", "title": "Four Orange Fish", "titleZh": "四条橙色的鱼", "emoji": "🐠", "level": 1,
+          "zh": "橙色小鱼水里游，游来游去做游戏。",
+          "sentences": [
+            "Look in the water.",
+            "One orange fish swims by.",
+            "Two orange fish swim together.",
+            "Three orange fish make a circle.",
+            "Four orange fish play a game!",
+            "Swim left, swim right.",
+            "Swim up, swim down.",
+            "The bubbles go pop, pop, pop.",
+            "The water is their happy home.",
+            "Good night, little fish."
+          ]
+        },
+        {
+          "id": "c05-05", "title": "Five Green Frogs", "titleZh": "五只绿青蛙", "emoji": "🐸", "level": 1,
+          "zh": "五只青蛙跳跳跳，一只一只跳进池。",
+          "sentences": [
+            "Five green frogs on a log.",
+            "Croak, croak, croak!",
+            "One frog jumps into the pool.",
+            "Now there are four green frogs.",
+            "Croak, croak, croak!",
+            "Another frog jumps in. Splash!",
+            "Now there are three.",
+            "Then two. Then one.",
+            "The last frog jumps in too!",
+            "Where are the frogs? In the pool!"
+          ]
+        },
+        {
+          "id": "c05-06", "title": "Six Yellow Ducks", "titleZh": "六只黄鸭子", "emoji": "🦆", "level": 1,
+          "zh": "鸭妈妈带着小鸭子排队走，一摇一摆去池塘。",
+          "sentences": [
+            "Mother Duck walks ahead.",
+            "Behind her are little ducks.",
+            "One, two, three, four, five, six!",
+            "Six little yellow ducks.",
+            "They walk in a line.",
+            "Waddle, waddle, waddle.",
+            "They walk to the pond.",
+            "Splash! One by one, they swim.",
+            "\"Stay close to me,\" says Mother Duck.",
+            "Six little ducks are happy ducks."
+          ]
+        },
+        {
+          "id": "c05-07", "title": "Seven Balloons", "titleZh": "七个气球", "emoji": "🎈", "level": 1,
+          "zh": "七个气球七种颜色， rainbow 一样漂亮。",
+          "sentences": [
+            "I have seven balloons.",
+            "The first balloon is red.",
+            "The second is orange.",
+            "The third is yellow, like the sun.",
+            "The fourth is green, like the grass.",
+            "The fifth is blue, like the sky.",
+            "The sixth is purple, like a plum.",
+            "The seventh is pink, like a flower.",
+            "Seven balloons, seven colors!",
+            "They look like a rainbow party."
+          ]
+        },
+        {
+          "id": "c05-08", "title": "Eight Cookies", "titleZh": "八块饼干", "emoji": "🍪", "level": 1,
+          "zh": "奶奶烤了八块饼干，全家一人一块刚刚好。",
+          "sentences": [
+            "Grandma baked cookies.",
+            "Let us count them together.",
+            "One, two, three, four.",
+            "Five, six, seven, eight!",
+            "Eight warm cookies.",
+            "One for Grandma. One for Grandpa.",
+            "One for Dad. One for Mom.",
+            "One for my sister. One for me.",
+            "And two for my teddy bear!",
+            "Cookies for everyone."
+          ]
+        },
+        {
+          "id": "c05-09", "title": "Nine White Clouds", "titleZh": "九朵白云", "emoji": "☁️", "level": 1,
+          "zh": "天上白云变变变，一会儿像羊一会儿像龙。",
+          "sentences": [
+            "I lie on the green grass.",
+            "I look up at the sky.",
+            "I see white clouds.",
+            "One, two, three... nine clouds!",
+            "This cloud looks like a sheep.",
+            "That cloud looks like a rabbit.",
+            "The big one looks like a dragon!",
+            "The wind blows. The clouds move.",
+            "Now the sheep is a boat.",
+            "Clouds are fun to watch."
+          ]
+        },
+        {
+          "id": "c05-10", "title": "Ten Little Stars", "titleZh": "十颗小星星", "emoji": "⭐", "level": 1,
+          "zh": "数星星入睡，一颗两颗……十颗星星眨眼睛。",
+          "sentences": [
+            "The night is dark and quiet.",
+            "I look out of my window.",
+            "I see little stars.",
+            "One star, two stars, three.",
+            "Four stars, five stars, six.",
+            "Seven, eight, nine, ten!",
+            "Ten little stars twinkle.",
+            "Twinkle, twinkle, little stars.",
+            "One star winks at me.",
+            "Good night, ten little stars."
+          ]
+        }
+      ]
+    }
+  ]
+}

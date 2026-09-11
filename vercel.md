@@ -25,9 +25,9 @@ git push origin main
    - Framework Preset：`Next.js`（自动识别）
    - Build Command：`next build`（默认）
    - Output Directory：默认
-   - **Environment Variables：无需任何变量**（运行时零外部依赖）
+   - Environment Variables：**可选**加 `NEXT_PUBLIC_SITE_PASSWORD`（自定义进入密码，默认 20200108）
 5. 点 **Deploy** → 约 1-2 分钟完成
-6. 得到 `wai-en-xxxx.vercel.app` 域名，点开即用 ✅
+6. 得到 `wai-en-xxxx.vercel.app` 域名，打开后先输密码 `20200108` 进入 ✅（本次会话免再次输入）
 
 > 部署后每次 `git push origin main` 都会自动重新部署（push 即发布）。
 
