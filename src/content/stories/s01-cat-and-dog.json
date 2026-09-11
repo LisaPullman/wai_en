@@ -1,0 +1,19 @@
+{
+  "id": "s01-cat-and-dog",
+  "title": "Cat and Dog",
+  "titleZh": "小猫和小狗",
+  "emoji": "🐱",
+  "level": 1,
+  "unitTag": "u3-animals",
+  "newWordIds": [],
+  "pages": [
+    { "text": "This is a cat.", "zh": "这是一只小猫。", "emoji": "🐱", "words": ["This", "is", "a", "cat"] },
+    { "text": "This is a dog.", "zh": "这是一只小狗。", "emoji": "🐶", "words": ["This", "is", "a", "dog"] },
+    { "text": "The cat is black.", "zh": "小猫是黑色的。", "emoji": "🐈‍⬛", "words": ["The", "cat", "is", "black"] },
+    { "text": "The dog is hot.", "zh": "小狗好热呀。", "emoji": "🐶", "words": ["The", "dog", "is", "hot"] },
+    { "text": "The cat can sit.", "zh": "小猫会坐下。", "emoji": "🐱", "words": ["The", "cat", "can", "sit"] },
+    { "text": "The dog can run.", "zh": "小狗会跑。", "emoji": "🐕", "words": ["The", "dog", "can", "run"] },
+    { "text": "I like the cat. I like the dog.", "zh": "我喜欢小猫。我喜欢小狗。", "emoji": "❤️", "words": ["I", "like", "the", "cat", "I", "like", "the", "dog"] },
+    { "text": "The end!", "zh": "结束啦！", "emoji": "🌟", "words": ["The", "end"] }
+  ]
+}

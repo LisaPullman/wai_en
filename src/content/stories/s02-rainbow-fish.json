@@ -1,0 +1,19 @@
+{
+  "id": "s02-rainbow-fish",
+  "title": "Rainbow Fish",
+  "titleZh": "彩虹小鱼",
+  "emoji": "🐟",
+  "level": 1,
+  "unitTag": "u2-colors",
+  "newWordIds": [],
+  "pages": [
+    { "text": "I see a fish.", "zh": "我看到一条鱼。", "emoji": "🐟", "words": ["I", "see", "a", "fish"] },
+    { "text": "The fish is red.", "zh": "这条鱼是红色的。", "emoji": "🔴", "words": ["The", "fish", "is", "red"] },
+    { "text": "The fish is blue.", "zh": "这条鱼是蓝色的。", "emoji": "🔵", "words": ["The", "fish", "is", "blue"] },
+    { "text": "The fish is yellow.", "zh": "这条鱼是黄色的。", "emoji": "🟡", "words": ["The", "fish", "is", "yellow"] },
+    { "text": "Red, blue, yellow!", "zh": "红色、蓝色、黄色！", "emoji": "🌈", "words": ["Red", "blue", "yellow"] },
+    { "text": "A rainbow fish!", "zh": "一条彩虹鱼！", "emoji": "🐠", "words": ["A", "rainbow", "fish"] },
+    { "text": "I like the rainbow fish.", "zh": "我喜欢彩虹鱼。", "emoji": "❤️", "words": ["I", "like", "the", "rainbow", "fish"] },
+    { "text": "The end!", "zh": "结束啦！", "emoji": "🌟", "words": ["The", "end"] }
+  ]
+}

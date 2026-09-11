@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 本地 skill 包 + 资产管线临时输出 + npm 本地缓存
+/TTS skill/
+/schnell skill/
+/.npm-cache/
+/scripts/.gen_audio_report.json
+/scripts/__pycache__/
+/scripts/*.pyc

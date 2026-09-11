@@ -1,0 +1,41 @@
+{
+  "id": "u1-phonics-cvc",
+  "index": 1,
+  "title": "拼读小魔法",
+  "titleEn": "Phonics Fun",
+  "emoji": "🪄",
+  "color": "bg-amber-100 text-amber-600",
+  "wordIds": ["cat", "hat", "map", "bed", "red", "pen", "dog", "hot", "pig", "sit", "sun", "bug", "box"],
+  "sentences": [
+    { "id": "u1-s1", "text": "A cat and a hat.", "zh": "一只猫和一顶帽子。", "words": ["A", "cat", "and", "a", "hat"], "pattern": "A and B" },
+    { "id": "u1-s2", "text": "I see a map.", "zh": "我看到一张地图。", "words": ["I", "see", "a", "map"], "pattern": "I see a…" },
+    { "id": "u1-s3", "text": "A red bed.", "zh": "一张红色的床。", "words": ["A", "red", "bed"], "pattern": "颜色+名词" },
+    { "id": "u1-s4", "text": "The dog is hot.", "zh": "狗很热。", "words": ["The", "dog", "is", "hot"], "pattern": "The… is…" },
+    { "id": "u1-s5", "text": "A pig can sit.", "zh": "猪会坐下。", "words": ["A", "pig", "can", "sit"], "pattern": "… can …" },
+    { "id": "u1-s6", "text": "The sun is up.", "zh": "太阳升起来了。", "words": ["The", "sun", "is", "up"], "pattern": "The… is…" }
+  ],
+  "lessons": [
+    {
+      "id": "u1-l1",
+      "title": "a 家族：cat / hat / map",
+      "wordIds": ["cat", "hat", "map"],
+      "sentenceIds": ["u1-s1", "u1-s2"],
+      "reviewWordIds": []
+    },
+    {
+      "id": "u1-l2",
+      "title": "e / o 家族：bed / red / pen / dog / hot",
+      "wordIds": ["bed", "red", "pen", "dog", "hot"],
+      "sentenceIds": ["u1-s3", "u1-s4"],
+      "reviewWordIds": ["cat", "hat"]
+    },
+    {
+      "id": "u1-l3",
+      "title": "i / u 家族大团圆",
+      "wordIds": ["pig", "sit", "sun", "bug"],
+      "sentenceIds": ["u1-s5", "u1-s6"],
+      "reviewWordIds": ["cat", "bed", "dog", "map"]
+    }
+  ],
+  "storyIds": ["s03-the-hat-and-the-cat"]
+}

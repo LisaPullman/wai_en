@@ -1,0 +1,32 @@
+{
+  "id": "u2-colors",
+  "index": 2,
+  "title": "颜色变变变",
+  "titleEn": "Colors",
+  "emoji": "🌈",
+  "color": "bg-violet-100 text-violet-600",
+  "wordIds": ["red", "blue", "green", "yellow", "orange", "purple", "pink", "brown", "black", "white"],
+  "sentences": [
+    { "id": "u2-s1", "text": "What color is it? It is red.", "zh": "它是什么颜色？它是红色的。", "words": ["What", "color", "is", "it", "It", "is", "red"], "pattern": "What color is it? It is…" },
+    { "id": "u2-s2", "text": "I see a blue bird.", "zh": "我看到一只蓝色的鸟。", "words": ["I", "see", "a", "blue", "bird"], "pattern": "I see a 颜色+名词" },
+    { "id": "u2-s3", "text": "The bear is brown.", "zh": "熊是棕色的。", "words": ["The", "bear", "is", "brown"], "pattern": "The… is 颜色" },
+    { "id": "u2-s4", "text": "I like pink and purple.", "zh": "我喜欢粉色和紫色。", "words": ["I", "like", "pink", "and", "purple"], "pattern": "I like A and B" }
+  ],
+  "lessons": [
+    {
+      "id": "u2-l1",
+      "title": "四原色：red / blue / green / yellow",
+      "wordIds": ["red", "blue", "green", "yellow"],
+      "sentenceIds": ["u2-s1", "u2-s2"],
+      "reviewWordIds": ["cat", "sun"]
+    },
+    {
+      "id": "u2-l2",
+      "title": "更多颜色一起来",
+      "wordIds": ["orange", "purple", "pink", "brown", "black", "white"],
+      "sentenceIds": ["u2-s3", "u2-s4"],
+      "reviewWordIds": ["red", "blue", "green", "yellow"]
+    }
+  ],
+  "storyIds": ["s02-rainbow-fish"]
+}

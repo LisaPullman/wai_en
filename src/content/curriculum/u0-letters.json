@@ -1,0 +1,23 @@
+{
+  "id": "u0-letters",
+  "index": 0,
+  "title": "字母音快闪",
+  "titleEn": "Letter Sounds",
+  "emoji": "🔤",
+  "color": "bg-sky-100 text-sky-600",
+  "wordIds": ["L-a", "L-b", "L-c", "L-d", "L-e", "L-f", "L-g", "L-h", "L-i", "L-j", "L-k", "L-l", "L-m", "L-n", "L-o", "L-p", "L-q", "L-r", "L-s", "L-t", "L-u", "L-v", "L-w", "L-x", "L-y", "L-z"],
+  "sentences": [
+    { "id": "u0-s1", "text": "A is for apple.", "zh": "A 代表苹果。", "words": ["A", "is", "for", "apple"], "pattern": "字母音例句" },
+    { "id": "u0-s2", "text": "Z is for zebra.", "zh": "Z 代表斑马。", "words": ["Z", "is", "for", "zebra"], "pattern": "字母音例句" }
+  ],
+  "lessons": [
+    {
+      "id": "u0-l1",
+      "title": "26 个字母音",
+      "wordIds": ["L-a", "L-b", "L-c", "L-d", "L-e", "L-f", "L-g", "L-h", "L-i", "L-j", "L-k", "L-l", "L-m", "L-n", "L-o", "L-p", "L-q", "L-r", "L-s", "L-t", "L-u", "L-v", "L-w", "L-x", "L-y", "L-z"],
+      "sentenceIds": ["u0-s1", "u0-s2"],
+      "reviewWordIds": []
+    }
+  ],
+  "storyIds": []
+}

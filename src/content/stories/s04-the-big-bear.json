@@ -1,0 +1,19 @@
+{
+  "id": "s04-the-big-bear",
+  "title": "The Big Bear",
+  "titleZh": "大棕熊",
+  "emoji": "🐻",
+  "level": 1,
+  "unitTag": "u3-animals",
+  "newWordIds": [],
+  "pages": [
+    { "text": "I see a big bear.", "zh": "我看到一只大熊。", "emoji": "🐻", "words": ["I", "see", "a", "big", "bear"] },
+    { "text": "The bear is brown.", "zh": "这只熊是棕色的。", "emoji": "🟤", "words": ["The", "bear", "is", "brown"] },
+    { "text": "Hello, bear!", "zh": "你好呀，大熊！", "emoji": "👋", "words": ["Hello", "bear"] },
+    { "text": "The bear can run.", "zh": "熊会跑。", "emoji": "🐻‍❄️", "words": ["The", "bear", "can", "run"] },
+    { "text": "The bear can jump.", "zh": "熊会跳。", "emoji": "⬆️", "words": ["The", "bear", "can", "jump"] },
+    { "text": "The bear is hot.", "zh": "熊觉得好热。", "emoji": "☀️", "words": ["The", "bear", "is", "hot"] },
+    { "text": "Sit in the sun, bear.", "zh": "坐着晒太阳吧，大熊。", "emoji": "😌", "words": ["Sit", "in", "the", "sun", "bear"] },
+    { "text": "Bye-bye, big bear!", "zh": "再见啦，大熊！", "emoji": "👋", "words": ["Bye-bye", "big", "bear"] }
+  ]
+}

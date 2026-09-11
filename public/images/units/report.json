@@ -1,0 +1,44 @@
+{
+  "site": "https://pic.foxai.edu.kg",
+  "model": "flux-1-schnell",
+  "idea": null,
+  "requested": 4,
+  "succeeded": 4,
+  "failed": 0,
+  "output_dir": "/Users/foxai/Desktop/wai_en/public/images/units",
+  "images": [
+    {
+      "name": "u0-letters",
+      "file": "/Users/foxai/Desktop/wai_en/public/images/units/u0-letters.jpg",
+      "prompt": "flat vector illustration of the English alphabet letters A to Z in cheerful colors arranged in two rows, pastel background, rounded shapes, child-friendly children's book style, no text, no watermark",
+      "seed": null,
+      "status": "ok",
+      "verify": "pass"
+    },
+    {
+      "name": "u1-phonics-cvc",
+      "file": "/Users/foxai/Desktop/wai_en/public/images/units/u1-phonics-cvc.jpg",
+      "prompt": "flat vector illustration of a magic wand making short vowel words like cat, hat, dog, bed appear as floating bubbles, pastel sky background, rounded shapes, child-friendly children's book style, no text, no watermark",
+      "seed": null,
+      "status": "ok",
+      "verify": "pass"
+    },
+    {
+      "name": "u2-colors",
+      "file": "/Users/foxai/Desktop/wai_en/public/images/units/u2-colors.jpg",
+      "prompt": "flat vector illustration of a rainbow arc with smiling colored circles, pastel background, rounded shapes, child-friendly children's book style, no text, no watermark",
+      "seed": null,
+      "status": "ok",
+      "verify": "pass"
+    },
+    {
+      "name": "u3-animals",
+      "file": "/Users/foxai/Desktop/wai_en/public/images/units/u3-animals.jpg",
+      "prompt": "flat vector illustration of a group of cute friendly cartoon animals standing together in a sunny meadow, pastel background, rounded shapes, child-friendly children's book style, no text, no watermark",
+      "seed": null,
+      "status": "ok",
+      "verify": "pass"
+    }
+  ],
+  "hint": null
+}

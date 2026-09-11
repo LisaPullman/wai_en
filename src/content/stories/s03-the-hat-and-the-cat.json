@@ -1,0 +1,19 @@
+{
+  "id": "s03-the-hat-and-the-cat",
+  "title": "The Hat and the Cat",
+  "titleZh": "帽子和小猫",
+  "emoji": "🎩",
+  "level": 1,
+  "unitTag": "u1-phonics-cvc",
+  "newWordIds": [],
+  "pages": [
+    { "text": "A cat has a hat.", "zh": "一只猫有一顶帽子。", "emoji": "🐱", "words": ["A", "cat", "has", "a", "hat"] },
+    { "text": "The hat is on the cat.", "zh": "帽子在猫头上。", "emoji": "🎩", "words": ["The", "hat", "is", "on", "the", "cat"] },
+    { "text": "The cat can sit.", "zh": "猫会坐下。", "emoji": "🐱", "words": ["The", "cat", "can", "sit"] },
+    { "text": "Sit, cat, sit!", "zh": "坐下，猫，坐下！", "emoji": "🐈", "words": ["Sit", "cat", "sit"] },
+    { "text": "Oh no! The hat is in the map.", "zh": "哎呀！帽子掉到地图上了。", "emoji": "🗺️", "words": ["Oh", "no", "The", "hat", "is", "in", "the", "map"] },
+    { "text": "The cat is hot.", "zh": "猫觉得好热呀。", "emoji": "😅", "words": ["The", "cat", "is", "hot"] },
+    { "text": "Get the hat, cat!", "zh": "拿回帽子，小猫！", "emoji": "🎩", "words": ["Get", "the", "hat", "cat"] },
+    { "text": "Yes! The cat has the hat.", "zh": "太好啦！猫拿回了帽子。", "emoji": "🎉", "words": ["Yes", "The", "cat", "has", "the", "hat"] }
+  ]
+}

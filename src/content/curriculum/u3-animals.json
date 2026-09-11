@@ -1,0 +1,41 @@
+{
+  "id": "u3-animals",
+  "index": 3,
+  "title": "动物大聚会",
+  "titleEn": "Animals",
+  "emoji": "🦁",
+  "color": "bg-orange-100 text-orange-600",
+  "wordIds": ["cat", "dog", "bird", "fish", "rabbit", "panda", "duck", "pig", "bear", "monkey"],
+  "sentences": [
+    { "id": "u3-s1", "text": "What is it? It is a cat.", "zh": "它是什么？它是一只猫。", "words": ["What", "is", "it", "It", "is", "a", "cat"], "pattern": "What is it? It is a…" },
+    { "id": "u3-s2", "text": "The bird is blue.", "zh": "鸟是蓝色的。", "words": ["The", "bird", "is", "blue"], "pattern": "The… is 颜色" },
+    { "id": "u3-s3", "text": "I like the panda.", "zh": "我喜欢熊猫。", "words": ["I", "like", "the", "panda"], "pattern": "I like the…" },
+    { "id": "u3-s4", "text": "A duck can swim.", "zh": "鸭子会游泳。", "words": ["A", "duck", "can", "swim"], "pattern": "… can …" },
+    { "id": "u3-s5", "text": "The bear is big.", "zh": "熊很大。", "words": ["The", "bear", "is", "big"], "pattern": "The… is big" },
+    { "id": "u3-s6", "text": "The monkey has a banana.", "zh": "猴子有一根香蕉。", "words": ["The", "monkey", "has", "a", "banana"], "pattern": "The… has a…" }
+  ],
+  "lessons": [
+    {
+      "id": "u3-l1",
+      "title": "好朋友：cat / dog / bird / fish",
+      "wordIds": ["cat", "dog", "bird", "fish"],
+      "sentenceIds": ["u3-s1", "u3-s2"],
+      "reviewWordIds": ["red", "blue"]
+    },
+    {
+      "id": "u3-l2",
+      "title": "可爱伙伴：rabbit / panda / duck / pig",
+      "wordIds": ["rabbit", "panda", "duck", "pig"],
+      "sentenceIds": ["u3-s3", "u3-s4"],
+      "reviewWordIds": ["cat", "dog"]
+    },
+    {
+      "id": "u3-l3",
+      "title": "大块头：bear / monkey + 单元大复习",
+      "wordIds": ["bear", "monkey"],
+      "sentenceIds": ["u3-s5", "u3-s6"],
+      "reviewWordIds": ["cat", "dog", "bird", "fish", "rabbit", "panda", "duck", "pig"]
+    }
+  ],
+  "storyIds": ["s01-cat-and-dog", "s04-the-big-bear"]
+}
